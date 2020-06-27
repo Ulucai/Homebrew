@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1593290751,
-		"dateLastModified": 1593290751
+		"dateAdded": 1593299101,
+		"dateLastModified": 1593299101
 	},
 	"monster": [
 		{
@@ -46,7 +46,8 @@
 				"average": 209
 			},
 			"speed": {
-				"walk": 40
+				"walk": 40,
+				"climb": 40
 			},
 			"str": 12,
 			"dex": 16,
@@ -92,7 +93,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"Kiralei's innate spellcasting ability is Wisdom (spell save {@dc 18}). She can innately cast the following spells, requiring no material components:"
+						"Kiralei's innate spellcasting ability is Wisdom (spell save {@dc 19}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell alter self}",
@@ -131,9 +132,9 @@
 						},
 						"1": {
 							"spells": [
-								"{@spell bane}",
 								"{@spell cure wounds}",
-								"{@spell inflict wounds}"
+								"{@spell inflict wounds}",
+								"{@spell sanctuary}"
 							],
 							"slots": 4
 						},
@@ -219,7 +220,7 @@
 				{
 					"name": "Infuse Poison",
 					"entries": [
-						"As a bonus action Kiralei infuses her hands with one of the following poisons until she uses her bonus action to end the infusion or change the poison:",
+						"As a bonus action Kiralei infuses her hands with dark energy, choosing one of the following effects to affect any creature she touches {@dc 19}.",
 						"{@i 1. Truth Serum} The creature must succeed on a Constitution saving throw or be {@condition poisoned} for 1 hour. The {@condition poisoned} creature can't knowingly speak a lie, as if under the effect of a {@spell zone of truth} spell.",
 						"{@i 2. Carrion Poison} The creature must succeed on a Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"{@i 3. Dark Poison} The creature must succeed on a Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious}  while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.",
@@ -237,13 +238,13 @@
 				{
 					"name": "Poison Touch",
 					"entries": [
-						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. {@h}8 ({@damage 3d6 + 6}) poison damage. The target is subject to one of Kiralei poisons ({@dc 19})."
+						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. {@h}8 ({@damage 3d6 + 6}) poison damage. The target is subject to one of Kiralei's infused poisons."
 					]
 				},
 				{
 					"name": "Gentle Touch",
 					"entries": [
-						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. The target is subject to one of Kiralei poisons ({@dc 19})."
+						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. The target is subject to one of Kiralei's infused poisons and makes the saving throw with disadvantage."
 					]
 				}
 			],
@@ -314,6 +315,20 @@
 				"poisoned",
 				"paralyzed",
 				"unconscious"
+			],
+			"legendary": [
+				{
+					"name": "Poison (or Gentle) Touch",
+					"entries": [
+						"Kiralei uses her Poison Touch or Gentle Touch."
+					]
+				},
+				{
+					"name": "Cast lower Spells",
+					"entries": [
+						"Kiralei casts a spell."
+					]
+				}
 			]
 		}
 	]
