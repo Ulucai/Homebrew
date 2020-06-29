@@ -1,0 +1,186 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1593459842,
+		"dateLastModified": 1593459842
+	},
+	"monster": [
+		{
+			"name": "Gwyn, Lord of Sunlight",
+			"size": "M",
+			"type": "humanoid",
+			"source": "UlucaiDM",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"King's Breastplate"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d8 + 350",
+				"average": 575
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 30,
+			"dex": 22,
+			"con": 25,
+			"int": 24,
+			"wis": 30,
+			"cha": 26,
+			"passive": 29,
+			"cr": "30",
+			"shortName": "Gwyn",
+			"page": "009",
+			"level": 0,
+			"save": {
+				"dex": "+15",
+				"wis": "+19",
+				"cha": "+17"
+			},
+			"skill": {
+				"acrobatics": "+15",
+				"perception": "+19",
+				"persuasion": "+17",
+				"religion": "+16"
+			},
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"fire",
+				"lightning",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"trait": [
+				{
+					"name": "King's Ultra Greatsword.",
+					"entries": [
+						"Gwyn's weapon attacks are magical. When Gwyn attacks with his weapon, the weapon deals an extra {@damage 8d8} radiant damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The gwyn has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the gwyn fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Light Absorption",
+					"entries": [
+						"Whenever the gwyn is subjected to lightning, fire or radiant damage, it takes no damage and instead regains a number of hit points equal to the damage dealt."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Legendary Resistances",
+				"Damage Absorption"
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"Gwyn can make up to 3 attacks with his greatsword and sunlight spears."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 5 ft., one target. {@h}29 ({@damage 2d8 + 10}) slashing damage, plus 36 ({@damage 8d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Sunlight Spear",
+					"entries": [
+						"Gwyn manifests a spear of pure sunlight into his hand and hurls it at an enemy. One target within 120 feet must make a {@dc 27} Dexterity saving throw, taking 56 ({@damage 16d6}) radiant damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"S",
+				"R",
+				"L"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Gwyn makes a greatsword attack or uses his sunlight spear."
+					]
+				},
+				{
+					"name": "Hail Of Spears",
+					"entries": [
+						"Gwyn calls down a hundred spears made of pure lightning from the heavens. All creatures within 20 feet must make a {@dc 27} Dexterity saving throw, taking 36 ({@damage 8d8}) lightning damage on failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Soul Of Light (Costs 3 Actions)",
+					"entries": [
+						"Gwyn emanates pure sunlight from his body, burning others while healing himself. Each creature within 10 feet must make a {@dc 27} Dexterity saving throw, taking 36 ({@damage 8d8}) lightning damage on a failed save, or half as much damage on a successful one. Gwyn then recovers hit points equal to the amount of damage dealt. In addition Gwyn emits 60 feet of bright light until his next turn."
+					]
+				}
+			],
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 60 ft."
+			],
+			"senseTags": [
+				"SD",
+				"B"
+			],
+			"reaction": [
+				{
+					"name": "Blinding Light",
+					"entries": [
+						"When Gwyn is attacked by a creature within 30 feet of him, he can use his reaction to emit light, blinding any creature within 30 feet of him until the start of Gwyn's next turn. "
+					]
+				}
+			]
+		}
+	]
+}
