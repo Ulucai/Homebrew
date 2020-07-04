@@ -1,0 +1,176 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1593896560,
+		"dateLastModified": 1593896560
+	},
+	"monster": [
+		{
+			"name": "The Hunter",
+			"size": "M",
+			"type": "humanoid",
+			"source": "UlucaiDM",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Hunter's Garb"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 96",
+				"average": 204
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 24,
+			"con": 18,
+			"int": 14,
+			"wis": 22,
+			"cha": 13,
+			"passive": 22,
+			"cr": "18",
+			"shortName": "Hunter",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"(plus 2 additional languages)"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"dex": "+13",
+				"str": "+9",
+				"wis": "+12"
+			},
+			"skill": {
+				"acrobatics": "+13",
+				"animal handling": "+12",
+				"perception": "+12",
+				"survival": "+12",
+				"stealth": "+13"
+			},
+			"conditionImmune": [
+				"frightened"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellasting",
+					"headerEntries": [
+						"The Hunter's innate spellcasting ability is Wisdom (spell save {@dc 20}. It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell freedom of movement}",
+							"{@spell guardian of nature|XGE}",
+							"{@spell swift quiver}",
+							"{@spell teleportation circle}",
+							"{@spell wind wall}"
+						],
+						"3e": [
+							"{@spell fog cloud}",
+							"{@spell lesser restoration}",
+							"{@spell misty step}",
+							"{@spell silence}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hunter can use its Piercing Rain (if available). It then makes three attacks longbow attacks."
+					]
+				},
+				{
+					"name": "Longbow - Vine Arrow",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 150/600 ft., one target. {@h}10 ({@damage 1d8 + 7}) piercing damage, and the target must succeed on a {@dc 20} Strength saving throw or be {@condition restrained} by vines that burst our of the arrow and take 10 ({@damage 3d6}) piercing damage at the start of each of its turn."
+					]
+				},
+				{
+					"name": "Longbow -  Force Arrow",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 150/600 ft., one target. {@h} 20 ({@damage 3d8 + 7}) force damage. This attack ignores cover and strong wind."
+					]
+				},
+				{
+					"name": "Piercing Rain {@recharge 5}",
+					"entries": [
+						"The hunter shoots an arrow or throw a weapon in the air, causing a volley of magic duplicates to fall on a 40-foot-radius, 20-foot-high cylinder centered on that point within 150 feet. Each creature in the area must make a {@dc 20} Dexterity saving throw taking 63 ({@damage 14d8}) piercing damage on a failed save, or half as much on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"O"
+			],
+			"miscTags": [
+				"RW",
+				"RNG",
+				"AOE"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"trait": [
+				{
+					"name": "Distant Strike",
+					"entries": [
+						"On his turn the hunter can teleport up to 10 feet before each attack to an unoccupied space he can see."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The hunter has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The hunter's weapon attacks are magical."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			]
+		}
+	]
+}
