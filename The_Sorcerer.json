@@ -1,0 +1,233 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1593993326,
+		"dateLastModified": 1593993326
+	},
+	"monster": [
+		{
+			"name": "The Sorcerer",
+			"size": "M",
+			"type": "humanoid",
+			"source": "UlucaiDM",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Shadow Garb"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d6 + 100",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 20,
+			"int": 17,
+			"wis": 16,
+			"cha": 24,
+			"passive": 19,
+			"cr": "18",
+			"languages": [
+				"Common",
+				"Celestial",
+				"Infernal",
+				"Elvish",
+				"Primordial"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"I",
+				"E",
+				"P"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"save": {
+				"cha": "+13",
+				"wis": "+9",
+				"con": "+11"
+			},
+			"skill": {
+				"arcana": "+9",
+				"insight": "+9",
+				"perception": "+9",
+				"investigation": "+9",
+				"persuasion": "+13",
+				"intimidation": "+13"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"force",
+						"lightning",
+						"poison",
+						"psychic",
+						"thunder"
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"unconscious"
+			],
+			"shortName": "Sorcerer",
+			"trait": [
+				{
+					"name": "Shadow Form",
+					"entries": [
+						"The sorcerer can move through other creatures and objects as if they were difficult terrain, taking 5 force damage if he end its turn inside an object."
+					]
+				},
+				{
+					"name": "Cantrip Mastery",
+					"entries": [
+						"When the sorcerer casts a cantrip that can target only one creature it can target a second one. Additionally  the sorcerer can cast any cantrip with casting time of action as a bonus action."
+					]
+				},
+				{
+					"name": "Quickened Spell (3/day)",
+					"entries": [
+						"When the sorcerer casts a spell that has a casting time of 1 action, he can spend a bonus action for this casting."
+					]
+				},
+				{
+					"name": "Heightened Spell (3/day)",
+					"entries": [
+						"When the sorcerer casts a spell that forces a creature to make a saving throw to resist its effects, he can give one target of the spell disadvantage on its first saving throw made against the spell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The sorcerer has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Subtle Spellcasting",
+					"headerEntries": [
+						"The sorcerer is a 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 21 },  {@hit 13} to hit with spell attacks) and doesn't require verbal or somatic components."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell create bonfire|XGE}",
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell message}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell expeditious retreat}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell invisibility}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell slow}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell greater invisibility}",
+								"{@spell wall of fire}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell mental prison|XGE}",
+								"{@spell true seeing}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell plane shift}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell Abi-Dalzim's horrid wilting|XGE}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell psychic scream|XGE}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			]
+		}
+	]
+}

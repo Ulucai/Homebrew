@@ -1,0 +1,217 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1593993349,
+		"dateLastModified": 1593993349
+	},
+	"monster": [
+		{
+			"name": "Mana Beast",
+			"source": "UlucaiDM",
+			"page": 325,
+			"size": "G",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d20 + 168",
+				"average": 420
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50,
+				"swim": 50
+			},
+			"str": 26,
+			"dex": 16,
+			"con": 24,
+			"int": 16,
+			"wis": 18,
+			"cha": 8,
+			"skill": {
+				"perception": "+12"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 60 ft."
+			],
+			"passive": 22,
+			"cr": "26",
+			"trait": [
+				{
+					"name": "Mana Storage",
+					"entries": [
+						"The beast can store up to 9 charges of mana in its crystals. The crystals have  AC 20, 200 hit points, resistance to all damage. immunity to psychic. If the crystals are destroyed the Beast loses all immunity and become vulnerable to all types of damage."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The Beast long jump is up to 50 feet and its high jump is up to 25 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The beast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Bound",
+					"entries": [
+						"The beast is bound to a location (a fortress, castle, cave) and can't leave or be forced out of it by any means."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beast makes five attacks: four claw attacks and one swallow or bite."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}24 ({@damage 3d10 + 8})  slashing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. On hit: the target is swallowed."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The beast swallows a large or smaller creature that it is grappling. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the beast.",
+						"At the end of the beasts turn the creatures inside it has their vital energy drained, charging the beast crystals by ({@dice 1d6 + 3}). Each creature inside the beast must roll a hit dice for each charge the beast has drained, taking that as damage to their maximum hit points, this damage can't be reduced by any means, a creature that gets reduced to 0 maximum hit points has it body destroyed and dies. ",
+						"If the beast takes 60 or more damage in a single turn from creatures inside it, it must succeed on a {@dc 20} Constitution saving throw or regurgitate all creatures it has swallowed."
+					]
+				},
+				{
+					"name": "Supercharged Beam",
+					"entries": [
+						"When the beast's crystals are fully charged it can shoot a powerful 120-feet-long 20-feet-wide beam. Each creature in the area must make a {@dc 20} Dexterity saving throw taking {@damage 10d10 + 60} force damage on a failed save, or half as much on a successful one. A creature that fails the save and is reduced to 0 hit points dies and its body and possessions (except magic items) are destroyed. The beam also destroys any object in its path."
+					]
+				},
+				{
+					"name": "Inhale {@recharge 6}",
+					"entries": [
+						"The beast open its mouths and inhales with tremendous strength. Each creature in 90-feet-long 20-foot-wide line makes a {@dc 20} Strength saving throw being pulled 15 feet towards the beast on a successful save, or be pulled 30 feet and being knocked {@condition prone} on a failed save. Flying creatures makes the save with disadvantage.",
+						"Additionally a creature that is {@condition prone} and get within 5 feet of the beast during Inhale, gets swallowed."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-frog.mp3?v=1.106.12"
+			},
+			"senseTags": [
+				"SD",
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"A"
+			],
+			"conditionInflict": [
+				"restrained",
+				"grappled",
+				"blinded"
+			],
+			"tokenUrl": "https://5e.tools/img/ULDM/Giant Frog.png?v=1.106.12",
+			"save": {
+				"str": "+16",
+				"wis": "+12",
+				"int": "+11"
+			},
+			"shortName": "Beast",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"immune": [
+				"force",
+				"lightning",
+				"radiant"
+			],
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The beast makes a Bite, Swallow or Claw attack."
+					]
+				},
+				{
+					"name": "Powerful Healing",
+					"entries": [
+						"The beast consumes all of its charges restoring 40 hit points per charge."
+					]
+				},
+				{
+					"name": "Empowered Blast",
+					"entries": [
+						"The beast consumes all of its charges shooting a blast of force at a target. The target makes {@dc 20} Dexterity saving throw taking {@damage 10d10} +10 (per charge) force damage on a failed save, or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Supercharged Beam (3 actions)",
+					"entries": [
+						"The beast uses its Supercharged Beam."
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"petrified"
+			],
+			"reaction": [
+				{
+					"name": "Magic Absorption",
+					"entries": [
+						"When the beast is the target or is in the area of a spell it can use it's reaction to nullify it and absorb its energy, gaining mana charges equal to the spell's level."
+					]
+				}
+			]
+		}
+	]
+}
