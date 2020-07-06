@@ -1,0 +1,139 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1594000324,
+		"dateLastModified": 1594000324
+	},
+	"monster": [
+		{
+			"name": "Champion of the Storms",
+			"source": "UlucaiDM",
+			"page": 212,
+			"size": "L",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Big Plate Armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "26d10 + 130",
+				"average": 273
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 25,
+			"dex": 16,
+			"con": 20,
+			"int": 11,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"str": "+12",
+				"con": "+10"
+			},
+			"skill": {
+				"athletics": "+12",
+				"intimidation": "+7",
+				"perception": "+8"
+			},
+			"passive": 18,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"The champion rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the champion can regain 20 hit points."
+					]
+				},
+				{
+					"name": "Lightning Strike",
+					"entries": [
+						"As a bonus action, the champion targets a creature within 30 feet the creature must make a {@dc 24} Dexterity saving throw, taking {@damage 5d6} lightning damage on a failed save, or half as much damage on a successful one"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The champion makes three attacks with its greatsword or its shortbow."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}31 ({@damage 7d6 + 7}) lightning damage"
+					]
+				},
+				{
+					"name": "Hurl Lightning",
+					"entries": [
+						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}24 ({@damage 7d6}) lightning damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/champion.mp3?v=1.106.13"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://5e.tools/img/ULDM/Champion.png?v=1.106.13",
+			"shortName": "ChampioM",
+			"immune": [
+				"lightning",
+				"thunder"
+			]
+		}
+	]
+}
