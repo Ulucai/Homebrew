@@ -1,0 +1,250 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1594405640,
+		"dateLastModified": 1594405640
+	},
+	"monster": [
+		{
+			"name": "Ancient Madness",
+			"size": "M",
+			"type": "humanoid",
+			"source": "UlucaiDM",
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Ancient Flesh"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 120",
+				"average": 228
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 17,
+			"cha": 30,
+			"passive": 19,
+			"cr": "18",
+			"shortName": "Warlock",
+			"page": "00",
+			"languages": [
+				"all languages",
+				"telepathy 120ft."
+			],
+			"languageTags": [
+				"XX",
+				"TP"
+			],
+			"save": {
+				"wis": "+9",
+				"cha": "+16",
+				"con": "+11"
+			},
+			"skill": {
+				"arcana": "+9",
+				"history": "+9",
+				"intimidation": "+16",
+				"religion": "+9",
+				"perception": "+9"
+			},
+			"immune": [
+				{
+					"immune": [
+						"poison",
+						"psychic"
+					]
+				},
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magic weapons"
+				}
+			],
+			"trait": [
+				{
+					"name": "Alien Mind",
+					"entries": [
+						"If a creature tries to read the Warlocks's thoughts or deals psychic damage to it, that creature must succeed on a {@dc 24} Intelligence saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Create Thrall",
+					"entries": [
+						"The Warlock can infect a creature's mind and body with the alien magic of his patron. As a bonus action the Warlock touch an {@condition unconscious} humanoid or beast. The creature is transformed into the splitting image of the warlock, its statistics become the {@creature Warlock of the Great Old One|VGM} and is immune to {@condition Exhaustion}, following the Warlock's commands and will. ",
+						"The creature remains in this form until it falls to 0 hit points or fall {@condition unconscious}.",
+						"This effect can be ended with a {@spell dispel magic} spell {@dc 19}, the creature then falls {@condition unconscious} with 0 hit points."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The warlock has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Cloak of Flies",
+					"entries": [
+						"As a bonus action, the warlock can surround himself with a magical aura that looks like buzzing flies, any creature that starts its turn within 5 feet of the warlock takes 10 poison damage.",
+						"The aura lasts until the warlock dismiss it with a bonus action."
+					]
+				},
+				{
+					"name": "Hex Mastery",
+					"entries": [
+						"The warlock is a master of torment. When he casts the {@spell hex} spell and on each subsequent turn as a bonus action. As long as the hex target is withing 30 feet, the warlock can teleport to a unoccupied space within 5 feet of it.",
+						"Alternatively the warlock can cause the cursed target within 30 feet and any other creature within 5 feet of it suffer 10 psychic damage."
+					]
+				},
+				{
+					"name": "Eldritch Mastery",
+					"entries": [
+						"When the warlock casts the {@spell eldritch blast} cantrip he adds his Charisma modifier to the damage it deals on a hit.",
+						"Additionally when the warlock hits a creature with this cantrip he can push or pull the target 10 feets away or towards from him."
+					]
+				}
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The warlock's spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 24}), requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell eldritch blast}",
+								"{@spell green-flame blade|SCAG}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"5": {
+							"spells": [
+								"{@spell dissonant whispers}",
+								"{@spell Evard's black tentacles}",
+								"{@spell mind spike|XGE}",
+								"{@spell negative energy flood|XGE}",
+								"{@spell synaptic static|XGE}",
+								"{@spell Tasha's hideous laughter}",
+								"{@spell telekinesis}"
+							],
+							"slots": 3,
+							"lower": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 24}), requiring no material components:"
+					],
+					"will": [
+						"{@spell darkness}",
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell enemies abound|XGE}",
+						"{@spell hold monster}",
+						"{@spell invisibility}",
+						"{@spell misty step}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell feeblemind}",
+							"{@spell forcecage}",
+							"{@spell hypnotic pattern}",
+							"{@spell imprisonment}",
+							"{@spell maddening darkness|XGE}",
+							"{@spell mental prison|XGE}",
+							"{@spell plane shift}",
+							"{@spell soul cage|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senses": [
+				"darkvision 120 ft.(including magic darkness)"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warlock casts a spell and makes two shadow scythe attacks."
+					]
+				},
+				{
+					"name": "Shadow Scythe",
+					"entries": [
+						"{@atk ms} {@hit 16} to hit, reach 5 ft., one target. {@h}20 ({@damage 2d8 + 10}) psychic damage. If the target is in dim light or darkness this attack has advantage."
+					]
+				}
+			],
+			"damageTags": [
+				"Y"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"incapacitated",
+				"petrified",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			]
+		}
+	]
+}
