@@ -1,0 +1,246 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1596663347,
+		"dateLastModified": 1596663347
+	},
+	"monster": [
+		{
+			"name": "Guardian Wizard",
+			"source": "UlucaiDM",
+			"page": 342,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item elven chain}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d8 + 72",
+				"average": 216
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 18,
+			"int": 22,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"int": "+11",
+				"wis": "+8",
+				"con": "+9"
+			},
+			"skill": {
+				"arcana": "+16",
+				"history": "+16"
+			},
+			"passive": 13,
+			"resist": [
+				{
+					"special": "damage from spells"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "(from stoneskin)",
+					"preNote": "nonmagical"
+				}
+			],
+			"languages": [
+				"any six languages"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The guardian is an 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The guardian has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*The guardian casts these spells on itself before combat."
+					],
+					"will": [
+						"{@spell invisibility}",
+						"{@spell Melf's acid arrow}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell magic missile}",
+								"{@spell Tasha's hideous laughter}",
+								"{@spell Tenser's floating disk}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Aganazzar's scorcher|XGE}",
+								"{@spell mirror image}",
+								"{@spell misty step}",
+								"{@spell Snilloc's snowball swarm|XGE}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell Melf's minute meteors|XGE}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Evard's black tentacles}",
+								"{@spell Otiluke's resilient sphere}",
+								"{@spell stoneskin}*"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell cone of cold}",
+								"{@spell wall of force}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell globe of invulnerability}",
+								"{@spell Otiluke's freezing sphere}",
+								"{@spell Tenser's transformation|XGE}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell crown of stars|XGE}",
+								"{@spell Mordenkainen's sword}",
+								"{@spell reverse gravity}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell Abi-Dalzim's horrid wilting|XGE}",
+								"{@spell mind blank}*"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell imprisonment}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The guardian has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/archmage.mp3?v=1.109.0"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"tokenUrl": "https://5e.tools/img/ULDM/Archmage.png?v=1.109.0",
+			"immune": [
+				{
+					"immune": [
+						"psychic"
+					],
+					"note": "(from Mind blank)"
+				}
+			],
+			"shortName": "Guardian",
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			]
+		}
+	]
+}
