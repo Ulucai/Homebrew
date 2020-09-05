@@ -1,0 +1,283 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1599346710,
+		"dateLastModified": 1599346710
+	},
+	"monster": [
+		{
+			"name": "Izor",
+			"source": "UlucaiDM",
+			"page": 213,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				14,
+				{
+					"ac": 20,
+					"condition": "with Amulet of {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 120",
+				"average": 255
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 18,
+			"int": 23,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"int": "+12",
+				"wis": "+9",
+				"cha": "+10",
+				"con": "+10"
+			},
+			"skill": {
+				"arcana": "+12",
+				"history": "+12",
+				"deception": "+10",
+				"perception": "+9",
+				"persuasion": "+10",
+				"stealth": "+10",
+				"intimidation": "+10"
+			},
+			"passive": 19,
+			"languages": [
+				"any four languages",
+				"telepathy 120 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The enchanter is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The enchanter has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell encode thoughts|GGR}",
+								"{@spell friends}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell sleep|PHB}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell animal messenger|PHB}",
+								"{@spell crown of madness|PHB}*",
+								"{@spell hold person}*",
+								"{@spell suggestion}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell catnap|XGE}",
+								"{@spell enemies abound|XGE}*"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell charm monster|XGE}",
+								"{@spell compulsion|PHB}",
+								"{@spell confusion}",
+								"{@spell dominate beast}*"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell dominate person|PHB}",
+								"{@spell geas|PHB}",
+								"{@spell hold monster}*",
+								"{@spell modify memory|PHB}",
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell mass suggestion|PHB}",
+								"{@spell otto's irresistible dance|PHB}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell Power Word Pain|XGE}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell Antipathy/Sympathy}, {@spell dominate monster}, {@spell feeblemind}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell power word kill}",
+								"{@spell psychic scream|XGE}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"reaction": [
+				{
+					"name": "Instinctive Charm (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher)",
+					"entries": [
+						"The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.",
+						"The attacker must make a {@dc 20} Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/155/enchanter.mp3",
+			"languageTags": [
+				"X",
+				"TP"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"trait": [
+				{
+					"name": "_Confusing Gaze",
+					"entries": [
+						"When a creature starts its turn within 30 feet of Izor and is able to see the Izor's eyes, Izor can magically force it to make a {@dc 20} Charisma saving throw, unless the Izor is {@condition incapacitated}.",
+						"On a failed saving throw, the creature can't take reactions until the start of its next turn and rolls a {@dice d8} to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach.",
+						"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the Izor until the start of its next turn, when it can avert its eyes again. If the creature looks at the Izor in the meantime, it must immediately make the save."
+					]
+				},
+				{
+					"name": "_Split Enchantment",
+					"entries": [
+						"When Izor casts a enchantment spell of 1st level or higher, that targets only one creature, he can have it target a second creature."
+					]
+				},
+				{
+					"name": "_Alter Memories",
+					"entries": [
+						"When Izor casts a enchantment spell to charm one or more creatures, he can alter the creature's understanding so that it remains unaware of being {@condition charmed}.",
+						"Additionally, once before the spell expires, Izor can use his action to make the chosen creature forget some of the time it spent {@condition charmed}. The creature must succeed on an {@dc 20} Intelligence saving throw or lose up to 4 hours, limited to the enchantment spell duration."
+					]
+				},
+				{
+					"name": "_Smooth Enchanter",
+					"entries": [
+						"Izor's spells that Charm a creature do not confer advantage even if he or his allies are fighting it.",
+						"Additionally if a creature tries to read Izor's mind, it must succeed a {@dc 20} Wisdom saving throw or become {@condition charmed} by him for 24 hours."
+					]
+				},
+				{
+					"name": "_Enchantment Immunity",
+					"entries": [
+						"Izor is immune to Enchantment spells."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Izor has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "_Spell Mastery",
+					"entries": [
+						"Izor can cast {@spell charm person} and {@spell hold person} at will."
+					]
+				}
+			],
+			"conditionInflicted": [
+				"incapacitated",
+				"charmed"
+			],
+			"isNamedCreature": true,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"legendary": [
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"Izor casts a spell of 3rd level or lower."
+					]
+				},
+				{
+					"name": "Psychic Blast",
+					"entries": [
+						"Izor uses Psychic Blast."
+					]
+				}
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"conditionInflict": [
+				"incapacitated",
+				"charmed"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"action": [
+				{
+					"name": "Psychic Blast",
+					"entries": [
+						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h} 27 ({@damage 5d10 + 6}) psychic damage."
+					]
+				}
+			]
+		}
+	]
+}
