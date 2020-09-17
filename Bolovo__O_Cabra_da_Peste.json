@@ -1,0 +1,166 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1600354400,
+		"dateLastModified": 1600354400
+	},
+	"monster": [
+		{
+			"name": "Bolovo, O Cabra da Peste",
+			"size": "H",
+			"type": "giant",
+			"source": "UlucaiDM",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 24,
+					"from": [
+						"Armadura de Gigante"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d12 + 112",
+				"average": 216
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 26,
+			"dex": 10,
+			"con": 24,
+			"int": 10,
+			"wis": 14,
+			"cha": 16,
+			"passive": 20,
+			"cr": "10",
+			"shortName": "Bolovo",
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"save": {
+				"str": "+12",
+				"con": "+11"
+			},
+			"skill": {
+				"athletics": "+12",
+				"history": "+8",
+				"medicine": "+6",
+				"perception": "+10"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons"
+				},
+				{
+					"resist": [
+						"cold",
+						"fire"
+					]
+				}
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"prone"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Bolovo's spellcasting ability is Charisma (spell save {@dc 11}). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell arcane eye}",
+							"{@spell lightning bolt}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The bolovo has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Fome",
+					"entries": [
+						"As a bonus action the Bolovo can eat a dead creature withing 5ft, restoring {@damage 4d8}."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 1d12 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Bola de Gelo",
+					"entries": [
+						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}14 ({@damage 1d12 + 8}) slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"legendary": [
+				{
+					"name": "Claw",
+					"entries": [
+						"Bolovo makes a Claw attack"
+					]
+				}
+			]
+		}
+	]
+}
