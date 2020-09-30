@@ -1,0 +1,166 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1601451032,
+		"dateLastModified": 1601451032
+	},
+	"monster": [
+		{
+			"name": "Black Archer",
+			"source": "UlucaiDM",
+			"page": 210,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item +3 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 110",
+				"average": 209
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50
+			},
+			"str": 12,
+			"dex": 22,
+			"con": 20,
+			"int": 11,
+			"wis": 16,
+			"cha": 10,
+			"skill": {
+				"acrobatics": "+11",
+				"perception": "+13",
+				"stealth": "+16",
+				"medicine": "+8"
+			},
+			"passive": 23,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Archer's Eye",
+					"entries": [
+						"As a bonus action, the archer can add {@dice 1d12} to its next attack or damage roll with a longbow or shortbow."
+					]
+				},
+				{
+					"name": "Poisoned Weapons",
+					"entries": [
+						"The archer's weapon attacks are magical. When the archer hits with any weapon, the weapon deals an extra {@damage 6d6} poison damage. This poison ignores resistances."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The archer makes three attacks with its longbow or shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage, plus 21 ({@damage 6d6}) poison damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage, plus 21 ({@damage 6d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/archer.mp3?v=1.112.4"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"I"
+			],
+			"tokenUrl": "https://i.imgur.com/V0OkWwe.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Archers defend castles, hunt wild game on the fringes of civilization, serve as artillery in military units, and occasionally make good coin as brigands or caravan guards."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rIVZiCC.jpg"
+						}
+					}
+				]
+			},
+			"shortName": "Archer",
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"immune": [
+				"poison"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			]
+		}
+	]
+}
