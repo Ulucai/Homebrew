@@ -1,0 +1,269 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1602535969,
+		"dateLastModified": 1602535969
+	},
+	"monster": [
+		{
+			"name": "Perfidy, The Whisperer",
+			"group": "Chromatic Dragon",
+			"source": "UlucaiDM",
+			"page": 93,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "half-dragon",
+						"prefix": "green"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "40d8 + 280",
+				"average": 460
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 90,
+				"swim": 50,
+				"climb": 50,
+				"canHover": false
+			},
+			"str": 12,
+			"dex": 27,
+			"con": 25,
+			"int": 20,
+			"wis": 17,
+			"cha": 26,
+			"save": {
+				"dex": "+15",
+				"con": "+14",
+				"wis": "+10",
+				"cha": "+15"
+			},
+			"skill": {
+				"deception": "+22",
+				"insight": "+17",
+				"perception": "+17",
+				"persuasion": "+15",
+				"stealth": "+15",
+				"sleight of hand": "+15",
+				"performance": "+15",
+				"medicine": "+17",
+				"arcana": "+12"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 27,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magical weapons"
+				},
+				{
+					"immune": [
+						"poison"
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "22",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the whisperer fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Corrosive Poison",
+					"entries": [
+						"The whisperer's poisons ignores resistances. If a target is immune to poison, it takes acid damage instead."
+					]
+				},
+				{
+					"name": "Poisoned weapons",
+					"entries": [
+						"The whisperer's weapon attacks are magical. When the whisperer hits with any weapon, the weapon deals {@dice 6d6} extra poison damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The whisperer makes three attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Poison Breath {@recharge 5}",
+					"entries": [
+						"The whisperer exhales poisonous gas in a 90-foot cone. Each creature in that area must make a {@dc 22} Constitution saving throw, taking 77 ({@damage 22d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Poison Darts",
+					"entries": [
+						"{@atk rs} {@hit 15} to hit, range 120 ft., one target. {@h}23 ({@damage 6d4 + 8}) piercing damage, plus 21 ({@damage 6d6}) poison damage."
+					]
+				},
+				{
+					"name": "Shapechange",
+					"entries": [
+						"The whisperer magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the whisperer's choice).",
+						"In a new form, the whisperer retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The whisperer moves up to her speed without causing an opportunity attack."
+					]
+				},
+				{
+					"name": "Attack",
+					"entries": [
+						"The whisperer makes an attack."
+					]
+				},
+				{
+					"name": "Breath (3 actions)",
+					"entries": [
+						"The whisperer recharges and use her breath weapon."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"dragonCastingColor": "G",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S",
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflictLegendary": [
+				"charmed",
+				"restrained"
+			],
+			"tokenUrl": "https://i.imgur.com/tbkAaEcr.png",
+			"shortName": "Whisperer",
+			"languages": [
+				"All languages"
+			],
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"psychic",
+				"thunder"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Whisperer acolyte's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit). The whisperer can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell bestow curse}",
+						"{@spell contagion}",
+						"{@spell hex}",
+						"{@spell nondetection}",
+						"{@spell Nystul's magic aura}",
+						"{@spell prestidigitation}",
+						"{@spell shield}"
+					],
+					"daily": {
+						"1": [
+							"{@spell clone}",
+							"{@spell cloudkill} (9th level)",
+							"{@spell feeblemind}",
+							"{@spell illusory dragon|XGE}",
+							"{@spell maze}",
+							"{@spell power word pain|XGE}",
+							"{@spell power word stun}",
+							"{@spell soul cage|XGE}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/quJURlB.png"
+						}
+					}
+				]
+			}
+		}
+	]
+}
