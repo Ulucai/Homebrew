@@ -1,0 +1,156 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1602727725,
+		"dateLastModified": 1602727725
+	},
+	"monster": [
+		{
+			"name": "The Blade Singer",
+			"source": "UlucaiDM",
+			"page": 236,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "18d8 + 18",
+				"average": 99
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 8,
+			"dex": 18,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"con": "+5"
+			},
+			"skill": {
+				"stealth": "+12",
+				"perception": "+5",
+				"insight": "+5",
+				"deception": "+12",
+				"acrobatics": "+12",
+				"persuasion": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Ambush",
+					"entries": [
+						"On the first round of each combat, the mangler has advantage on attack rolls against a creature that hasn't taken a turn yet."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the hakashu can take the Hide action as a bonus action, merging with the shadows even if there is no cover."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The hakashu can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hakashu makes two claw attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. If the attack roll has advantage, the target also takes 7 ({@damage 2d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Flurry of blades {@recharge 4}",
+					"entries": [
+						"The hakashu makes six claw attacks against one target. Either before or after these attacks, it can move up to its speed as a bonus action without provoking opportunity attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://i.imgur.com/z2PV0tB.png",
+			"shortName": "Hakashu",
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"The hakashu halves the damage that it takes from an attack that hits it."
+					]
+				}
+			],
+			"languages": [
+				"Common",
+				"Infernal",
+				"Dwarvish",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"D",
+				"E"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/x482s38.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}
