@@ -1,0 +1,252 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1603322321,
+		"dateLastModified": 1603322321
+	},
+	"monster": [
+		{
+			"name": "The Planewalker Collector",
+			"isNamedCreature": true,
+			"source": "UlucaiDM",
+			"page": 288,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 325,
+				"formula": "31d8 + 186"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 26,
+			"dex": 21,
+			"con": 22,
+			"int": 26,
+			"wis": 23,
+			"cha": 24,
+			"save": {
+				"int": "+15",
+				"wis": "+13",
+				"cha": "+14"
+			},
+			"skill": {
+				"arcana": "+22",
+				"history": "+22",
+				"insight": "+13",
+				"perception": "+13",
+				"animal handling": "+20",
+				"medicine": "+20"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 23,
+			"resist": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"prone"
+			],
+			"languages": [
+				"Deep Speech",
+				"telepathy 120 ft."
+			],
+			"cr": "24",
+			"trait": [
+				{
+					"name": "Alien Mind",
+					"entries": [
+						"If a creature tries to read the collector's thoughts or deals psychic damage to it, that creature must succeed on a {@dc 23} Intelligence saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the collector fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The collector has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The collector regains 20 hit points at the start of its turn. If the collector takes radiant damage, this trait doesn't function at the start of its next turn. The collector dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"As a bonus action, the collector can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The collector makes one Tentacle Whip attack and uses its Corruption or Cast a Spell once. The collector can replace its Tentacle Whip attack with Extract Brain if it has a creature {@condition grappled}."
+					]
+				},
+				{
+					"name": "Tentacle Whip",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d10 + 8}) slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 23}), pulled into an unoccupied space within 5 feet of the collector, and must succeed on a {@dc 23} Intelligence saving throw or be {@condition stunned} until this grapple ends. The collector can't use the same tentacle whip on another target until this grapple ends. The Collector has two tentacle whips."
+					]
+				},
+				{
+					"name": "Corruption",
+					"entries": [
+						"The collector targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 23} Constitution saving throw or take 22 ({@damage 4d6 + 8}) necrotic damage and become corrupted for 1 minute.",
+						"A corrupted creature's flesh twists in alien ways. The creature has disadvantage on attack rolls, its speed is reduced by half, and if it tries to cast a spell, it must first succeed on a {@dc 15} Intelligence check or the spell fails and is wasted. The corrupted creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Extract Brain",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one {@condition incapacitated} creature {@condition grappled} by the collector. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, the collector kills the target by extracting and devouring its brain."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tentacle Whip",
+					"entries": [
+						"The collector makes one attack with its Tentacle Whip."
+					]
+				},
+				{
+					"name": "Spawn Collection (Costs 2 Actions)",
+					"entries": [
+						"The collector conjure one creature from his menagerie  in an unoccupied space within 5 feet of it. The creature is under the collector's control and acts immediately after the collector in the initiative order."
+					]
+				},
+				{
+					"name": "Mind Blast (Costs 3 Actions)",
+					"entries": [
+						"The collector magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 23} Intelligence saving throw or take 30 ({@damage 5d8 + 8}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Cast Spell (Costs 3 Actions)",
+					"entries": [
+						"The Collector casts a spell"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DS",
+				"TP"
+			],
+			"damageTags": [
+				"S",
+				"N",
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"stunned",
+				"grappled"
+			],
+			"conditionInflictLegendary": [
+				"restrained"
+			],
+			"tokenUrl": "https://i.imgur.com/gilMgr6.png",
+			"shortName": "Collector",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/1B0SNaS.jpg"
+						}
+					}
+				]
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The collector's innate spellcasting ability is Intelligence (spell save {@dc 23}). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell levitate}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell contingency} (Can prepare spells of any level)",
+							"{@spell disintegrate}",
+							"{@spell dominate monster}",
+							"{@spell plane shift} (self only)",
+							"{@spell wall of force}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"P",
+				"I"
+			]
+		}
+	]
+}
