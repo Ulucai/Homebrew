@@ -1,0 +1,206 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai DM",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1604019336,
+		"dateLastModified": 1604019336
+	},
+	"monster": [
+		{
+			"name": "Doragon Facemelter",
+			"source": "UlucaiDM",
+			"page": 164,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					],
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "27d8 + 81",
+				"average": 297
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40
+			},
+			"str": 13,
+			"dex": 26,
+			"con": 16,
+			"int": 20,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"dex": "+14",
+				"con": "+9",
+				"wis": "+7",
+				"cha": "+10"
+			},
+			"skill": {
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "non-magic weapon"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Infernal",
+				"telepathy 1,000 ft."
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Facemelter Sword",
+					"headerEntries": [
+						"The facemelter sword can be used to cast (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The wielder of the facemelter can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell charm person}",
+						"{@spell command}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dominate person}",
+							"{@spell fireball}"
+						],
+						"1e": [
+							"{@spell dominate monster}",
+							"{@spell feeblemind}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the facemelter's darkvision."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The facemelter has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The facemelter uses Poison Mind. It also makes two attacks: one with its Facemelter and one with its Disruptive Touch."
+					]
+				},
+				{
+					"name": "Facemelter",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 5}) slashing damage plus 16 ({@damage 3d10}) force damage."
+					]
+				},
+				{
+					"name": "Disruptive Touch",
+					"entries": [
+						"{@atk ms} {@hit 12} to hit, reach 5 ft., one target. {@h}44 ({@damage 8d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Poison Mind",
+					"entries": [
+						"The facemelter targets one or two creatures that it can see within 60 feet of it. Each target must succeed on a {@dc 19} Wisdom saving throw or take 26 ({@damage 4d12}) necrotic damage and is {@condition blinded} until the start of the facemelter's next turn."
+					]
+				},
+				{
+					"name": "Forgetfulness {@recharge}",
+					"entries": [
+						"The facemelter targets one creature it can see within 60 feet of it. That creature must make a {@dc 19} Intelligence saving throw and on a failure the target is {@condition stunned} for 1 minute. A {@condition stunned} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target remains {@condition stunned} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/amnizu.mp3?v=1.114.1"
+			},
+			"traitTags": [
+				"Devil's Sight",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"S",
+				"O",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"prone"
+			],
+			"shortName": "Facemelter",
+			"tokenUrl": "https://i.imgur.com/TFtTxXk.png"
+		}
+	]
+}
