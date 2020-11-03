@@ -2,8 +2,8 @@
     "_meta": {
         "sources": [
             {
-                "json": "PSIT",
-                "abbreviation": "PSIT",
+                "json": "PEI",
+                "abbreviation": "PEI",
                 "full": "Planescape Items",
                 "authors": [
                     "Ulucai"
@@ -12,7 +12,7 @@
                     "Ulucai"
                 ],
                 "version": "1.0",
-                "color": "Green",
+                "color": "orange",
                 "url": "",
                 "targetSchema": "1.2"
             }
@@ -25,12 +25,10 @@
             "name":"Tanari Great Sword",
             "source":"PSIT",
             "page":"167",
-            "type": "M",
+            "type": "GV",
             "rarity": "legendary",
             "tier": "major",
-            "reqAttune": true,
-            "weaponCategory": "martial",
-            "dmg1": "2d6",
+            "reqAttune": true,                    
             "dmgType": "S",
 
             "entries":[
