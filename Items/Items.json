@@ -1,0 +1,45 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "PSIT",
+                "abbreviation": "PSIT",
+                "full": "Planescape Items",
+                "authors": [
+                    "Ulucai"
+                ],
+                "convertedBy": [
+                    "Ulucai"
+                ],
+                "version": "1.0",
+                "color": "Green",
+                "url": "",
+                "targetSchema": "1.2"
+            }
+        ],
+        "dateAdded": 1604443842,
+        "dateLastModified": 1604443842        
+    },
+    "item":[
+        {
+            "name":"Tanari Great Sword",
+            "source":"PSIT",
+            "page":"167",
+            "type": "M",
+            "rarity": "legendary",
+            "tier": "major",
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "dmg1": "2d6",
+            "dmgType": "S",
+
+            "entries":[
+                "Uma espada de aço Tanaari, ao acertar um alvo causa o efeito de um {@spell finger of death} (DC 18)"
+            ]
+                        
+        }
+    ]
+    
+    
+
+}
