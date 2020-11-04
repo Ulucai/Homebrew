@@ -21,21 +21,36 @@
         "dateLastModified": 1604443842        
     },
     "item":[
-        {
-            "name":"Tanari Great Sword",
-            "source":"PSIT",
-            "page":"167",
-            "type": "GV",
-            "rarity": "legendary",
-            "tier": "major",
-            "reqAttune": true,                    
-            "dmgType": "S",
+        "variant":[
+                    {
+                        "name":"Taanari Weapon",                        
+                        "page":"167",
+                        "type": "GV",
+                        "requires":[
+                            {  
+                                    "name": "Greatsword"
+                            },
+        
+                            {  
+                                    "name": "Longsword"
+                            }
+        
+                                    ],
+                            "inherits":{
+                                "namePrefix": "Taanari",
+                                "source":"PEI",                                                      
+                                "rarity": "legendary",
+                                "tier": "major",
+                                "reqAttune": true,                    
+                            
 
-            "entries":[
-                "Uma espada de aço Tanaari, ao acertar um alvo causa o efeito de um {@spell finger of death} (DC 18)"
-            ]
-                        
-        }
+                                "entries":[
+                                    "Uma criatura atingida por um ataque com esta espada sofre o efeito de um {@spell finger of death} (DC 18)"
+                                ]
+                            }
+
+                    }
+                ]
     ]
     
     
