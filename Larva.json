@@ -1,0 +1,169 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai's Degenerate Mind",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1609769947,
+		"dateLastModified": 1609769947
+	},
+	"monster": [
+		{
+			"name": "Larva",
+			"source": "UlucaiDM",
+			"page": 63,
+			"size": "M",
+			"type": "fiend",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Casquinha"
+					]
+				}
+			],
+			"hp": {
+				"formula": "19d12 - 19",
+				"average": 104
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40,
+				"canHover": false,
+				"burrow": 20
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 8,
+			"int": 6,
+			"wis": 10,
+			"cha": 2,
+			"passive": 14,
+			"cr": "10",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://i.imgur.com/a5Syyxz.png",
+			"shortName": "Lavinha",
+			"senses": [
+				"blindsight 60 ft (blind beyond this radius)."
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"Primordial"
+			],
+			"languageTags": [
+				"P"
+			],
+			"save": {
+				"str": "+7"
+			},
+			"skill": {
+				"acrobatics": "+12",
+				"perception": "+4"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magical weapons"
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire"
+					]
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The lavinha has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the lavinha has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the lavinha scores against a surprised creature is a critical hit."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bane}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell barkskin}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell summon fey|TCE}"
+							],
+							"slots": 0
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rIqTPuT.png"
+						}
+					}
+				]
+			}
+		}
+	]
+}
