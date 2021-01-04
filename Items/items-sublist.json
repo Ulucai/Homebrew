@@ -1,0 +1,19 @@
+{
+	"items": [
+		{
+			"h": "armor%20of%20gleaming_xge",
+			"c": 1
+		},
+		{
+			"h": "bead%20of%20nourishment_xge",
+			"c": 1
+		},
+		{
+			"h": "bead%20of%20refreshment_xge",
+			"c": 1
+		}
+	],
+	"sources": [
+		"XGE"
+	]
+}
