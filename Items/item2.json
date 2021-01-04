@@ -1,0 +1,52 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "PEI",
+                "abbreviation": "PEI",
+                "full": "Planescape Items",
+                "authors": [
+                    "Ulucai"
+                ],
+                "convertedBy": [
+                    "Ulucai"
+                ],
+                "version": "1.0",
+                "color": "8a36da",
+                "url": "",
+                "targetSchema": "1.2"
+            }
+        ],
+        "dateAdded": 1604443842,
+        "dateLastModified": 1604443842
+    },
+    "variant": [
+        {
+            "name": "Taanari Weapon",
+            "requires": [
+                {
+                    "name": "Greatsword"
+                },
+                {
+                    "name": "Longsword"
+                }
+				{
+					"name": "Longbow"
+				}
+				{
+					"name": "Whip"
+				}
+            ],
+            "inherits": {
+                "namePrefix": "Taanari ",
+                "source": "PEI",
+                "rarity": "legendary",
+                "tier": "major",
+                "reqAttune": true,
+                "entries": [
+                    "Uma criatura atingida por um ataque com esta espada sofre o efeito de um {@spell finger of death} (DC 18)"
+                ]
+            }
+        }
+    ]
+}
