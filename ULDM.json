@@ -1,0 +1,5877 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai's Degenerate Mind",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1610579810,
+		"dateLastModified": 1610579810
+	},
+	"monster": [
+		{
+			"name": "Ancient Madness",
+			"shortName": "Warlock",
+			"source": "UlucaiDM",
+			"page": "00",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Ancient Flesh"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 120",
+				"average": 228
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 17,
+			"cha": 30,
+			"save": {
+				"wis": "+9",
+				"cha": "+16",
+				"con": "+11"
+			},
+			"skill": {
+				"arcana": "+9",
+				"history": "+9",
+				"intimidation": "+16",
+				"religion": "+9",
+				"perception": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft.(including magic darkness)"
+			],
+			"passive": 19,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				{
+					"immune": [
+						"poison",
+						"psychic"
+					]
+				},
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magic weapons"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"incapacitated",
+				"petrified",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			],
+			"languages": [
+				"all languages",
+				"telepathy 120ft."
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The warlock's spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 24}), requiring no material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell eldritch blast}",
+								"{@spell green-flame blade|SCAG}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"5": {
+							"spells": [
+								"{@spell dissonant whispers}",
+								"{@spell Evard's black tentacles}",
+								"{@spell mind spike|XGE}",
+								"{@spell negative energy flood|XGE}",
+								"{@spell synaptic static|XGE}",
+								"{@spell Tasha's hideous laughter}",
+								"{@spell telekinesis}"
+							],
+							"slots": 3,
+							"lower": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 24}), requiring no material components:"
+					],
+					"will": [
+						"{@spell darkness}",
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell enemies abound|XGE}",
+						"{@spell hold monster}",
+						"{@spell invisibility}",
+						"{@spell misty step}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell feeblemind}",
+							"{@spell forcecage}",
+							"{@spell hypnotic pattern}",
+							"{@spell imprisonment}",
+							"{@spell maddening darkness|XGE}",
+							"{@spell mental prison|XGE}",
+							"{@spell plane shift}",
+							"{@spell soul cage|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Alien Mind",
+					"entries": [
+						"If a creature tries to read the Warlocks's thoughts or deals psychic damage to it, that creature must succeed on a {@dc 24} Intelligence saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Create Thrall",
+					"entries": [
+						"The Warlock can infect a creature's mind and body with the alien magic of his patron. As a bonus action the Warlock touch an {@condition unconscious} humanoid or beast. The creature is transformed into the splitting image of the warlock, its statistics become the {@creature Warlock of the Great Old One|VGM} and is immune to {@condition Exhaustion}, following the Warlock's commands and will. ",
+						"The creature remains in this form until it falls to 0 hit points or fall {@condition unconscious}.",
+						"This effect can be ended with a {@spell dispel magic} spell {@dc 19}, the creature then falls {@condition unconscious} with 0 hit points."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The warlock has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Cloak of Flies",
+					"entries": [
+						"As a bonus action, the warlock can surround himself with a magical aura that looks like buzzing flies, any creature that starts its turn within 5 feet of the warlock takes 10 poison damage.",
+						"The aura lasts until the warlock dismiss it with a bonus action."
+					]
+				},
+				{
+					"name": "Hex Mastery",
+					"entries": [
+						"The warlock is a master of torment. When he casts the {@spell hex} spell and on each subsequent turn as a bonus action. As long as the hex target is withing 30 feet, the warlock can teleport to a unoccupied space within 5 feet of it.",
+						"Alternatively the warlock can cause the cursed target within 30 feet and any other creature within 5 feet of it suffer 10 psychic damage."
+					]
+				},
+				{
+					"name": "Eldritch Mastery",
+					"entries": [
+						"When the warlock casts the {@spell eldritch blast} cantrip he adds his Charisma modifier to the damage it deals on a hit.",
+						"Additionally when the warlock hits a creature with this cantrip he can push or pull the target 10 feets away or towards from him."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warlock casts a spell and makes two shadow scythe attacks."
+					]
+				},
+				{
+					"name": "Shadow Scythe",
+					"entries": [
+						"{@atk ms} {@hit 16} to hit, reach 5 ft., one target. {@h}20 ({@damage 2d8 + 10}) psychic damage. If the target is in dim light or darkness this attack has advantage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"conditionInflict": [
+				"stunned"
+			]
+		},
+		{
+			"name": "Arcane Knight",
+			"shortName": "Knight",
+			"source": "UlucaiDM",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 24,
+					"from": [
+						"{@item Plate Armor +3|DMG}",
+						"{@item Shield of Missile Attraction|DMG}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 100",
+				"average": 190
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 26,
+			"dex": 14,
+			"con": 20,
+			"int": 18,
+			"wis": 17,
+			"cha": 16,
+			"save": {
+				"str": "+14",
+				"dex": "+8",
+				"con": "+11",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+9",
+				"insight": "+9",
+				"arcana": "+10",
+				"animal handling": "+9",
+				"survival": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"blindsight 10 ft."
+			],
+			"passive": 19,
+			"resist": [
+				"cold",
+				"fire",
+				{
+					"special": "damage from ranged weapon attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Infernal",
+				"Primordial"
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The knight is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 18}, +12 to hit with spell attacks). The knight has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell booming blade|SCAG}",
+								"{@spell green-flame blade|SCAG}",
+								"{@spell true strike}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell feather fall}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell mirror image}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Arcane Warrior",
+					"entries": [
+						"When the knight uses his action to cast a spell he can use his bonus action to make a weapon attack."
+					]
+				},
+				{
+					"name": "Eldritch Strike",
+					"entries": [
+						"When the knight hits a creature with a weapon attack, the creature has disadvantage on its next spell save until the end of the knight's next turn."
+					]
+				},
+				{
+					"name": "Shield Master",
+					"entries": [
+						"If the knight is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage and he is wearing his shield, the knight instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Arms Bond",
+					"entries": [
+						"The knight has a bond with his weapons, shield and armor and can't be disarmed unless he is {@condition incapacitated}.",
+						"As a bonus action the knight can materialize and wear his armor, shield and weapon."
+					]
+				},
+				{
+					"name": "Arcane Action Surge (2 uses recharges with a short or long rest)",
+					"entries": [
+						"The knight can push himself beyond his normal limits for a moment. On your turn, he can take one additional action.",
+						"Additionally when he uses this feature he can teleport up to 30 feet to an unoccupied space he can see. He can teleport before or after he takes the additional action."
+					]
+				},
+				{
+					"name": "Indomitable  (3 uses recharges with a short or long rest)",
+					"entries": [
+						"The knight can reroll a saving throw he fails, keeping the second roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight can make four longsword or greatsword attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d8 + 8}) slashing damage, or 19 ({@damage 2d10 + 8}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d6 + 8}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "War Caster",
+					"entries": [
+						"When the knight uses his reaction to make an opportunity attack against a target, he can cast a spell on it instead. The spell must have a casting time of  1 action and must target only that creature."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"P"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Autolycus, King of Thieves",
+			"shortName": "Autolycus",
+			"source": "UlucaiDM",
+			"page": "157",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"{@item +3 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 120",
+				"average": 255
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50
+			},
+			"str": 15,
+			"dex": 27,
+			"con": 18,
+			"int": 18,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"dex": "+16",
+				"con": "+12",
+				"int": "+12",
+				"wis": "+13",
+				"cha": "+12"
+			},
+			"skill": {
+				"acrobatics": "+24",
+				"arcana": "+20",
+				"athletics": "+18",
+				"deception": "+20",
+				"history": "+12",
+				"insight": "+21",
+				"investigation": "+20",
+				"nature": "+12",
+				"stealth": "+34",
+				"survival": "+13",
+				"religion": "+12",
+				"persuasion": "+20",
+				"performance": "+20",
+				"perception": "+21",
+				"sleight of hand": "+24"
+			},
+			"senses": [
+				"truesight 120 ft.",
+				"blindsight 30 ft."
+			],
+			"passive": 31,
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "All damage"
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons"
+				}
+			],
+			"languages": [
+				"All languages"
+			],
+			"cr": "26",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Autolycus spellcasting ability is Intelligence (spell save {@dc 27}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell arcane lock}",
+						"{@spell disguise self}",
+						"{@spell find the path}",
+						"{@spell find traps}",
+						"{@spell knock}",
+						"{@spell mage hand}"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Limited Divination Immunity",
+					"entries": [
+						"The Autolycus can't be affected, detected by divination magic unless it wishes to be. Including natural truesight."
+					]
+				},
+				{
+					"name": "Silent walker",
+					"entries": [
+						"Autolycus is always under the effect of a {@spell Pass without Trace} spell."
+					]
+				},
+				{
+					"name": "King's Hoard",
+					"entries": [
+						"As a bonus action. Autolycus can send any object he carrying to a demiplane. He can also retrieve an object previously sent there."
+					]
+				},
+				{
+					"name": "Reliable",
+					"entries": [
+						"Autolycus has advantage on all ability checks."
+					]
+				},
+				{
+					"name": "Honour Among Thieves",
+					"entries": [
+						"If a creature tries to steal or take a item belonging to Autolycus, it must first succeed on a {@dc 27} Wisdom saving throw. If it fails it feels demotivated to do so and give up."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Identity Theft",
+					"entries": [
+						"Autolycus tries to steal a large or smaller creature's appearance. A creature within 5 feet must succeed a {@dc 27} charisma saving throw or Autolycus becomes the splitting image of the target, with the same voice, smell, weight, etc. Until he dismisses this  effect (no action required)."
+					]
+				},
+				{
+					"name": "Speed Snatch",
+					"entries": [
+						"Autolycus tries to steal a creature's speed. A creature within 5 feet must succeed a {@dc 27} charisma saving throw or have one of its special speed stolen (climbing, swimming, borrowing) for 1 minute or until Autolycus snatches another creature's speed.",
+						"The creature's speed becomes 0 and Autolycus adds the stolen speed to his own."
+					]
+				},
+				{
+					"name": "Steal Senses",
+					"entries": [
+						"Autolycus tries to steal a creature's senses. A creature within 5 feet must succeed a {@dc 27} charisma saving throw or have one of its senses stolen.",
+						"The target loses one of its senses permanently. It can be restored by a {@spell greater restoration} spell.",
+						"Autolycus gains the creature's senses for 24 hours."
+					]
+				},
+				{
+					"name": "Lifesteal",
+					"entries": [
+						"Autolycus tries to steal a creature's temporary hit points. A creature within 5 feet must succeed a {@dc 27} charisma saving throw or lose all of its temporary hit points.",
+						"Autolycus gains temporary hit points equal to the lost by the target."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spell Theft",
+					"entries": [
+						"Immediately after a creature casts a spell that targets or include Autolycus or any other creature it can see, he can use his reaction to force the caster to make a {@dc 27} saving throw with its spellcasting ability modifier. If it fails the spell is negated, the slot is spent and the creature loses the knowledge of the spell for 8 hours, becoming unable to cast it.",
+						"Autolycus can cast this spell once without spending a spell slot."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"spellcastingTags": [
+				"I"
+			]
+		},
+		{
+			"name": "Black Archer",
+			"shortName": "Archer",
+			"source": "UlucaiDM",
+			"page": 210,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item +3 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 110",
+				"average": 209
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50
+			},
+			"str": 12,
+			"dex": 22,
+			"con": 20,
+			"int": 11,
+			"wis": 16,
+			"cha": 10,
+			"skill": {
+				"acrobatics": "+11",
+				"perception": "+13",
+				"stealth": "+16",
+				"medicine": "+8"
+			},
+			"passive": 23,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Archer's Eye",
+					"entries": [
+						"As a bonus action, the archer can add {@dice 1d12} to its next attack or damage roll with a longbow or shortbow."
+					]
+				},
+				{
+					"name": "Poisoned Weapons",
+					"entries": [
+						"The archer's weapon attacks are magical. When the archer hits with any weapon, the weapon deals an extra {@damage 6d6} poison damage. This poison ignores resistances."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The archer makes three attacks with its longbow or shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage, plus 21 ({@damage 6d6}) poison damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage, plus 21 ({@damage 6d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Archers defend castles, hunt wild game on the fringes of civilization, serve as artillery in military units, and occasionally make good coin as brigands or caravan guards."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rIVZiCC.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/V0OkWwe.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/archer.mp3?v=1.112.4"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Blind Silver Dragon",
+			"shortName": "Dragon",
+			"group": "Metallic Dragon",
+			"source": "UlucaiDM",
+			"page": 117,
+			"size": "H",
+			"type": "dragon",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 243,
+				"formula": "18d12 + 126"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 80,
+				"burrow": 40
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 25,
+			"int": 16,
+			"wis": 13,
+			"cha": 21,
+			"save": {
+				"dex": "+5",
+				"con": "+12",
+				"wis": "+6",
+				"cha": "+10"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8",
+				"perception": "+11",
+				"stealth": "+5"
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 21,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Innate spellcasting",
+					"headerEntries": [
+						"This dragon can innately cast five spells, once per day each, requiring no material components. Each spell's level can be no higher than 5th. The dragon's spell save DC is 18, and it has +10 to hit with spell attacks."
+					],
+					"daily": {
+						"1": [
+							"{@spell conjure elemental}",
+							"{@spell control water}",
+							"{@spell dawn|XGE}",
+							"{@spell far step|XGE}",
+							"{@spell slow}",
+							"{@spell synaptic static|XGE}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Blind Senses",
+					"entries": [
+						"The dragon ignores the sight requirement of spells."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Cold Breath.",
+									"entry": "The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a {@dc 20} Constitution saving throw, taking 58 ({@damage 13d8}) cold damage on a failed save, or half as much damage on a successful one."
+								},
+								{
+									"type": "item",
+									"name": "Paralyzing Breath.",
+									"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+						"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Blind Rebuke",
+					"entries": [
+						"When the dragon suffers damage caused by a creature within his blindsight range he can make an attack, cast a spell or use his breath weapon (if available) targeting the creature."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Breath (Costs 2 Actions)",
+					"entries": [
+						"The dragon uses his breath weapon."
+					]
+				},
+				{
+					"name": "Inhale",
+					"entries": [
+						"The dragon recharges his breath."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Silver Dragon",
+				"source": "MM"
+			},
+			"environment": [
+				"mountain",
+				"urban"
+			],
+			"dragonCastingColor": "S",
+			"tokenUrl": "https://5e.tools/img/ULDM/Adult Silver Dragon.png?v=1.110.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/silver-dragon.mp3?v=1.110.1"
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Bolovo, O Cabra da Peste",
+			"shortName": "Bolovo",
+			"source": "UlucaiDM",
+			"size": "H",
+			"type": "giant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 24,
+					"from": [
+						"Armadura de Gigante"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d12 + 112",
+				"average": 216
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 26,
+			"dex": 10,
+			"con": 24,
+			"int": 10,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"str": "+12",
+				"con": "+11"
+			},
+			"skill": {
+				"athletics": "+12",
+				"history": "+8",
+				"medicine": "+6",
+				"perception": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons"
+				},
+				{
+					"resist": [
+						"cold",
+						"fire"
+					]
+				}
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"prone"
+			],
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Bolovo's spellcasting ability is Charisma (spell save {@dc 11}). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell arcane eye}",
+							"{@spell lightning bolt}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The bolovo has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Fome",
+					"entries": [
+						"As a bonus action the Bolovo can eat a dead creature withing 5ft, restoring {@damage 4d8}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 1d12 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Bola de Gelo",
+					"entries": [
+						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}14 ({@damage 1d12 + 8}) slashing damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Claw",
+					"entries": [
+						"Bolovo makes a Claw attack"
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Doragon Facemelter",
+			"shortName": "Facemelter",
+			"source": "UlucaiDM",
+			"page": 164,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					],
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "27d8 + 81",
+				"average": 297
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40
+			},
+			"str": 13,
+			"dex": 26,
+			"con": 16,
+			"int": 20,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"dex": "+14",
+				"con": "+9",
+				"wis": "+7",
+				"cha": "+10"
+			},
+			"skill": {
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "non-magic weapon"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Infernal",
+				"telepathy 1,000 ft."
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Facemelter Sword",
+					"headerEntries": [
+						"The facemelter sword can be used to cast (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The wielder of the facemelter can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell charm person}",
+						"{@spell command}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dominate person}",
+							"{@spell fireball}"
+						],
+						"1e": [
+							"{@spell dominate monster}",
+							"{@spell feeblemind}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the facemelter's darkvision."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The facemelter has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The facemelter uses Poison Mind. It also makes two attacks: one with its Facemelter and one with its Disruptive Touch."
+					]
+				},
+				{
+					"name": "Facemelter",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 5}) slashing damage plus 16 ({@damage 3d10}) force damage."
+					]
+				},
+				{
+					"name": "Disruptive Touch",
+					"entries": [
+						"{@atk ms} {@hit 12} to hit, reach 5 ft., one target. {@h}44 ({@damage 8d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Poison Mind",
+					"entries": [
+						"The facemelter targets one or two creatures that it can see within 60 feet of it. Each target must succeed on a {@dc 19} Wisdom saving throw or take 26 ({@damage 4d12}) necrotic damage and is {@condition blinded} until the start of the facemelter's next turn."
+					]
+				},
+				{
+					"name": "Forgetfulness {@recharge}",
+					"entries": [
+						"The facemelter targets one creature it can see within 60 feet of it. That creature must make a {@dc 19} Intelligence saving throw and on a failure the target is {@condition stunned} for 1 minute. A {@condition stunned} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target remains {@condition stunned} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/TFtTxXk.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/amnizu.mp3?v=1.114.1"
+			},
+			"traitTags": [
+				"Devil's Sight",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"prone"
+			]
+		},
+		{
+			"name": "Felinto Norel",
+			"shortName": "Felinto",
+			"isNamedCreature": true,
+			"source": "UlucaiDM",
+			"page": 256,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"special": "19"
+				}
+			],
+			"hp": {
+				"formula": "23d8 + 115",
+				"average": 218
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40,
+				"canHover": false
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 14,
+			"cha": 22,
+			"save": {
+				"wis": "+7",
+				"dex": "+9",
+				"cha": "+11"
+			},
+			"skill": {
+				"nature": "+8",
+				"acrobatics": "+9",
+				"persuasion": "+11",
+				"deception": "+11",
+				"stealth": "+9",
+				"perception": "+7"
+			},
+			"passive": 17,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common plus any one language"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Felinto is a 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). Felinto has the following wizard spells prepared:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell eldritch blast}",
+						"{@spell hellish rebuke}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell dimension door}",
+							"{@spell flesh to stone}",
+							"{@spell negative energy flood|XGE}",
+							"{@spell scatter|XGE}",
+							"{@spell sickening radiance|XGE}",
+							"{@spell thunder step|XGE}",
+							"{@spell wall of light|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Bolstering Presence",
+					"entries": [
+						"Felinto magically emanates life-giving energy within 30 feet of itself. Any ally of the biomancer that starts its turn there regains 11 ({@dice 2d10}) hit points."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Felinto has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Felinto can cast a spell of 1st level or higher and a cantrip.",
+						"He can switch either of the spells for a Vampiric Touch."
+					]
+				},
+				{
+					"name": "Eldritch Bolt",
+					"entries": [
+						"{@atk rs} {@hit 11} to hit, range 300/300 ft., one target. {@h}9 ({@damage 1d10 + 5}) force damage. The target can be pushed 10 feet and has its speed reduced by 10 feet."
+					]
+				},
+				{
+					"name": "Vampiric Touch",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}18 ({@damage 5d6}) necrotic damage. And recover half of the damage dealt."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Misty Escape (Recharges after a Short or Long Rest).",
+					"entries": [
+						"In response to taking damage, Felinto turns {@condition invisible} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+					]
+				},
+				{
+					"name": "Hellish Rebuke",
+					"entries": [
+						"Felinto uses {@spell hellish rebuke}"
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/VGM/Warlock%20of%20the%20Archfey.png?v=1.114.1",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Fergão da Massa",
+			"shortName": "Fergos",
+			"source": "UlucaiDM",
+			"page": 350,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-dragon"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item +3 plate armor} regata"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 100",
+				"average": 190
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 24,
+			"dex": 13,
+			"con": 20,
+			"int": 10,
+			"wis": 11,
+			"cha": 16,
+			"save": {
+				"con": "+9",
+				"str": "+11",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+11",
+				"perception": "+8",
+				"performance": "+7",
+				"investigation": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons"
+				},
+				{
+					"resist": [
+						"cold",
+						"fire"
+					]
+				}
+			],
+			"vulnerable": [
+				{
+					"special": "Água e Sabão"
+				}
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Fergos is an 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 18}, +10 to hit with spell attacks). Fergos has the following wizard spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell shield}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell shatter}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}"
+							],
+							"slots": 0
+						},
+						"5": {
+							"spells": [
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 0,
+							"lower": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The fergos's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The fergos has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The fergos has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Sweating Aura",
+					"entries": [
+						"A creature starts its turn withing 5 feet of fergos must succeed on a {@dc 20} constitution saving throw or end its turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Fergos makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+					]
+				},
+				{
+					"name": "Flametongue",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage, plus 7 ({@damage 2d6}) fire damage.",
+						"The target becoms {@condition charmed}"
+					]
+				}
+			],
+			"fluff": {
+				"name": "Veteran",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Veteran.png?v=1.113.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/veteran.mp3?v=1.113.0"
+			},
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Guardian Wizard",
+			"shortName": "Guardian",
+			"source": "UlucaiDM",
+			"page": 342,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item elven chain}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d8 + 72",
+				"average": 216
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 18,
+			"int": 22,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"int": "+11",
+				"wis": "+8",
+				"con": "+9"
+			},
+			"skill": {
+				"arcana": "+16",
+				"history": "+16"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				{
+					"special": "damage from spells"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "(from stoneskin)",
+					"preNote": "nonmagical"
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"psychic"
+					],
+					"note": "(from Mind blank)"
+				}
+			],
+			"languages": [
+				"any six languages"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The guardian is an 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The guardian has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*The guardian casts these spells on itself before combat."
+					],
+					"will": [
+						"{@spell invisibility}",
+						"{@spell Melf's acid arrow}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell magic missile}",
+								"{@spell Tasha's hideous laughter}",
+								"{@spell Tenser's floating disk}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Aganazzar's scorcher|XGE}",
+								"{@spell mirror image}",
+								"{@spell misty step}",
+								"{@spell Snilloc's snowball swarm|XGE}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell Melf's minute meteors|XGE}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Evard's black tentacles}",
+								"{@spell Otiluke's resilient sphere}",
+								"{@spell stoneskin}*"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell cone of cold}",
+								"{@spell wall of force}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell globe of invulnerability}",
+								"{@spell Otiluke's freezing sphere}",
+								"{@spell Tenser's transformation|XGE}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell crown of stars|XGE}",
+								"{@spell Mordenkainen's sword}",
+								"{@spell reverse gravity}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell Abi-Dalzim's horrid wilting|XGE}",
+								"{@spell mind blank}*"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell imprisonment}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The guardian has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/ULDM/Archmage.png?v=1.109.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/archmage.mp3?v=1.109.0"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Gwyn, Lord of Sunlight",
+			"shortName": "Gwyn",
+			"source": "UlucaiDM",
+			"page": "009",
+			"level": 0,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"King's Breastplate"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d8 + 350",
+				"average": 575
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 30,
+			"dex": 22,
+			"con": 25,
+			"int": 24,
+			"wis": 30,
+			"cha": 26,
+			"save": {
+				"dex": "+15",
+				"wis": "+19",
+				"cha": "+17"
+			},
+			"skill": {
+				"acrobatics": "+15",
+				"perception": "+19",
+				"persuasion": "+17",
+				"religion": "+16"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 60 ft."
+			],
+			"passive": 29,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"fire",
+				"lightning",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "30",
+			"trait": [
+				{
+					"name": "King's Ultra Greatsword.",
+					"entries": [
+						"Gwyn's weapon attacks are magical. When Gwyn attacks with his weapon, the weapon deals an extra {@damage 8d8} radiant damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The gwyn has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the gwyn fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Light Absorption",
+					"entries": [
+						"Whenever the gwyn is subjected to lightning, fire or radiant damage, it takes no damage and instead regains a number of hit points equal to the damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"Gwyn can make up to 3 attacks with his greatsword and sunlight spears."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 5 ft., one target. {@h}29 ({@damage 2d8 + 10}) slashing damage, plus 36 ({@damage 8d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Sunlight Spear",
+					"entries": [
+						"Gwyn manifests a spear of pure sunlight into his hand and hurls it at an enemy. One target within 120 feet must make a {@dc 27} Dexterity saving throw, taking 56 ({@damage 16d6}) radiant damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Blinding Light",
+					"entries": [
+						"When Gwyn is attacked by a creature within 30 feet of him, he can use his reaction to emit light, blinding any creature within 30 feet of him until the start of Gwyn's next turn. "
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Gwyn makes a greatsword attack or uses his sunlight spear."
+					]
+				},
+				{
+					"name": "Hail Of Spears",
+					"entries": [
+						"Gwyn calls down a hundred spears made of pure lightning from the heavens. All creatures within 20 feet must make a {@dc 27} Dexterity saving throw, taking 36 ({@damage 8d8}) lightning damage on failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Soul Of Light (Costs 3 Actions)",
+					"entries": [
+						"Gwyn emanates pure sunlight from his body, burning others while healing himself. Each creature within 10 feet must make a {@dc 27} Dexterity saving throw, taking 36 ({@damage 8d8}) lightning damage on a failed save, or half as much damage on a successful one. Gwyn then recovers hit points equal to the amount of damage dealt. In addition Gwyn emits 60 feet of bright light until his next turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Absorption",
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"L",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Horizon Ranger",
+			"shortName": "Ranger",
+			"source": "UlucaiDM",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Hunter's Garb"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 18,
+			"int": 14,
+			"wis": 19,
+			"cha": 13,
+			"save": {
+				"dex": "+10",
+				"str": "+8",
+				"wis": "+9"
+			},
+			"skill": {
+				"acrobatics": "+10",
+				"animal handling": "+9",
+				"perception": "+9",
+				"survival": "+9",
+				"stealth": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"(plus 2 additional languages)"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Innate Spellasting",
+					"headerEntries": [
+						"The ranger's innate spellcasting ability is Wisdom (spell save {@dc 17}. It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell freedom of movement}",
+							"{@spell guardian of nature|XGE}",
+							"{@spell swift quiver}",
+							"{@spell teleportation circle}",
+							"{@spell wind wall}"
+						],
+						"3e": [
+							"{@spell fog cloud}",
+							"{@spell lesser restoration}",
+							"{@spell misty step}",
+							"{@spell silence}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Distant Strike",
+					"entries": [
+						"On his turn the ranger can teleport up to 10 feet before each attack to an unoccupied space he can see."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The ranger has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The ranger's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ranger makes three longbow attacks."
+					]
+				},
+				{
+					"name": "Longbow - Vine Arrow",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 150/600 ft., one target. {@h}10 ({@damage 1d8 + 5}) piercing damage, and the target must succeed on a {@dc 17} Strength saving throw or be {@condition restrained} by vines that burst our of the arrow and take 10 ({@damage 3d6}) piercing damage at the start of each of its turn."
+					]
+				},
+				{
+					"name": "Longbow -  Force Arrow",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 150/600 ft., one target. {@h} 20 ({@damage 3d8 + 5}) force damage. This attack ignores cover and strong wind."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"CR",
+				"I"
+			],
+			"miscTags": [
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
+		},
+		{
+			"name": "Izor",
+			"isNamedCreature": true,
+			"source": "UlucaiDM",
+			"page": 213,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				14,
+				{
+					"ac": 20,
+					"condition": "with Amulet of {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 120",
+				"average": 255
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 18,
+			"int": 23,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"int": "+12",
+				"wis": "+9",
+				"cha": "+10",
+				"con": "+10"
+			},
+			"skill": {
+				"arcana": "+12",
+				"history": "+12",
+				"deception": "+10",
+				"perception": "+9",
+				"persuasion": "+10",
+				"stealth": "+10",
+				"intimidation": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"any four languages",
+				"telepathy 120 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The enchanter is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The enchanter has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell encode thoughts|GGR}",
+								"{@spell friends}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell sleep|PHB}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell animal messenger|PHB}",
+								"{@spell crown of madness|PHB}*",
+								"{@spell hold person}*",
+								"{@spell suggestion}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell catnap|XGE}",
+								"{@spell enemies abound|XGE}*"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell charm monster|XGE}",
+								"{@spell compulsion|PHB}",
+								"{@spell confusion}",
+								"{@spell dominate beast}*"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell dominate person|PHB}",
+								"{@spell geas|PHB}",
+								"{@spell hold monster}*",
+								"{@spell modify memory|PHB}",
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell mass suggestion|PHB}",
+								"{@spell otto's irresistible dance|PHB}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell Power Word Pain|XGE}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell Antipathy/Sympathy}, {@spell dominate monster}, {@spell feeblemind}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell power word kill}",
+								"{@spell psychic scream|XGE}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "_Confusing Gaze",
+					"entries": [
+						"When a creature starts its turn within 30 feet of Izor and is able to see the Izor's eyes, Izor can magically force it to make a {@dc 20} Charisma saving throw, unless the Izor is {@condition incapacitated}.",
+						"On a failed saving throw, the creature can't take reactions until the start of its next turn and rolls a {@dice d8} to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach.",
+						"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the Izor until the start of its next turn, when it can avert its eyes again. If the creature looks at the Izor in the meantime, it must immediately make the save."
+					]
+				},
+				{
+					"name": "_Split Enchantment",
+					"entries": [
+						"When Izor casts a enchantment spell of 1st level or higher, that targets only one creature, he can have it target a second creature."
+					]
+				},
+				{
+					"name": "_Alter Memories",
+					"entries": [
+						"When Izor casts a enchantment spell to charm one or more creatures, he can alter the creature's understanding so that it remains unaware of being {@condition charmed}.",
+						"Additionally, once before the spell expires, Izor can use his action to make the chosen creature forget some of the time it spent {@condition charmed}. The creature must succeed on an {@dc 20} Intelligence saving throw or lose up to 4 hours, limited to the enchantment spell duration."
+					]
+				},
+				{
+					"name": "_Smooth Enchanter",
+					"entries": [
+						"Izor's spells that Charm a creature do not confer advantage even if he or his allies are fighting it.",
+						"Additionally if a creature tries to read Izor's mind, it must succeed a {@dc 20} Wisdom saving throw or become {@condition charmed} by him for 24 hours."
+					]
+				},
+				{
+					"name": "_Enchantment Immunity",
+					"entries": [
+						"Izor is immune to Enchantment spells."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Izor has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "_Spell Mastery",
+					"entries": [
+						"Izor can cast {@spell charm person} and {@spell hold person} at will."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Psychic Blast",
+					"entries": [
+						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h} 27 ({@damage 5d10 + 6}) psychic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Instinctive Charm (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher)",
+					"entries": [
+						"The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.",
+						"The attacker must make a {@dc 20} Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"Izor casts a spell of 3rd level or lower."
+					]
+				},
+				{
+					"name": "Psychic Blast",
+					"entries": [
+						"Izor uses Psychic Blast."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/155/enchanter.mp3",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"TP",
+				"X"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
+			],
+			"conditionInflicted": [
+				"incapacitated",
+				"charmed"
+			]
+		},
+		{
+			"name": "Kiralei",
+			"shortName": true,
+			"source": "UlucaiDM",
+			"page": "666",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 110",
+				"average": 209
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 20,
+			"int": 18,
+			"wis": 22,
+			"cha": 20,
+			"save": {
+				"con": "+10",
+				"wis": "+11",
+				"cha": "+10"
+			},
+			"skill": {
+				"insight": "+11",
+				"perception": "+11",
+				"religion": "+9",
+				"stealth": "+8",
+				"history": "+9",
+				"deception": "+15",
+				"arcana": "+9",
+				"animal handling": "+11",
+				"medicine": "+11"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magical attacks"
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning",
+						"thunder"
+					]
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Elvish",
+				"Common",
+				"Infernal",
+				"Abyssal",
+				"Telepathy 120 ft."
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Kiralei's innate spellcasting ability is Wisdom (spell save {@dc 19}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell awaken}",
+						"{@spell detect magic}",
+						"{@spell disguise self}",
+						"{@spell friends}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell clairvoyance}",
+							"{@spell darkness}",
+							"{@spell detect thoughts}",
+							"{@spell dispel magic}",
+							"{@spell etherealness}",
+							"{@spell shatter}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kiralei is a 14th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 19}, {@hit 11} to hit with spell attacks). She has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell poison spray}",
+								"{@spell resistance}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell inflict wounds}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell hold person}",
+								"{@spell silence}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell dispel magic}",
+								"{@spell magic circle}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell divination}",
+								"{@spell freedom of movement}",
+								"{@spell guardian of faith}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contagion}",
+								"{@spell dispel evil and good}",
+								"{@spell geas}",
+								"{@spell scrying}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell harm}",
+								"{@spell word of recall}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell divine word}",
+								"{@spell etherealness}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Poison Absorption",
+					"entries": [
+						"Whenever Kiralei is subjected to poison damage, she takes no damage and instead regains a number of hit points equal to the poison damage dealt.",
+						"Additionally when Kiralei is subject to a poison that requires a Saving Throw she can choose to fail it."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Kiralei has advantage on saving throws against being {@condition charmed}, and magic can't put Kiralei to sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Kiralei has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Pontent Poisons",
+					"entries": [
+						"Kiralei's poisons ignore resistances. If a creature tries to remove the poison it must succeed on a ability check with its spellcasting ability {@dc 19}.",
+						"Additionally whenever Kiralei's poisons causes damage on a creature that is immune to poison it causes necrotic damage instead."
+					]
+				},
+				{
+					"name": "Infuse Poison",
+					"entries": [
+						"As a bonus action Kiralei infuses her hands with dark energy, choosing one of the following effects to affect any creature she touches {@dc 19}.",
+						"{@i 1. Truth Serum} The creature must succeed on a Constitution saving throw or be {@condition poisoned} for 1 hour. The {@condition poisoned} creature can't knowingly speak a lie, as if under the effect of a {@spell zone of truth} spell.",
+						"{@i 2. Carrion Poison} The creature must succeed on a Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"{@i 3. Dark Poison} The creature must succeed on a Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious}  while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.",
+						"{@i 4. Burning Breath} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. The creature repeats the saving throw at the start of each of its turns. On each successive failed save, the creature takes 7 ({@damage 2d6}) poison damage. Damage caused by this poison doesn't causes a creature to wake up or end effects that would normally be ended by damage. After three successful saves, the poison ends."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kiralei makes two poison touch or gentle touch attacks."
+					]
+				},
+				{
+					"name": "Poison Touch",
+					"entries": [
+						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. {@h}8 ({@damage 3d6 + 6}) poison damage. The target is subject to one of Kiralei's infused poisons."
+					]
+				},
+				{
+					"name": "Gentle Touch",
+					"entries": [
+						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. The target is subject to one of Kiralei's infused poisons and makes the saving throw with disadvantage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Poison (or Gentle) Touch",
+					"entries": [
+						"Kiralei uses her Poison Touch or Gentle Touch."
+					]
+				},
+				{
+					"name": "Cast lower Spells",
+					"entries": [
+						"Kiralei casts a spell of level 1-3."
+					]
+				},
+				{
+					"name": "Cast Greater Spells (2 Actions)",
+					"entries": [
+						"Kiralei casts a spell."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"tokenUrl": "https://5e.tools/img/ULDM/Drow Inquisitor.png?v=1.106.11",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/drow-inquisitor.mp3?v=1.106.11"
+			},
+			"traitTags": [
+				"Damage Absorption",
+				"Fey Ancestry",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"E",
+				"I"
+			],
+			"damageTags": [
+				"I"
+			],
+			"spellcastingTags": [
+				"CC",
+				"I"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"incapacitated",
+				"poisoned",
+				"stunned"
+			]
+		},
+		{
+			"name": "Kiralei - Second",
+			"shortName": "Kiralei",
+			"source": "UlucaiDM",
+			"page": 666,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Shroud of Death"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 144",
+				"average": 252
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 22,
+			"int": 18,
+			"wis": 24,
+			"cha": 20,
+			"save": {
+				"con": "+12",
+				"wis": "+13",
+				"cha": "+11"
+			},
+			"skill": {
+				"insight": "+13",
+				"perception": "+13",
+				"religion": "+10",
+				"stealth": "+10",
+				"history": "+10",
+				"deception": "+17",
+				"arcana": "+10",
+				"animal handling": "+13",
+				"medicine": "+13"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 23,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning",
+						"thunder"
+					]
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Elvish",
+				"Common",
+				"Infernal",
+				"Abyssal",
+				"Telepathy 120 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Kiralei's innate spellcasting ability is Wisdom (spell save {@dc 21}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell awaken}",
+						"{@spell detect magic}",
+						"{@spell disguise self}",
+						"{@spell friends}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell clairvoyance}",
+							"{@spell darkness}",
+							"{@spell detect thoughts}",
+							"{@spell dispel magic}",
+							"{@spell etherealness}",
+							"{@spell shatter}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kiralei is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 21}, {@hit 13} to hit with spell attacks). She has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell poison spray}",
+								"{@spell resistance}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell inflict wounds}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell hold person}",
+								"{@spell silence}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell dispel magic}",
+								"{@spell magic circle}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell divination}",
+								"{@spell freedom of movement}",
+								"{@spell guardian of faith}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contagion}",
+								"{@spell dispel evil and good}",
+								"{@spell geas}",
+								"{@spell scrying}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell harm}",
+								"{@spell heal}",
+								"{@spell word of recall}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell divine word}",
+								"{@spell etherealness}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell antimagic field}",
+								"{@spell earthquake}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell mass heal}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Poison Absorption",
+					"entries": [
+						"Whenever Kiralei is subjected to poison damage, she takes no damage and instead regains a number of hit points equal to the poison damage dealt.",
+						"Additionally when Kiralei is subject to a poison that requires a Saving Throw she can choose to fail it."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Kiralei has advantage on saving throws against being {@condition charmed}, and magic can't put Kiralei to sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Kiralei has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Everlasting Poisons",
+					"entries": [
+						"Kiralei's poisons ignore resistances and lasts until cured. If a creature tries to remove the poison it must succeed on a ability check with its spellcasting ability {@dc 19}.",
+						"Additionally whenever Kiralei's poisons causes damage on a creature that is immune to poison it causes necrotic damage instead."
+					]
+				},
+				{
+					"name": "Infuse Poison",
+					"entries": [
+						"As a bonus action Kiralei infuses her hands with dark energy, choosing one of the following effects to affect any creature she touches {@dc 21}.",
+						"{@i 1. Truth Serum} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. The {@condition poisoned} creature can't knowingly speak a lie, as if under the effect of a {@spell zone of truth} spell.",
+						"{@i 2. Carrion Poison} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. The {@condition poisoned} creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"{@i 3. Dark Poison} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. If the saving throw fails by 5 or more, the creature is also {@condition unconscious}  while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.",
+						"{@i 4. Burning Breath} The creature must succeed on a Constitution saving throw or be {@condition poisoned}. The creature repeats the saving throw at the start of each of its turns. On each successive failed save, the creature takes 7 ({@damage 2d6}) poison damage. Damage caused by this poison doesn't causes a creature to wake up or end effects that would normally be ended by damage. After three successful saves, the poison ends."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kiralei makes two poison touch or gentle touch attacks."
+					]
+				},
+				{
+					"name": "Poison Touch",
+					"entries": [
+						"{@atk ms} {@hit 13} to hit, reach 15 ft., one target. {@h}8 ({@damage 3d6 + 7}) poison damage. The target is subject to one of Kiralei's infused poisons."
+					]
+				},
+				{
+					"name": "Gentle Touch",
+					"entries": [
+						"{@atk ms} {@hit 13} to hit, reach 15 ft., one target. The target is subject to one of Kiralei's infused poisons and makes the saving throw with disadvantage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Poison (or Gentle) Touch",
+					"entries": [
+						"Kiralei uses her Poison Touch or Gentle Touch."
+					]
+				},
+				{
+					"name": "Cast lower Spells",
+					"entries": [
+						"Kiralei casts a spell."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rIqTPuT.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/a5Syyxz.png",
+			"traitTags": [
+				"Damage Absorption",
+				"Fey Ancestry",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"E",
+				"I"
+			],
+			"damageTags": [
+				"I"
+			],
+			"spellcastingTags": [
+				"CC",
+				"I"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"incapacitated",
+				"poisoned",
+				"stunned"
+			]
+		},
+		{
+			"name": "Mana Beast",
+			"shortName": "Beast",
+			"source": "UlucaiDM",
+			"page": 325,
+			"size": "G",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d20 + 168",
+				"average": 420
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50,
+				"swim": 50
+			},
+			"str": 26,
+			"dex": 16,
+			"con": 24,
+			"int": 16,
+			"wis": 18,
+			"cha": 8,
+			"save": {
+				"str": "+16",
+				"wis": "+12",
+				"int": "+11"
+			},
+			"skill": {
+				"perception": "+12"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 60 ft."
+			],
+			"passive": 22,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"force",
+				"lightning",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"petrified"
+			],
+			"cr": "26",
+			"trait": [
+				{
+					"name": "Mana Storage",
+					"entries": [
+						"The beast can store up to 9 charges of mana in its crystals. The crystals have  AC 20, 200 hit points, resistance to all damage. immunity to psychic. If the crystals are destroyed the Beast loses all immunity and become vulnerable to all types of damage."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The Beast long jump is up to 50 feet and its high jump is up to 25 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The beast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Bound",
+					"entries": [
+						"The beast is bound to a location (a fortress, castle, cave) and can't leave or be forced out of it by any means."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beast makes five attacks: four claw attacks and one swallow or bite."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}24 ({@damage 3d10 + 8})  slashing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. On hit: the target is swallowed."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The beast swallows a large or smaller creature that it is grappling. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the beast.",
+						"At the end of the beasts turn the creatures inside it has their vital energy drained, charging the beast crystals by ({@dice 1d6 + 3}). Each creature inside the beast must roll a hit dice for each charge the beast has drained, taking that as damage to their maximum hit points, this damage can't be reduced by any means, a creature that gets reduced to 0 maximum hit points has it body destroyed and dies. ",
+						"If the beast takes 60 or more damage in a single turn from creatures inside it, it must succeed on a {@dc 20} Constitution saving throw or regurgitate all creatures it has swallowed."
+					]
+				},
+				{
+					"name": "Supercharged Beam",
+					"entries": [
+						"When the beast's crystals are fully charged it can shoot a powerful 120-feet-long 20-feet-wide beam. Each creature in the area must make a {@dc 20} Dexterity saving throw taking {@damage 10d10 + 60} force damage on a failed save, or half as much on a successful one. A creature that fails the save and is reduced to 0 hit points dies and its body and possessions (except magic items) are destroyed. The beam also destroys any object in its path."
+					]
+				},
+				{
+					"name": "Inhale {@recharge 6}",
+					"entries": [
+						"The beast open its mouths and inhales with tremendous strength. Each creature in 90-feet-long 20-foot-wide line makes a {@dc 20} Strength saving throw being pulled 15 feet towards the beast on a successful save, or be pulled 30 feet and being knocked {@condition prone} on a failed save. Flying creatures makes the save with disadvantage.",
+						"Additionally a creature that is {@condition prone} and get within 5 feet of the beast during Inhale, gets swallowed."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Magic Absorption",
+					"entries": [
+						"When the beast is the target or is in the area of a spell it can use it's reaction to nullify it and absorb its energy, gaining mana charges equal to the spell's level."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The beast makes a Bite, Swallow or Claw attack."
+					]
+				},
+				{
+					"name": "Powerful Healing",
+					"entries": [
+						"The beast consumes all of its charges restoring 40 hit points per charge."
+					]
+				},
+				{
+					"name": "Empowered Blast",
+					"entries": [
+						"The beast consumes all of its charges shooting a blast of force at a target. The target makes {@dc 20} Dexterity saving throw taking {@damage 10d10} +10 (per charge) force damage on a failed save, or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Supercharged Beam (3 actions)",
+					"entries": [
+						"The beast uses its Supercharged Beam."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"tokenUrl": "https://5e.tools/img/ULDM/Giant Frog.png?v=1.106.12",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-frog.mp3?v=1.106.12"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"A"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Palm Monk",
+			"shortName": "Monk",
+			"source": "UlucaiDM",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "25d8 + 125",
+				"average": 237
+			},
+			"speed": {
+				"walk": 60,
+				"climb": 60,
+				"swim": 60
+			},
+			"str": 16,
+			"dex": 22,
+			"con": 20,
+			"int": 13,
+			"wis": 22,
+			"cha": 14,
+			"save": {
+				"str": "+9",
+				"dex": "+12",
+				"con": "+11",
+				"wis": "+12",
+				"int": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"acrobatics": "+12",
+				"history": "+7",
+				"religion": "+7",
+				"stealth": "+12",
+				"perception": "+12"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 22,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"charmed",
+						"frightened",
+						"poisoned"
+					],
+					"note": "(and Diseases)"
+				}
+			],
+			"languages": [
+				"All languages"
+			],
+			"cr": "18",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the sun monk is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the sun monk instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Step of the Wind",
+					"entries": [
+						"The monk can take the Disengage or Dash actions as a bonus action."
+					]
+				},
+				{
+					"name": "Flurry of Blows",
+					"entries": [
+						"The monk can use his bonus action to makes two unarmed strikes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Monk makes three unarmed strikes and uses his quivering palm (if available)."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage. If the target is a creature, the monk can cause one of the following effects:",
+						"The creature must succeed on a {@dc 22} Strength saving throw or drop one item it is holding (monk's choice).",
+						"The creature must succeed on a {@dc 22} Strength saving throw or be pushed 15 feet away from the monk.",
+						"The creature must succeed on a {@dc 22} Dexterity saving throw or be knocked {@condition prone}.",
+						"The creature must succeed on a {@dc 22} Strength saving throw or be {@condition stunned} until the start of the monk's next turn."
+					]
+				},
+				{
+					"name": "Quivering Palm {@recharge 6}",
+					"entries": [
+						"When the monk hits a creature with an unarmed strike it can force the target to make a {@dc 20} Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 ({@damage 10d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Wholeness of Body (Recharges after a Long Rest).",
+					"entries": [
+						"The monk regains 60 hit points."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missile",
+					"entries": [
+						"In response to being hit by a ranged weapon attack, the monk deflects the missile. The damage it takes from the attack is reduced by {@dice 1d10 + 25}. If the damage is reduced to 0, the monk catches the missile if it's small enough to hold in one hand and the monk has a hand free."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			]
+		},
+		{
+			"name": "Perfidy, The Whisperer",
+			"shortName": "Whisperer",
+			"group": "Chromatic Dragon",
+			"source": "UlucaiDM",
+			"page": 93,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "half-dragon",
+						"prefix": "green"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "40d8 + 280",
+				"average": 460
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 90,
+				"swim": 50,
+				"climb": 50,
+				"canHover": false
+			},
+			"str": 12,
+			"dex": 27,
+			"con": 25,
+			"int": 20,
+			"wis": 17,
+			"cha": 26,
+			"save": {
+				"dex": "+15",
+				"con": "+14",
+				"wis": "+10",
+				"cha": "+15"
+			},
+			"skill": {
+				"deception": "+22",
+				"insight": "+17",
+				"perception": "+17",
+				"persuasion": "+15",
+				"stealth": "+15",
+				"sleight of hand": "+15",
+				"performance": "+15",
+				"medicine": "+17",
+				"arcana": "+12"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 27,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"psychic",
+				"thunder"
+			],
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magical weapons"
+				},
+				{
+					"immune": [
+						"poison"
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"All languages"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Whisperer acolyte's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit). The whisperer can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell bestow curse}",
+						"{@spell contagion}",
+						"{@spell hex}",
+						"{@spell nondetection}",
+						"{@spell Nystul's magic aura}",
+						"{@spell prestidigitation}",
+						"{@spell shield}"
+					],
+					"daily": {
+						"1": [
+							"{@spell clone}",
+							"{@spell cloudkill} (9th level)",
+							"{@spell feeblemind}",
+							"{@spell illusory dragon|XGE}",
+							"{@spell maze}",
+							"{@spell power word pain|XGE}",
+							"{@spell power word stun}",
+							"{@spell soul cage|XGE}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the whisperer fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Corrosive Poison",
+					"entries": [
+						"The whisperer's poisons ignores resistances. If a target is immune to poison, it takes acid damage instead."
+					]
+				},
+				{
+					"name": "Poisoned weapons",
+					"entries": [
+						"The whisperer's weapon attacks are magical. When the whisperer hits with any weapon, the weapon deals {@dice 6d6} extra poison damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The whisperer makes three attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Poison Breath {@recharge 5}",
+					"entries": [
+						"The whisperer exhales poisonous gas in a 90-foot cone. Each creature in that area must make a {@dc 22} Constitution saving throw, taking 77 ({@damage 22d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Poison Darts",
+					"entries": [
+						"{@atk rs} {@hit 15} to hit, range 120 ft., one target. {@h}23 ({@damage 6d4 + 8}) piercing damage, plus 21 ({@damage 6d6}) poison damage."
+					]
+				},
+				{
+					"name": "Shapechange",
+					"entries": [
+						"The whisperer magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the whisperer's choice).",
+						"In a new form, the whisperer retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The whisperer moves up to her speed without causing an opportunity attack."
+					]
+				},
+				{
+					"name": "Attack",
+					"entries": [
+						"The whisperer makes an attack."
+					]
+				},
+				{
+					"name": "Breath (3 actions)",
+					"entries": [
+						"The whisperer recharges and use her breath weapon."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/quJURlB.png"
+						}
+					}
+				]
+			},
+			"dragonCastingColor": "G",
+			"tokenUrl": "https://i.imgur.com/tbkAaEcr.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflictLegendary": [
+				"charmed",
+				"restrained"
+			]
+		},
+		{
+			"name": "Shemeshka, The Marauder",
+			"shortName": "Marauder",
+			"source": "UlucaiDM",
+			"page": 313,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"yugoloth"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 150",
+				"average": 285
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 19,
+			"dex": 16,
+			"con": 20,
+			"int": 30,
+			"wis": 20,
+			"cha": 21,
+			"save": {
+				"dex": "+11",
+				"int": "+18",
+				"wis": "+13",
+				"cha": "+13"
+			},
+			"skill": {
+				"arcana": "+26",
+				"deception": "+9",
+				"insight": "+9",
+				"perception": "+13",
+				"acrobatics": "+11",
+				"persuasion": "+21",
+				"religion": "+18",
+				"stealth": "+19",
+				"history": "+18",
+				"sleight of hand": "+19",
+				"survival": "+13"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 23,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"petrified",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "28",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The marauder is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 26}, {@hit 18} to hit with spell attacks). The arcanaloth has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell disguise self}",
+								"{@spell identify}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell alter self}",
+								"{@spell darkness}",
+								"{@spell mirror image}",
+								"{@spell Nystul's magic aura}",
+								"{@spell suggestion}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fear}",
+								"{@spell fireball}",
+								"{@spell nondetection}"
+							],
+							"slots": 0
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell dimension door}",
+								"{@spell fabricate}",
+								"{@spell locate creature}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contact other plane}",
+								"{@spell hold monster}",
+								"{@spell modify memory}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell contingency}",
+								"{@spell globe of invulnerability}",
+								"{@spell soul cage|XGE}"
+							],
+							"slots": 3
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell plane shift}",
+								"{@spell sequester}",
+								"{@spell teleport}"
+							],
+							"slots": 3
+						},
+						"8": {
+							"spells": [
+								"{@spell dominate monster}",
+								"{@spell feeblemind}",
+								"{@spell mind blank}"
+							],
+							"slots": 2
+						},
+						"9": {
+							"spells": [
+								"{@spell gate}",
+								"{@spell psychic scream|XGE}",
+								"{@spell time stop}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The marauder has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The marauder's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"With a bonus action the marauder magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Preparation",
+					"entries": [
+						"When preparing her spells, the marauder can swap out any spell on her list of prepared spells for another wizard spell of the same level."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage. The target must make a {@dc 22} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The marauder casts a spell."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The marauder uses teleport"
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/ULDM/Arcanaloth.png?v=1.107.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/arcanaloth.mp3?v=1.107.0"
+			},
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"I",
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "The Blade Singer",
+			"shortName": "Hakashu",
+			"source": "UlucaiDM",
+			"page": 236,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "18d8 + 18",
+				"average": 99
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 8,
+			"dex": 18,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"con": "+5"
+			},
+			"skill": {
+				"stealth": "+12",
+				"perception": "+5",
+				"insight": "+5",
+				"deception": "+12",
+				"acrobatics": "+12",
+				"persuasion": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Infernal",
+				"Dwarvish",
+				"Elvish"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Ambush",
+					"entries": [
+						"On the first round of each combat, the mangler has advantage on attack rolls against a creature that hasn't taken a turn yet."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the hakashu can take the Hide action as a bonus action, merging with the shadows even if there is no cover."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The hakashu can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hakashu makes two claw attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. If the attack roll has advantage, the target also takes 7 ({@damage 2d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Flurry of blades {@recharge 4}",
+					"entries": [
+						"The hakashu makes six claw attacks against one target. Either before or after these attacks, it can move up to its speed as a bonus action without provoking opportunity attacks."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"The hakashu halves the damage that it takes from an attack that hits it."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/x482s38.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/z2PV0tB.png",
+			"traitTags": [
+				"Ambusher",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"I"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "The Exiled King",
+			"shortName": "King",
+			"group": "Chromatic Dragon",
+			"source": "UlucaiDM",
+			"page": 97,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 27,
+					"from": [
+						"King's Plate"
+					]
+				}
+			],
+			"hp": {
+				"formula": "40d10 + 400",
+				"average": 620
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50,
+				"fly": 80
+			},
+			"str": 30,
+			"dex": 15,
+			"con": 30,
+			"int": 18,
+			"wis": 22,
+			"cha": 26,
+			"save": {
+				"dex": "+9",
+				"con": "+17",
+				"wis": "+13",
+				"cha": "+15"
+			},
+			"skill": {
+				"perception": "+20",
+				"stealth": "+9",
+				"persuasion": "+15",
+				"intimidation": "+22",
+				"history": "+11",
+				"insight": "+13",
+				"arcana": "+11",
+				"athletics": "+17"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 30,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning",
+						"poison",
+						"thunder"
+					]
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magic weapon"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"incapacitated",
+				"petrified"
+			],
+			"languages": [
+				"All languages",
+				"telepathy (120 ft.)"
+			],
+			"cr": "24",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The king's spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell antilife shell}",
+						"{@spell chromatic orb}",
+						"{@spell crown of stars|XGE}",
+						"{@spell dispel magic}",
+						"{@spell misty step}",
+						"{@spell sanctuary}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell chain lightning}",
+							"{@spell cone of cold} (6th level)",
+							"{@spell fireball} (6th level)",
+							"{@spell invulnerability|XGE}",
+							"{@spell thunderous smite} (6th level)",
+							"{@spell vitriolic sphere|XGE} (6th level)"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the king fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Royal Rebuke",
+					"entries": [
+						"Whenever a creature hits the king with an attack it takes {@damage 8} psychic damage."
+					]
+				},
+				{
+					"name": "Martial Expert",
+					"entries": [
+						"Any weapon the king wield is considered magic, he also gains the following benefit based on which kind of weapon he wield:",
+						"{@b Sovereign Aim}: The king uses Strength to make ranged weapon attacks, doesn't have disadvantage on long range attacks and ignores half and three-quarters cover.",
+						"{@b Royal Alacrity}: While dual wielding the king can make two extra attacks as part of his attack action.",
+						"{@b Majestic Cleave}: While wielding a heavy weapon the king can reroll any 1 and 2 on his damage rolls with that weapon. Additionally when the king hits a creature with a weapon attack he can use his bonus action to cleave all enemies within 10 feet.",
+						"Each enemy makes a {@dc 25} Dexterity saving throw suffering the same damage of the initial attack, and half as much on a successful save."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The king has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The king can use its Frightful, Inspiring Presence or Royal Might. It then makes three weapon attacks."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the king's choice that is within 120 feet of the him and aware of it must succeed on a {@dc 21} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Majestic Wave {@recharge 5}",
+					"entries": [
+						"The king send an elemental wave in a 90-foot cone. Each creature in that area must make a {@dc 24} Dexterity, (or Constitution) saving throw, taking 81 ({@damage 18d8}) fire/ice/lightning/acid damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Inspiring Presence {@recharge 5}",
+					"entries": [
+						"The king inspire any number of allies within 120 feet of him that are aware of his presence. Each inspired creature gains 40 temporary hit points. Additionally the king's allies have advantage on attack rolls, ability checks and saving throws until the start of the king's next turn."
+					]
+				},
+				{
+					"name": "Gram",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h} 24 ({@damage 4d6 + 10}) slashing damage, plus 28({@damage 8d6}) fire damage. ",
+						"A creature hit by this attack has disadvantage on all attack rolls until the end of its turn."
+					]
+				},
+				{
+					"name": "Royal Bow",
+					"entries": [
+						"{@atk rw} {@hit 17} to hit, range 150/600 ft., one target. {@h} 19 ({@damage 2d8 + 10}) piercing damage, plus 22({@damage 5d8}) ice damage. ",
+						"A creature hit by this attack has its movement halved until the end of its next turn. If it is a critical attack the targets movement is reduced to 0."
+					]
+				},
+				{
+					"name": "Twin Crowns",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h} 17 ({@damage 2d6 + 10}) slashing damage, plus 10 ({@damage 3d6}) lightning damage.",
+						"This attack is made with advantage against creatures wearing metal armor. A creature hit by this attack loses its reaction."
+					]
+				},
+				{
+					"name": "King's Iron Fist",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d6 + 10}) bludgeoning damage, plus 37 ({@damage 5d10 + 10}) acid damage.",
+						"This attack reduce the targets AC by -2 (non cumulative) until the start of the king's next turn."
+					]
+				},
+				{
+					"name": "Royal Might",
+					"entries": [
+						"The king gains advantage on all attack rolls and ability checks and saving throws until the end of his turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Martial Might",
+					"entries": [
+						"When the king is hit by a weapon attack that deals Slashing, Piercing, Bludgeoning damage. He can choose to have immunity to one of those type of damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The king moves up to his speed."
+					]
+				},
+				{
+					"name": "Attack",
+					"entries": [
+						"The king makes a weapon attack."
+					]
+				},
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The king casts a spell."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/kKKONxS.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/a9qBNgF.png?v=1.112.2",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"L",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictLegendary": [
+				"incapacitated",
+				"poisoned",
+				"prone"
+			]
+		},
+		{
+			"name": "The Hunter",
+			"shortName": "Hunter",
+			"source": "UlucaiDM",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Hunter's Garb"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 96",
+				"average": 204
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 24,
+			"con": 18,
+			"int": 14,
+			"wis": 22,
+			"cha": 13,
+			"save": {
+				"dex": "+13",
+				"str": "+9",
+				"wis": "+12"
+			},
+			"skill": {
+				"acrobatics": "+13",
+				"animal handling": "+12",
+				"perception": "+12",
+				"survival": "+12",
+				"stealth": "+13"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 22,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"(plus 2 additional languages)"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Innate Spellasting",
+					"headerEntries": [
+						"The Hunter's innate spellcasting ability is Wisdom (spell save {@dc 20}. It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell freedom of movement}",
+							"{@spell guardian of nature|XGE}",
+							"{@spell swift quiver}",
+							"{@spell teleportation circle}",
+							"{@spell wind wall}"
+						],
+						"3e": [
+							"{@spell fog cloud}",
+							"{@spell lesser restoration}",
+							"{@spell misty step}",
+							"{@spell silence}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Distant Strike",
+					"entries": [
+						"On his turn the hunter can teleport up to 10 feet before each attack to an unoccupied space he can see."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The hunter has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The hunter's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hunter can use its Piercing Rain (if available). It then makes three attacks longbow attacks."
+					]
+				},
+				{
+					"name": "Longbow - Vine Arrow",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 150/600 ft., one target. {@h}10 ({@damage 1d8 + 7}) piercing damage, and the target must succeed on a {@dc 20} Strength saving throw or be {@condition restrained} by vines that burst our of the arrow and take 10 ({@damage 3d6}) piercing damage at the start of each of its turn."
+					]
+				},
+				{
+					"name": "Longbow -  Force Arrow",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 150/600 ft., one target. {@h} 20 ({@damage 3d8 + 7}) force damage. This attack ignores cover and strong wind."
+					]
+				},
+				{
+					"name": "Piercing Rain {@recharge 5}",
+					"entries": [
+						"The hunter shoots an arrow or throw a weapon in the air, causing a volley of magic duplicates to fall on a 40-foot-radius, 20-foot-high cylinder centered on that point within 150 feet. Each creature in the area must make a {@dc 20} Dexterity saving throw taking 63 ({@damage 14d8}) piercing damage on a failed save, or half as much on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
+		},
+		{
+			"name": "The Planewalker Collector",
+			"shortName": "Collector",
+			"isNamedCreature": true,
+			"source": "UlucaiDM",
+			"page": 288,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 325,
+				"formula": "31d8 + 186"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 26,
+			"dex": 21,
+			"con": 22,
+			"int": 26,
+			"wis": 23,
+			"cha": 24,
+			"save": {
+				"int": "+15",
+				"wis": "+13",
+				"cha": "+14"
+			},
+			"skill": {
+				"arcana": "+22",
+				"history": "+22",
+				"insight": "+13",
+				"perception": "+13",
+				"animal handling": "+20",
+				"medicine": "+20"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 23,
+			"resist": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"prone"
+			],
+			"languages": [
+				"Deep Speech",
+				"telepathy 120 ft."
+			],
+			"cr": "24",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The collector's innate spellcasting ability is Intelligence (spell save {@dc 23}). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell levitate}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell contingency} (Can prepare spells of any level)",
+							"{@spell disintegrate}",
+							"{@spell dominate monster}",
+							"{@spell plane shift} (self only)",
+							"{@spell wall of force}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Alien Mind",
+					"entries": [
+						"If a creature tries to read the collector's thoughts or deals psychic damage to it, that creature must succeed on a {@dc 23} Intelligence saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the collector fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The collector has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The collector regains 20 hit points at the start of its turn. If the collector takes radiant damage, this trait doesn't function at the start of its next turn. The collector dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"As a bonus action, the collector can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The collector makes one Tentacle Whip attack and uses its Corruption or Cast a Spell once. The collector can replace its Tentacle Whip attack with Extract Brain if it has a creature {@condition grappled}."
+					]
+				},
+				{
+					"name": "Tentacle Whip",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d10 + 8}) slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 23}), pulled into an unoccupied space within 5 feet of the collector, and must succeed on a {@dc 23} Intelligence saving throw or be {@condition stunned} until this grapple ends. The collector can't use the same tentacle whip on another target until this grapple ends. The Collector has two tentacle whips."
+					]
+				},
+				{
+					"name": "Corruption",
+					"entries": [
+						"The collector targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 23} Constitution saving throw or take 22 ({@damage 4d6 + 8}) necrotic damage and become corrupted for 1 minute.",
+						"A corrupted creature's flesh twists in alien ways. The creature has disadvantage on attack rolls, its speed is reduced by half, and if it tries to cast a spell, it must first succeed on a {@dc 15} Intelligence check or the spell fails and is wasted. The corrupted creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Extract Brain",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one {@condition incapacitated} creature {@condition grappled} by the collector. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, the collector kills the target by extracting and devouring its brain."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tentacle Whip",
+					"entries": [
+						"The collector makes one attack with its Tentacle Whip."
+					]
+				},
+				{
+					"name": "Spawn Collection (Costs 2 Actions)",
+					"entries": [
+						"The collector conjure one creature from his menagerie  in an unoccupied space within 5 feet of it. The creature is under the collector's control and acts immediately after the collector in the initiative order."
+					]
+				},
+				{
+					"name": "Mind Blast (Costs 3 Actions)",
+					"entries": [
+						"The collector magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 23} Intelligence saving throw or take 30 ({@damage 5d8 + 8}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Cast Spell (Costs 3 Actions)",
+					"entries": [
+						"The Collector casts a spell"
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/1B0SNaS.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/gilMgr6.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DS",
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"stunned"
+			],
+			"conditionInflictLegendary": [
+				"restrained"
+			]
+		},
+		{
+			"name": "The Sorcerer",
+			"shortName": "Sorcerer",
+			"source": "UlucaiDM",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Shadow Garb"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d6 + 100",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 20,
+			"int": 17,
+			"wis": 16,
+			"cha": 24,
+			"save": {
+				"cha": "+13",
+				"wis": "+9",
+				"con": "+11"
+			},
+			"skill": {
+				"arcana": "+9",
+				"insight": "+9",
+				"perception": "+9",
+				"investigation": "+9",
+				"persuasion": "+13",
+				"intimidation": "+13"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"force",
+						"lightning",
+						"poison",
+						"psychic",
+						"thunder"
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"unconscious"
+			],
+			"languages": [
+				"Common",
+				"Celestial",
+				"Infernal",
+				"Elvish",
+				"Primordial"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Subtle Spellcasting",
+					"headerEntries": [
+						"The sorcerer is a 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 21 },  {@hit 13} to hit with spell attacks) and doesn't require verbal or somatic components."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell create bonfire|XGE}",
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell message}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell expeditious retreat}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell invisibility}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell slow}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell greater invisibility}",
+								"{@spell wall of fire}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell mental prison|XGE}",
+								"{@spell true seeing}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell plane shift}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell Abi-Dalzim's horrid wilting|XGE}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell psychic scream|XGE}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shadow Form",
+					"entries": [
+						"The sorcerer can move through other creatures and objects as if they were difficult terrain, taking 5 force damage if he end its turn inside an object."
+					]
+				},
+				{
+					"name": "Cantrip Mastery",
+					"entries": [
+						"When the sorcerer casts a cantrip that can target only one creature it can target a second one. Additionally  the sorcerer can cast any cantrip with casting time of action as a bonus action."
+					]
+				},
+				{
+					"name": "Quickened Spell (3/day)",
+					"entries": [
+						"When the sorcerer casts a spell that has a casting time of 1 action, he can spend a bonus action for this casting."
+					]
+				},
+				{
+					"name": "Heightened Spell (3/day)",
+					"entries": [
+						"When the sorcerer casts a spell that forces a creature to make a saving throw to resist its effects, he can give one target of the spell disadvantage on its first saving throw made against the spell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The sorcerer has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"E",
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			]
+		},
+		{
+			"name": "Bloroch",
+			"shortName": "Giant",
+			"source": "UlucaiDM",
+			"page": 151,
+			"size": "H",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"storm giant"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"King's Mantle"
+					]
+				}
+			],
+			"hp": {
+				"formula": "37d12 + 222",
+				"average": 462
+			},
+			"speed": {
+				"walk": 50,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				},
+				"swim": 50,
+				"canHover": true
+			},
+			"str": 29,
+			"dex": 16,
+			"con": 22,
+			"int": 17,
+			"wis": 20,
+			"cha": 19,
+			"save": {
+				"str": "+16",
+				"con": "+13",
+				"wis": "+12",
+				"cha": "+11"
+			},
+			"skill": {
+				"arcana": "+10",
+				"history": "+10"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"prone"
+			],
+			"languages": [
+				"Common",
+				"Giant",
+				"Primordial"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The giant's innate spellcasting ability is Wisdom (spell save {@dc 20}). It can innately cast the following spells, requiring no material components: "
+					],
+					"rest": {
+						"1e": [
+							"{@spell divine word}",
+							"{@spell power word pain|XGE}",
+							"{@spell power word stun}",
+							"{@spell scrying}",
+							"{@spell slow}"
+						]
+					},
+					"will": [
+						"{@spell disintegrate}",
+						"{@spell dispel magic}",
+						"{@spell levitate} (no concentration required)",
+						"{@spell lightning bolt}",
+						"{@spell lightning lure|TCE} (15->60ft/ 10-20ft)",
+						"{@spell shocking grasp}"
+					],
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The giant can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The giant has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Bound",
+					"entries": [
+						"The giant cannot leave or be forced out of his castle by any means."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the giant fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two Lightning Sword attacks or uses Thunder Javelin twice. And Casts a spell."
+					]
+				},
+				{
+					"name": "Lightning Sword",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}72 ({@damage 10d8 + 9}) lightning damage."
+					]
+				},
+				{
+					"name": "Thunder Javelin",
+					"entries": [
+						"The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 36 ({@damage 8d8 + 9}) thunder damage to the target, striking unerringly. The javelin disappears after it hits."
+					]
+				},
+				{
+					"name": "Chain Lightning {@recharge 5}",
+					"entries": [
+						"The giant Casts {@spell chain lightning}"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Thunder Hammer (2 Actions)",
+					"entries": [
+						"The giant hurls its Hammer at creature it can see within 120 feet of it creating a shockwave. The target and each creature within 10 feet or if must make a {@dc 20} Constitution saving throw. A target takes 75 ({@damage 12d10 + 9}) thunder damage and be pushed up to 20 feet away from the giant on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Attack",
+					"entries": [
+						"The giant makes a Lightning Sword or Thunder Javelin Attack."
+					]
+				},
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The Giant casts a spell."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"mountain",
+				"underwater"
+			],
+			"fluff": {
+				"name": "Storm Giant Quintessent",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"To forestall the inevitable, some storm giants approaching the end of their natural life spans seek an escape from death. They plumb the depths of their powerful connection to the elements and disperse themselves into nature, literally transforming into semiconscious storms. The blizzard that rages unendingly around a mountain peak, the vortex that swirls around a remote island, or the thunderstorm that howls ceaselessly up and down a rugged coastline could, in fact, be the undying form of a storm giant clinging to existence.",
+											{
+												"name": "Elemental Weapons",
+												"entries": [
+													" A storm giant quintessent sheds its armor and weapons, but gains the power to form makeshift weapons out of thin air. When the giant has no further use of them, or when the giant dies, its elemental weapons disappear."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Forsaken Form",
+												"entries": [
+													" A storm giant quintessent can revert to its true giant form on a whim. The change is temporary but can be maintained long enough for the giant to communicate with a mortal, carry out a short task, or defend its home against aggressors."
+												],
+												"type": "entries"
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "A Quintessent's Lair",
+										"entries": [
+											"A storm giant quintessent has no need for castles or dungeon lairs. Its lair is usually a secluded region or prominent geographic feature, such as a mountain peak, a great waterfall, a remote island, a fog-shrouded loch, a beautiful coral reef, or a windswept desert bluff. As befits the environment, the storm in which the giant lives could be a blizzard, a typhoon, a thunderstorm, or a sandstorm."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"A storm giant quintessent can use lair actions in giant form and while transformed into a storm. On initiative count 20 (losing initiative ties), the giant can take a lair action to cause one of the following effects; the giant can't use the same effect two rounds in a row:",
+									{
+										"type": "list",
+										"items": [
+											"The giant creates a thunderclap centered on a point anywhere in its lair. Each creature within 20 feet of that point must succeed on a {@dc 18} Constitution saving throw or be {@condition deafened} until the end of its next turn.",
+											"The giant creates a 20-foot-radius sphere of fog (or murky water within water) centered on a point anywhere in its lair. The sphere spreads around corners, and its area is heavily obscured. The fog lasts until the giant disperses it (no action required), and it can't be dispersed by wind.",
+											"The giant creates a 60-foot-long, 10-foot-wide line of strong wind ( or strong current within water) originating from a point anywhere in its lair. Each creature in that line must succeed on a {@dc 18} Strength saving throw or be pushed 15 feet in the direction the wind is blowing. The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in its area. Protected flames, such as those of lanterns, have a 50 percent chance of being extinguished."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region containing a storm giant quintessent's lair is warped by the giant's presence, which creates one or more of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"High wind blows within 1 mile of the lair, making it impossible to light a fire unless the location where the fire is lit is protected from the wind.",
+											"Rain, snow, or blowing dust or sand (whichever is most appropriate) is constant within 1 mile of the lair. Rain causes rivers and streams to fill or overflow their banks; snow, dust, or sand form deep drifts or dunes.",
+											"Flashes of lightning and peals of thunder are continual, day and night, within 5 miles of the lair."
+										]
+									},
+									"If the giant dies, the lightning, thunder, and high wind regional effects end immediately. Rain, snow, and blowing dust abate gradually within {@dice 1d8} days."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Storm Giant Quintessent.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Storm Giant Quintessent.png?v=1.117.4",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/storm-giant-quintessent.mp3?v=1.117.4"
+			},
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GI",
+				"P"
+			],
+			"damageTags": [
+				"L",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Aboleth Pago",
+			"shortName": "BP",
+			"source": "UlucaiDM",
+			"page": 13,
+			"size": "H",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"Coisa Linda"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Honra"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d12 + 120",
+				"average": 276
+			},
+			"speed": {
+				"walk": 10,
+				"swim": 40,
+				"fly": 40,
+				"canHover": false
+			},
+			"str": 21,
+			"dex": 9,
+			"con": 20,
+			"int": 20,
+			"wis": 15,
+			"cha": 28,
+			"save": {
+				"con": "+11",
+				"int": "+11",
+				"wis": "+8",
+				"cha": "+15"
+			},
+			"skill": {
+				"history": "+17",
+				"perception": "+14",
+				"arcana": "+11",
+				"persuasion": "+21",
+				"intimidation": "+15"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 24,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons"
+				},
+				{
+					"resist": [
+						"necrotic",
+						"radiant"
+					]
+				}
+			],
+			"immune": [
+				"acid",
+				"fire"
+			],
+			"conditionImmune": [
+				"charmed",
+				"invisible"
+			],
+			"languages": [
+				"All",
+				"telepathy 120 ft."
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The bp innate spellcasting ability is Charisma (spell save {@dc 22}). It can innately cast the following spells, requiring no components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm monster|XGE}",
+							"{@spell disintegrate}",
+							"{@spell dominate monster}",
+							"{@spell enthrall}",
+							"{@spell gate}",
+							"{@spell psychic scream|XGE}",
+							"{@spell synaptic static|XGE}"
+						]
+					},
+					"will": [
+						"{@spell bestow curse} (until dispelled)",
+						"{@spell plane shift} (self only)"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The bp has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Encantador",
+					"entries": [
+						"A creature that starts its turn within 60 feet of the bp must succeed on a {@dc 22} Wisdom saving throw or become {@condition charmed} by it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bp makes two Due date attacks and uses Eviction Notice once."
+					]
+				},
+				{
+					"name": "Due date",
+					"entries": [
+						"{@atk rs} {@hit +14} to hit, range 120/120 ft., one target. {@h}45 ({@damage 8d8 + 9}) psychic damage."
+					]
+				},
+				{
+					"name": "Eviction Notice {@recharge 5}",
+					"entries": [
+						"Every creature within 60 feet of the bp must succeed on a {@dc 22} Charisma saving throw be banished to Carceri."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The bp uses its Due Date attack."
+					]
+				},
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The bp casts a spell."
+					]
+				},
+				{
+					"name": "Eviction Notice (3 actions)",
+					"entries": [
+						"The bp recharges and use its Eviction Notice."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"tokenUrl": "https://i.imgur.com/73TXTLU.png",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"conditionInflictLegendary": [
+				"prone"
+			]
+		},
+		{
+			"name": "Larva",
+			"shortName": "Lavinha",
+			"source": "UlucaiDM",
+			"page": 63,
+			"size": "M",
+			"type": "fiend",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Casquinha"
+					]
+				}
+			],
+			"hp": {
+				"formula": "19d12 - 19",
+				"average": 104
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40,
+				"canHover": false,
+				"burrow": 20
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 8,
+			"int": 6,
+			"wis": 10,
+			"cha": 2,
+			"save": {
+				"str": "+7"
+			},
+			"skill": {
+				"acrobatics": "+12",
+				"perception": "+4"
+			},
+			"senses": [
+				"blindsight 60 ft (blind beyond this radius)."
+			],
+			"passive": 14,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magical weapons"
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire"
+					]
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"languages": [
+				"Primordial"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"{@dc 18}"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bane}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell barkskin}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell summon fey|TCE}"
+							],
+							"slots": 0
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The lavinha has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the lavinha has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the lavinha scores against a surprised creature is a critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage. {@condition charmed}"
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rIqTPuT.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/a5Syyxz.png",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Grieving Blade",
+			"source": "UlucaiDM",
+			"page": 187,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Kenku"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Shroud of Shadows"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 88",
+				"average": 187
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 10,
+			"dex": 21,
+			"con": 18,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"dex": "+10",
+				"con": "+9",
+				"wis": "+7"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+10",
+				"acrobatics": "+10",
+				"arcana": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Infernal",
+				"Undercommon"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The grieving blade's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell invisibility}",
+						"{@spell sword burst|TCE} "
+					],
+					"daily": {
+						"1e": [
+							"{@spell antilife shell}",
+							"{@spell dimension door}",
+							"{@spell faerie fire}",
+							"{@spell levitate} (self only)",
+							"{@spell shadow of moil|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shadow Step",
+					"entries": [
+						"While in dim light or darkness, the grieving blade can teleport as a bonus action up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the grieving blade is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The grieving blade makes two attacks with its shadow blade or daggers. If either attack hits and the target is within 10 feet of a 5-foot cube of darkness created by the shadow blade, the grieving blade can dismiss that darkness and cause the target to take ({@damage 6d6}) necrotic damage. The grieving blade can dismiss darkness in this way no more than once per turn."
+					]
+				},
+				{
+					"name": "Shadow Blade",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage and 10 ({@damage 3d6}) poison damage. The grieving blade can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+					]
+				},
+				{
+					"name": "Shadow Dagger",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 20/60 ft., one target. {@h} 7 ({@damage 1d4 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage and 10 ({@damage 3d6}) poison damage. The grieving blade can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"Whenever the grieving blade is hit by an attack he can use its reaction to halve the damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/W7tA1Yp.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/zFWlCwF.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"I",
+				"U"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"THW"
+			]
+		}
+	]
+}
