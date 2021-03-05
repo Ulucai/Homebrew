@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1610816485,
-		"dateLastModified": 1610816485
+		"dateAdded": 1614903129,
+		"dateLastModified": 1614903129
 	},
 	"monster": [
 		{
@@ -3131,6 +3131,7 @@
 					]
 				}
 			],
+			"tokenUrl": "https://i.imgur.com/9WSyfAL.png",
 			"senseTags": [
 				"D"
 			],
@@ -4218,6 +4219,7 @@
 					]
 				}
 			],
+			"tokenUrl": "https://i.imgur.com/hukUC4b.png",
 			"traitTags": [
 				"Magic Resistance",
 				"Magic Weapons"
@@ -5112,6 +5114,1276 @@
 			],
 			"conditionInflictLegendary": [
 				"prone"
+			]
+		},
+		{
+			"name": "Grieving Blade",
+			"source": "UlucaiDM",
+			"page": 187,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Kenku"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Shroud of Shadows"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 88",
+				"average": 187
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 10,
+			"dex": 21,
+			"con": 18,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"dex": "+10",
+				"con": "+9",
+				"wis": "+7"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+10",
+				"acrobatics": "+10",
+				"arcana": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Infernal",
+				"Undercommon"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The grieving blade's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell invisibility}",
+						"{@spell sword burst|TCE} "
+					],
+					"daily": {
+						"1e": [
+							"{@spell antilife shell}",
+							"{@spell dimension door}",
+							"{@spell faerie fire}",
+							"{@spell levitate} (self only)",
+							"{@spell shadow of moil|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shadow Step",
+					"entries": [
+						"While in dim light or darkness, the grieving blade can teleport as a bonus action up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the grieving blade is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The grieving blade makes two attacks with its shadow blade or daggers. If either attack hits and the target is within 10 feet of a 5-foot cube of darkness created by the shadow blade, the grieving blade can dismiss that darkness and cause the target to take ({@damage 6d6}) necrotic damage. The grieving blade can dismiss darkness in this way no more than once per turn."
+					]
+				},
+				{
+					"name": "Shadow Blade",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage and 10 ({@damage 3d6}) poison damage. The grieving blade can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+					]
+				},
+				{
+					"name": "Shadow Dagger",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 20/60 ft., one target. {@h} 7 ({@damage 1d4 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage and 10 ({@damage 3d6}) poison damage. The grieving blade can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"Whenever the grieving blade is hit by an attack he can use its reaction to halve the damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/W7tA1Yp.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/zFWlCwF.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"I",
+				"U"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Storm Giant  Guardian",
+			"source": "UlucaiDM",
+			"page": 151,
+			"size": "H",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"storm giant"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 230,
+				"formula": "20d12 + 100"
+			},
+			"speed": {
+				"walk": 50,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				},
+				"swim": 50,
+				"canHover": true
+			},
+			"str": 29,
+			"dex": 14,
+			"con": 20,
+			"int": 17,
+			"wis": 20,
+			"cha": 19,
+			"save": {
+				"str": "+14",
+				"con": "+10",
+				"wis": "+10",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8"
+			},
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The giant can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two Lightning Sword attacks or uses Wind Javelin twice."
+					]
+				},
+				{
+					"name": "Lightning Sword",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}40 ({@damage 9d6 + 9}) lightning damage."
+					]
+				},
+				{
+					"name": "Windjavelin",
+					"entries": [
+						"The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 ({@damage 3d6 + 9}) piercing damage to the target, striking unerringly. The javelin disappears after it hits."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Gust",
+					"entries": [
+						"The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around it. The target must succeed on a {@dc 18} Strength saving throw or be pushed up to 20 feet in any horizontal direction the giant chooses."
+					]
+				},
+				{
+					"name": "Thunderbolt (2 Actions)",
+					"entries": [
+						"The giant hurls a thunderbolt at a creature it can see within 600 feet of it. The target must make a {@dc 18} Dexterity saving throw, taking 22 ({@damage 4d10}) thunder damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "One with the Storm (3 Actions)",
+					"entries": [
+						"The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"mountain",
+				"underwater"
+			],
+			"fluff": {
+				"name": "Storm Giant Quintessent",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"To forestall the inevitable, some storm giants approaching the end of their natural life spans seek an escape from death. They plumb the depths of their powerful connection to the elements and disperse themselves into nature, literally transforming into semiconscious storms. The blizzard that rages unendingly around a mountain peak, the vortex that swirls around a remote island, or the thunderstorm that howls ceaselessly up and down a rugged coastline could, in fact, be the undying form of a storm giant clinging to existence.",
+											{
+												"name": "Elemental Weapons",
+												"entries": [
+													" A storm giant quintessent sheds its armor and weapons, but gains the power to form makeshift weapons out of thin air. When the giant has no further use of them, or when the giant dies, its elemental weapons disappear."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Forsaken Form",
+												"entries": [
+													" A storm giant quintessent can revert to its true giant form on a whim. The change is temporary but can be maintained long enough for the giant to communicate with a mortal, carry out a short task, or defend its home against aggressors."
+												],
+												"type": "entries"
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "A Quintessent's Lair",
+										"entries": [
+											"A storm giant quintessent has no need for castles or dungeon lairs. Its lair is usually a secluded region or prominent geographic feature, such as a mountain peak, a great waterfall, a remote island, a fog-shrouded loch, a beautiful coral reef, or a windswept desert bluff. As befits the environment, the storm in which the giant lives could be a blizzard, a typhoon, a thunderstorm, or a sandstorm."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"A storm giant quintessent can use lair actions in giant form and while transformed into a storm. On initiative count 20 (losing initiative ties), the giant can take a lair action to cause one of the following effects; the giant can't use the same effect two rounds in a row:",
+									{
+										"type": "list",
+										"items": [
+											"The giant creates a thunderclap centered on a point anywhere in its lair. Each creature within 20 feet of that point must succeed on a {@dc 18} Constitution saving throw or be {@condition deafened} until the end of its next turn.",
+											"The giant creates a 20-foot-radius sphere of fog (or murky water within water) centered on a point anywhere in its lair. The sphere spreads around corners, and its area is heavily obscured. The fog lasts until the giant disperses it (no action required), and it can't be dispersed by wind.",
+											"The giant creates a 60-foot-long, 10-foot-wide line of strong wind ( or strong current within water) originating from a point anywhere in its lair. Each creature in that line must succeed on a {@dc 18} Strength saving throw or be pushed 15 feet in the direction the wind is blowing. The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in its area. Protected flames, such as those of lanterns, have a 50 percent chance of being extinguished."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region containing a storm giant quintessent's lair is warped by the giant's presence, which creates one or more of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"High wind blows within 1 mile of the lair, making it impossible to light a fire unless the location where the fire is lit is protected from the wind.",
+											"Rain, snow, or blowing dust or sand (whichever is most appropriate) is constant within 1 mile of the lair. Rain causes rivers and streams to fill or overflow their banks; snow, dust, or sand form deep drifts or dunes.",
+											"Flashes of lightning and peals of thunder are continual, day and night, within 5 miles of the lair."
+										]
+									},
+									"If the giant dies, the lightning, thunder, and high wind regional effects end immediately. Rain, snow, and blowing dust abate gradually within {@dice 1d8} days."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Storm Giant Quintessent.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Storm Giant Quintessent.png?v=1.119.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/storm-giant-quintessent.mp3?v=1.119.1"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"T"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Mind Dragon",
+			"group": "Chromatic Dragon",
+			"source": "UlucaiDM",
+			"page": 97,
+			"size": "G",
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 546,
+				"formula": "28d20 + 252"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80
+			},
+			"str": 30,
+			"dex": 10,
+			"con": 29,
+			"int": 18,
+			"wis": 15,
+			"cha": 23,
+			"save": {
+				"dex": "+7",
+				"con": "+16",
+				"wis": "+9",
+				"cha": "+13"
+			},
+			"skill": {
+				"perception": "+16",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 26,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "24",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 14 ({@damage 4d6}) fire damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d6 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 21} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 90-foot cone. Each creature in that area must make a {@dc 24} Dexterity saving throw, taking 91 ({@damage 26d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 25} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Red Dragon",
+				"source": "MM"
+			},
+			"environment": [
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"name": "Ancient Red Dragon",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The most covetous of the true dragons, red dragons tirelessly seek to increase their treasure hoards. They are exceptionally vain, even for dragons, and their conceit is reflected in their proud bearing and their disdain for other creatures. The odor of sulfur and pumice surrounds a red dragon, whose swept-back horns and spinal frill define its silhouette. Its beaked snout vents smoke at all times, and its eyes dance with flame when it is angry. Its wings are the longest of any chromatic dragon, and have a blue-black tint along the trailing edge that resembles metal burned blue by fire.",
+									"The scales of a red dragon wyrmling are a bright glossy scarlet, turning a dull, deeper red and becoming as thick and strong as metal as the dragon ages. Its pupils also fade as it ages, and the oldest red dragons have eyes that resemble molten lava orbs.",
+									{
+										"name": "Mountain Masters",
+										"type": "entries",
+										"entries": [
+											"Red dragons prefer mountainous terrain, badlands, and any other locale where they can perch high and survey their domain. Their preference for mountains brings them into conflict with the hill-dwelling copper dragons from time to time."
+										]
+									},
+									{
+										"name": "Arrogant Tyrants",
+										"type": "entries",
+										"entries": [
+											"Red dragons fly into destructive rages and act on impulse when angered. They are so ferocious and vengeful that they are regarded as the archetypical evil dragon by many cultures.",
+											"No other dragon comes close to the arrogance of the red dragon. These creatures see themselves as kings and emperors, and view the rest of dragonkind as inferior. Believing that they are chosen by Tiamat to rule in her name, red dragons consider the world and every creature in it as theirs to command."
+										]
+									},
+									{
+										"name": "Status and Slaves",
+										"type": "entries",
+										"entries": [
+											"Red dragons are fiercely territorial and isolationist. However, they yearn to know about events in the wider world, and they make use of lesser creatures as informants, messengers, and spies. They are most interested in news about other red dragons, with which they compete constantly for status.",
+											"When it requires servants, a red dragon demands fealty from chaotic evil humanoids. If allegiance isn't forthcoming, it slaughters a tribe's leaders and claims lordship over the survivors. Creatures serving a red dragon live in constant terror of being roasted and eaten for displeasing it. They spend most of their time fawning over the creature in an attempt to stay alive."
+										]
+									},
+									{
+										"name": "Obsessive Collectors",
+										"type": "entries",
+										"entries": [
+											"Red dragons value wealth above all else, and their treasure hoards are legendary. They covet anything of monetary value, and can often judge the worth of a bauble to within a copper piece at a glance. A red dragon has a special affection for treasure claimed from powerful enemies it has slain, exhibiting that treasure to prove its superiority.",
+											"A red dragon knows the value and provenance of every item in its hoard, along with each item's exact location. It might notice the absence of a single coin, igniting its rage as it tracks down and slays the thief without mercy. If the thief can't be found, the dragon goes on a rampage, laying waste to towns and villages in an attempt to sate its wrath."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "A Red Dragon's Lair",
+										"entries": [
+											"Red dragons lair in high mountains or hills, dwelling in caverns under snow-capped peaks, or within the deep halls of abandoned mines and dwarven strongholds. Caves with volcanic or geothermal activity are the most highly prized red dragon lairs, creating hazards that hinder intruders and letting searing heat and volcanic gases wash over a dragon as it sleeps. With its hoard well protected deep within the lair, a red dragon spends as much of its time outside the mountain as in it. For a red dragon, the great heights of the world are the throne from which it can look out to survey all it controls-and the wider world it seeks to control.",
+											"Throughout the lair complex, servants erect monuments to the dragon's power, telling the grim story of its life, the enemies it has slain, and the nations it has conquered."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Chromatic Dragons",
+						"entries": [
+							"The black, blue, green, red, and white dragons represent the evil side of dragonkind. Aggressive, gluttonous, and vain, chromatic dragons are dark sages and powerful tyrants feared by all creatures-including each other.",
+							{
+								"name": "Driven by Greed",
+								"entries": [
+									" Chromatic dragons lust after treasure, and this greed colors their every scheme and plot. They believe that the world's wealth belongs to them by right, and a chromatic dragon seizes that wealth without regard for the humanoids and other creatures that have \"stolen\" it. With its piles of coins, gleaming gems, and magic items, a dragon's hoard is the stuff of legend. However, chromatic dragons have no interest in commerce, amassing wealth for no other reason than to have it."
+								],
+								"type": "entries"
+							},
+							{
+								"name": "Creatures of Ego",
+								"type": "entries",
+								"entries": [
+									"Chromatic dragons are united by their sense of superiority, believing themselves the most powerful and worthy of all mortal creatures. When they interact with other creatures, it is only to further their own interests. They believe in their innate right to rule, and this belief is the cornerstone of every chromatic dragon's personality and worldview. Trying to humble a chromatic dragon is like trying to convince the wind to stop blowing. To these creatures, humanoids are animals, fit to serve as prey or beasts of burden, and wholly unworthy of respect."
+								]
+							},
+							{
+								"name": "Dangerous Lairs",
+								"type": "entries",
+								"entries": [
+									"A dragon's lair serves as the seat of its power and a vault for its treasure. With its innate toughness and tolerance for severe environmental effects, a dragon selects or builds a lair not for shelter but for defense, favoring multiple entrances and exits, and security for its hoard.",
+									"Most chromatic dragon lairs are hidden in dangerous and remote locations to prevent all but the most audacious mortals from reaching them. A black dragon might lair in the heart of a vast swamp, while a red dragon might claim the caldera of an active volcano. In addition to the natural defenses of their lairs, powerful chromatic dragons use magical guardians, traps, and subservient creatures to protect their treasures."
+								]
+							},
+							{
+								"name": "Queen of Evil Dragons",
+								"type": "entries",
+								"entries": [
+									"Tiamat the Dragon Queen is the chief deity of evil dragonkind. She dwells on Avernus, the first layer of the Nine Hells. As a lesser god, Tiamat has the power to grant spells to her worshipers, though she is loath to share her power. She epitomizes the avarice of evil dragons, believing that the multiverse and all its treasures will one day be hers and hers alone.",
+									"Tiamat is a gigantic dragon whose five heads reflect the forms of the chromatic dragons that worship her-black, blue, green, red, and white. She is a terror on the battlefield, capable of annihilating whole armies with her five breath weapons, her formidable spellcasting, and her fearsome claws.",
+									"Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares control of the faith of dragonkind. She also holds a special enmity for Asmodeus, who long ago stripped her of the rule of Avernus and who continues to curb the Dragon Queen's power."
+								]
+							}
+						]
+					},
+					"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+					"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+					"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+					"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+					"Dragon Age Categories",
+					{
+						"type": "table",
+						"colLabels": [
+							"Category",
+							"Size",
+							"Age Range"
+						],
+						"colStyles": [
+							"col-4",
+							"col-4",
+							"col-4"
+						],
+						"rows": [
+							[
+								"Wyrmling",
+								"Medium",
+								"5 years or less"
+							],
+							[
+								"Young",
+								"Large",
+								"6–100 years"
+							],
+							[
+								"Adult",
+								"Huge",
+								"101–800 years"
+							],
+							[
+								"Ancient",
+								"Gargantuan",
+								"801 years or more"
+							]
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+									{
+										"type": "list",
+										"items": [
+											"Magma erupts from a point on the ground the dragon can see within 120 feet of it, creating a 20-foot-high, 5-foot-radius geyser. Each creature in the geyser's area must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one.",
+											"A tremor shakes the lair in a 60-foot radius around the dragon. Each creature other than the dragon on the ground in that area must succeed on a {@dc 15} Dexterity saving throw or be knocked {@condition prone}.",
+											"Volcanic gases form a cloud in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads a round corners, and its area is lightly obscured. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} until the end of its turn. While {@condition poisoned} in this way, a creature is {@condition incapacitated}."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region containing a legendary red dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"Small earthquakes are common within 6 miles of the dragon's lair.",
+											"Water sources within 1 mile of the lair are supernaturally warm and tainted by sulfur.",
+											"Rocky fissures within 1 mile of the dragon's lair form portals to the Elemental Plane of Fire, allowing creatures of elemental fire into the world to dwell nearby."
+										]
+									},
+									"If the dragon dies, these effects fade over the course of {@dice 1d10} days."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Red Dragon.jpg"
+						}
+					}
+				]
+			},
+			"dragonCastingColor": "R",
+			"tokenUrl": "https://5e.tools/img/MM/Ancient Red Dragon.png?v=1.122.8",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/red-dragon.mp3?v=1.122.8"
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"incapacitated",
+				"poisoned",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mind Dragon",
+			"shortName": "brainstealer",
+			"source": "UlucaiDM",
+			"page": 97,
+			"size": "G",
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"Psi Shield"
+					]
+				}
+			],
+			"hp": {
+				"formula": "28d20 + 252",
+				"average": 812
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 80,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 29,
+			"int": 30,
+			"wis": 15,
+			"cha": 23,
+			"save": {
+				"dex": "+7",
+				"con": "+16",
+				"wis": "+9",
+				"cha": "+13",
+				"int": "+17"
+			},
+			"skill": {
+				"stealth": "+7",
+				"perception": "+9"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 19,
+			"resist": [
+				{
+					"special": "All damage from spells"
+				}
+			],
+			"immune": [
+				"acid",
+				"fire",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"grappled",
+				"incapacitated",
+				"prone",
+				"unconscious"
+			],
+			"languages": [
+				"Deep Speech",
+				"Draconic",
+				"Gith",
+				"Undercommon",
+				"telepathy"
+			],
+			"cr": "24",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The brainstealer innate spellcasting ability is Intelligence (spell save {@dc 22}). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell antilife shell}",
+						"{@spell dominate monster}",
+						"{@spell hypnotic pattern}",
+						"{@spell mental prison|XGE}",
+						"{@spell phantasmal killer}",
+						"{@spell pulse wave|EGW}",
+						"{@spell reverse gravity}",
+						"{@spell scatter|XGE}",
+						"{@spell wall of force}"
+					],
+					"daily": {
+						"1": [
+							"{@spell feeblemind}",
+							"{@spell plane shift} (The whole fortress)"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If the brainstealer fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The brainstealer has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Mindfulness",
+					"entries": [
+						"The brainstealer can choose any number of creatures to be unaffected by his area of effect features and spells."
+					]
+				},
+				{
+					"name": "Creature Sense",
+					"entries": [
+						"The brainstealer is aware of the presence of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner.",
+						"Additionaly the brainstealer gains the following traits against creatured perceived by this feature:",
+						"{@i 1. } The brainstealer can target sensed by spells that requires a creatures to be seen.",
+						"{@i 2. } Sensed creatures gains no advantage for not being seem by the brainstealer.",
+						"{@i 3. } The brainstealer can make opportunity attacks agains sensed creatures despite not being able to see them."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The brainstealer casts 2 different spells with a casting time of action and uses its Frightful Presence."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the brainstealer's choice that is within 120 feet of the brainstealer and aware of it must succeed on a {@dc 21} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 30 ft., one target. {@h} 13 ({@damage 2d8 + 4}) bludgeoning damage.  If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc} 15) and takes 9 ({@damage 1d8 + 5}) psychic damage at the start of each of its turns until the grapple ends. The brainstealer can have up to five targets {@condition grappled} at a time."
+					]
+				},
+				{
+					"name": "Extract Brain",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 5 ft., one creature {@condition grappled} by the brainstealer. {@h}59 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, the brainstealer kills the target by extracting and devouring its brain."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Mind Carapace",
+					"entries": [
+						"When a creature moves within 10 feet of the brainstealer it can cast {@spell antilife shell} as a reaction requiring no concentration. The spell lasts until the beginning of the brainstealer next turn."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Psionics",
+					"entries": [
+						"The brainstealer casts a spell."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"The brainstealer makes a tentacle attack."
+					]
+				},
+				{
+					"name": "Mind Blast (Costs 3 Actions)",
+					"entries": [
+						"The elder brain magically emits psychic energy. Creatures of the elder brain's choice within 60 feet of it must succeed on a {@dc 19} Intelligence saving throw or take 32 ({@damage 5d10 + 5}) psychic damage and be {@condition stunned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Break Concentration",
+					"entries": [
+						"The brainstealer targets a creature it can sense. The creature has to succeed on a {@dc 26} Constitution saving throw or lose its concentration on spells."
+					]
+				}
+			],
+			"mythic": [
+				{
+					"name": "Mind Overload",
+					"entries": [
+						"Every single creature within the brainstealer's lair has to succeed on a {@dc 26} Constitution saving throw or lose its concentration on spells."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Red Dragon.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Ancient Red Dragon.png?v=1.122.8",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"DR",
+				"DS",
+				"GTH",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"stunned"
+			],
+			"conditionInflictLegendary": [
+				"incapacitated",
+				"poisoned",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bloroch",
+			"shortName": "Giant",
+			"source": "UlucaiDM",
+			"page": 151,
+			"size": "H",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"storm giant"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"King's Mantle"
+					]
+				}
+			],
+			"hp": {
+				"formula": "37d12 + 222",
+				"average": 462
+			},
+			"speed": {
+				"walk": 50,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				},
+				"swim": 50,
+				"canHover": true
+			},
+			"str": 29,
+			"dex": 16,
+			"con": 22,
+			"int": 17,
+			"wis": 26,
+			"cha": 19,
+			"save": {
+				"str": "+16",
+				"con": "+13",
+				"wis": "+15",
+				"cha": "+11"
+			},
+			"skill": {
+				"arcana": "+10",
+				"history": "+10"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"prone"
+			],
+			"languages": [
+				"Common",
+				"Giant",
+				"Primordial"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The giant's innate spellcasting ability is Wisdom (spell save {@dc 23}). It can innately cast the following spells, requiring no material components: "
+					],
+					"will": [
+						"{@spell banishment}",
+						"{@spell disintegrate}",
+						"{@spell dispel magic}",
+						"{@spell levitate} (no concentration required)",
+						"{@spell lightning bolt}",
+						"{@spell lightning lure|TCE} (15->60ft/ 10-20ft)",
+						"{@spell shocking grasp}"
+					],
+					"rest": {
+						"1e": [
+							"{@spell banishing smite}",
+							"{@spell divine word}",
+							"{@spell power word pain|XGE}",
+							"{@spell power word stun}",
+							"{@spell scrying}",
+							"{@spell slow}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The giant can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The giant has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Bound",
+					"entries": [
+						"The giant cannot leave or be forced out of his castle by any means."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the giant fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two Lightning Sword attacks or uses Thunder Javelin twice. And Casts a spell."
+					]
+				},
+				{
+					"name": "Lightning Sword",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}72 ({@damage 10d8 + 9}) lightning damage."
+					]
+				},
+				{
+					"name": "Thunder Javelin",
+					"entries": [
+						"The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 36 ({@damage 8d8 + 9}) thunder damage to the target, striking unerringly.  The target is then pushed 10 feet away from the giant."
+					]
+				},
+				{
+					"name": "Chain Lightning {@recharge 5}",
+					"entries": [
+						"The giant Casts {@spell chain lightning}"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Thunder Hammer (2 Actions)",
+					"entries": [
+						"The giant hurls its Hammer at creature it can see within 120 feet of it creating a shockwave. The target and each creature within 10 feet or if must make a {@dc 20} Constitution saving throw. A target takes 75 ({@damage 12d10 + 9}) thunder damage and be pushed up to 20 feet away from the giant on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Attack",
+					"entries": [
+						"The giant makes a Lightning Sword or Thunder Javelin Attack."
+					]
+				},
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The Giant casts a spell."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"mountain",
+				"underwater"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/qbJ7huI.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/0uaTKwq.png",
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GI",
+				"P"
+			],
+			"damageTags": [
+				"L",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
 			]
 		},
 		{
