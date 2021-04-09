@@ -1,0 +1,157 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UlucaiDM",
+				"abbreviation": "ULDM",
+				"full": "Ulucai's Degenerate Mind",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				]
+			}
+		],
+		"dateAdded": 1617939239,
+		"dateLastModified": 1617939239
+	},
+	"monster": [
+		{
+			"name": "Achaierai",
+			"group": "Dinosaurs",
+			"source": "UlucaiDM",
+			"page": 80,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d10 + 24",
+				"average": 90
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 14,
+			"int": 11,
+			"wis": 14,
+			"cha": 16,
+			"passive": 15,
+			"cr": "5",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The achaierai makes three attacks: one with its bite, and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h} ({@damage 4d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one {@condition prone} creature. {@h}22 ({@damage 5d6 + 4}) slashing damage"
+					]
+				},
+				{
+					"name": "Black Cloud",
+					"entries": [
+						"The achaierai releases a choking black cloud of toxic gas. All creatures within 10 feet of the achaierai must make a {@dc 15} Constitution saving throw, taking {@damage 4d6} poison damage on a failed save, or half as much damage on a successful one. A creature that fails its save is also affected as though by the spell confusion. At the end of each of its turns an affected target can make a {@dc 15} Wisdom saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"environment": [
+				"grassland"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/triceratops.mp3?v=1.125.3"
+			},
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"name": "Triceratops",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"One of the most aggressive of the herbivorous dinosaurs, a triceratops has a skull that flares out to form a protective plate of bone. With its great horns and formidable speed, a triceratops gores and tramples would-be predators to death.",
+									{
+										"type": "entries",
+										"name": "Dinosaurs",
+										"entries": [
+											"Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.",
+											"Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Dinosaurs.png"
+						}
+					}
+				]
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The achaierai has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/829841124503322624/829844684981272626/token_116.png"
+		}
+	]
+}
