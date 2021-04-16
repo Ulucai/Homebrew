@@ -1,0 +1,929 @@
+{
+	"siteVersion": "1.127.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Planescape",
+				"abbreviation": "PSC",
+				"full": "Planescape",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1618531627,
+		"dateLastModified": 1618531627
+	},
+	"monster": [
+		{
+			"name": "Red Transmuter",
+			"shortName": "mage",
+			"source": "Planescape",
+			"page": 218,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Elemental Armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 90",
+				"average": 225
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 17,
+			"int": 25,
+			"wis": 18,
+			"cha": 17,
+			"save": {
+				"int": "+13",
+				"wis": "+10",
+				"con": "+9"
+			},
+			"skill": {
+				"arcana": "+19",
+				"history": "+13",
+				"perception": "+10",
+				"survival": "+10",
+				"acrobatics": "+8",
+				"nature": "+13"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "All damage from spells."
+						}
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning",
+						"thunder"
+					]
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"necrotic",
+						"radiant"
+					],
+					"note": "Tasha's Otherwordly Guise"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"any six languages",
+				"telepathy 120 ft."
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Constant Effects",
+					"headerEntries": [
+						"The mage is always under the effect of one of the following spells, requiring no concentration. At the start of its turn the mage can change which spell affects him or reactivate it if it was dispelled (no action required). "
+					],
+					"constant": [
+						"{@spell Tasha's otherworldly guise|TCE} (Upper or Lower)",
+						"{@spell telekinesis}",
+						"{@spell Tenser's transformation|XGE}"
+					],
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 21} , {@hit 13} to hit with spell attacks). The mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell control flames|XGE}",
+								"{@spell gust|XGE}",
+								"{@spell mending}",
+								"{@spell mold earth|XGE}",
+								"{@spell shape water|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell expeditious retreat}",
+								"{@spell ice knife|XGE}",
+								"{@spell longstrider}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell alter self}",
+								"{@spell earthbind|XGE}",
+								"{@spell enhance ability}",
+								"{@spell knock}",
+								"{@spell levitate}",
+								"{@spell magic weapon}",
+								"{@spell spider climb}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell flame arrows|XGE}",
+								"{@spell fly}",
+								"{@spell haste}",
+								"{@spell slow}"
+							],
+							"slots": 0
+						},
+						"4": {
+							"spells": [
+								"{@spell fabricate}",
+								"{@spell polymorph}",
+								"{@spell stone shape}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell animate objects}",
+								"{@spell passwall}",
+								"{@spell transmute rock|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}",
+								"{@spell flesh to stone}",
+								"{@spell investiture of flame|XGE}",
+								"{@spell investiture of ice|XGE}",
+								"{@spell investiture of stone|XGE}",
+								"{@spell investiture of wind|XGE}",
+								"{@spell living bomb|Planescape}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell etherealness}",
+								"{@spell reverse gravity}",
+								"{@spell sequester}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell control weather}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell mass polymorph|XGE}",
+								"{@spell shapechange}",
+								"{@spell time stop}",
+								"{@spell true polymorph}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Transmuter's Stone",
+					"entries": [
+						"Once a day the mage can use its action to consume the energy reserves of his transmuter's stone to create one of the following effects:",
+						"{@b Panacea} The mage remove all curses, diseases, and poisons affecting a creature that it touches with the transmuter's stone. The creature also regains all its hit points.",
+						"{@b Restore Life} The mage can cast {@spell raise dead} spell on a creature it touches with the transmuter's stone, without expending a spell slot or having the spell prepared.",
+						"{@b Restore Youth} The mage touches a willing creature with the stone, and that creature's apparent age is reduced by {@dice 3d10} years, to a minimum of 13 years. This effect doesn't extend the creature's lifespan."
+					]
+				},
+				{
+					"name": "Master of Transmutation",
+					"entries": [
+						"The mage can't be affected by spells the school of transmutation unless it wishes to be. It has advantage on saving throws against all other spells and magical effects.",
+						"Additionaly any spell of 2nd level or lower from the transmutation school cast by the mage do not require concentration and has its duration increased to 1 hour (if not already)."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the mage fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Enhanced Support",
+					"entries": [
+						"Whenever the mage casts {@spell polymorph}, {@spell mass polymorph|XGE} or {@spell true polymorph}, {@spell animate objects}"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Elemental Rebuke",
+					"entries": [
+						"When the mage is hit by an attack it can use its reaction to cast a Investiture Spell, requiring no concentration. The spell lasts until the start of his next turn.",
+						"{@spell Investiture of flame|XGE}",
+						"{@spell Investiture of ice|XGE}",
+						"{@spell Investiture of stone|XGE}",
+						"{@spell Investiture of wind|XGE}"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Higher Casting(2)",
+					"entries": [
+						"The mage casts a spell."
+					]
+				},
+				{
+					"name": "Lesser Casting",
+					"entries": [
+						"The mage casts a spell of 3rd level or lower."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The mage move up to its speed."
+					]
+				},
+				{
+					"name": "Use item",
+					"entries": [
+						"The mage uses an item."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"name": "Transmuter",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Transmuters are specialist wizards who embrace change, rail against the status quo, and view magical transmutation as a path to riches, enlightenment, or apotheosis."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Transmuter.png?v=1.126.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/transmuter.mp3?v=1.126.0"
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languageTags": [
+				"TP",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Mining Duodrone",
+			"group": "Modrons",
+			"source": "Planescape",
+			"page": 225,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 12,
+			"int": 6,
+			"wis": 10,
+			"cha": 7,
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Modron"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The duodrone can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Disintegration",
+					"entries": [
+						"If the duodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The duodrone makes two fist attacks or two javelin attacks."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Rogue Modrons",
+					"entries": [
+						"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+						"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Duodrone",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The blocky duodrones supervise units of monodrones and can perform up to two tasks at a time.",
+									{
+										"type": "entries",
+										"name": "Modrons",
+										"entries": [
+											"Modrons are beings of absolute law that adhere to a hive-like hierarchy. They inhabit the plane of Mechanus and tend its eternally revolving gears, their existence a clockwork routine of perfect order.",
+											{
+												"name": "Absolute Law and Order",
+												"entries": [
+													" Under the direction of their leader, Primus, modrons increase order in the multiverse in accordance with laws beyond the comprehension of mortal minds. Their own minds are networked in a hierarchal pyramid, in which each modron receives commands from superiors and delegates orders to underlings. A modron carries out commands with total obedience, utmost efficiency, and an absence of morality or ego. Modrons have no sense of self beyond what is necessary to fulfill their duties. They exist as a unified collective, divided by ranks, yet they always refer to themselves collectively. To a modron, there is no \"I,\" but only \"we\" or \"us.\"",
+													"Variant: Rogue Modrons",
+													"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+													"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Absolute Hierarchy",
+												"entries": [
+													" Modrons communicate only with their own rank and the ranks immediately above and below them. Modrons more than one rank away are either too advanced or too simple to understand."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Cogs of the Great Machine",
+												"entries": [
+													" If a modron is destroyed, its remains disintegrate. A replacement from the next lowest rank then transforms in a flash of light, gaining the physical form of its new rank. The promoted modron is replaced by one of its underlings in the same manner, all the way to the lowest levels of the hierarchy. There, a new modron is created by Primus, with a steady stream of monodrones leaving the Great Modron Cathedral on Mechanus as a result."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "The Great Modron March",
+												"entries": [
+													" When the gears of Mechanus complete seventeen cycles once every 289 years, Primus sends a vast army of modrons across the Outer Planes, ostensibly on a reconnaissance mission. The march is long and dangerous, and only a small number of modrons returns to Mechanus."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Duodrone.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Duodrone.png?v=1.127.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/duodrone.mp3?v=1.127.0"
+			},
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mining Monodrone",
+			"source": "Planescape",
+			"page": 224,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 12,
+			"int": 4,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Modron"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The monodrone can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Disintegration",
+					"entries": [
+						"If the monodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Excavate {@recharge 6}",
+					"entries": [
+						"A thin blue ray springs from the monodrone eyes toward a creature within 10 feet. A creature targeted by this ray must make a {@dc 14} Dexterity saving throw or take {@damage 10d6 + 40} force damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Monodrone.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Monodrone.png?v=1.127.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/monodrone.mp3?v=1.127.0"
+			},
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mining Pentadrone",
+			"group": "Modrons",
+			"source": "Planescape",
+			"page": 226,
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d10 + 5"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 13,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Modron"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The pentadrone can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Disintegration",
+					"entries": [
+						"If the pentadrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The pentadrone makes five arm attacks."
+					]
+				},
+				{
+					"name": "Arm",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Paralysis Gas {@recharge 5}",
+					"entries": [
+						"The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a {@dc 11} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Rogue Modrons",
+					"entries": [
+						"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+						"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Pentadrone",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Pentadrones oversee Mechanus's worker populace and can improvise in response to new situations.",
+									{
+										"type": "entries",
+										"name": "Modrons",
+										"entries": [
+											"Modrons are beings of absolute law that adhere to a hive-like hierarchy. They inhabit the plane of Mechanus and tend its eternally revolving gears, their existence a clockwork routine of perfect order.",
+											{
+												"name": "Absolute Law and Order",
+												"entries": [
+													" Under the direction of their leader, Primus, modrons increase order in the multiverse in accordance with laws beyond the comprehension of mortal minds. Their own minds are networked in a hierarchal pyramid, in which each modron receives commands from superiors and delegates orders to underlings. A modron carries out commands with total obedience, utmost efficiency, and an absence of morality or ego. Modrons have no sense of self beyond what is necessary to fulfill their duties. They exist as a unified collective, divided by ranks, yet they always refer to themselves collectively. To a modron, there is no \"I,\" but only \"we\" or \"us.\"",
+													"Variant: Rogue Modrons",
+													"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+													"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Absolute Hierarchy",
+												"entries": [
+													" Modrons communicate only with their own rank and the ranks immediately above and below them. Modrons more than one rank away are either too advanced or too simple to understand."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Cogs of the Great Machine",
+												"entries": [
+													" If a modron is destroyed, its remains disintegrate. A replacement from the next lowest rank then transforms in a flash of light, gaining the physical form of its new rank. The promoted modron is replaced by one of its underlings in the same manner, all the way to the lowest levels of the hierarchy. There, a new modron is created by Primus, with a steady stream of monodrones leaving the Great Modron Cathedral on Mechanus as a result."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "The Great Modron March",
+												"entries": [
+													" When the gears of Mechanus complete seventeen cycles once every 289 years, Primus sends a vast army of modrons across the Outer Planes, ostensibly on a reconnaissance mission. The march is long and dangerous, and only a small number of modrons returns to Mechanus."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Pentadrone.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Pentadrone.png?v=1.127.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/pentadrone.mp3?v=1.127.0"
+			},
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Adult Rust Dragon",
+			"shortName": "rust dragon",
+			"source": "Planescape",
+			"page": 98,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 178,
+				"formula": "17d10 + 85"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80,
+				"burrow": 40
+			},
+			"str": 23,
+			"dex": 10,
+			"con": 21,
+			"int": 14,
+			"wis": 11,
+			"cha": 19,
+			"save": {
+				"dex": "+4",
+				"con": "+9",
+				"wis": "+4",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+8",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Rust Metal",
+					"entries": [
+						"Any nonmagical weapon made of metal that hits the rust dragon corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the rust dragon is destroyed after dealing damage.",
+						"The rust dragon can eat through 2-inch-thick, nonmagical metal in 1 round."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The rust dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus ({@damage 2d6}) acid damage.",
+						"Additionally, if the creature is using a nonmagical metal armor or shield it takes a cumulative -1 penalty to the AC. If the armor is reduced below 10 AC or the shield drops to a bonus of +0 it is destroyed."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus {@damage 2d6} acid damage."
+					]
+				},
+				{
+					"name": "Rust Breath {@recharge 5}",
+					"entries": [
+						"The rust dragon exhales a corrosive acid in a 100-foot line. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking ({@damage 14d6}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/829841124503322624/832099317040676864/Rust_Dragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/829841124503322624/832399674647773244/token_119.png?v=1.127.0",
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}
