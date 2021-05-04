@@ -1,0 +1,88 @@
+{
+	"siteVersion": "1.127.3",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Kalima",
+				"abbreviation": "KLM",
+				"full": "Kalima",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1620167835,
+		"dateLastModified": 1620167835
+	},
+	"monster": [
+		{
+			"name": "Rumble",
+			"source": "Kalima",
+			"page": 326,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 14,
+			"int": 2,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 2}) piercing damage, and the target is {@condition grappled} (escape {@dc 13})."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Burst of Speed",
+					"entries": [
+						"After taking the dash action, rumble can use a bonus action to dash a second time."
+					]
+				}
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/838524389204820027/839264366150156298/Rumble_2.png",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"hasFluff": true
+		}
+	]
+}
