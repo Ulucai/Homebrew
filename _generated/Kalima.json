@@ -1,0 +1,485 @@
+{
+	"siteVersion": "1.131.6",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Kalima",
+				"abbreviation": "KLM",
+				"full": "Kalima",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1625438265,
+		"dateLastModified": 1625438265
+	},
+	"monster": [
+		{
+			"name": "Rumble",
+			"source": "Kalima",
+			"page": 326,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 14,
+			"int": 2,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 2}) piercing damage, and the target is {@condition grappled} (escape {@dc 13})."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Burst of Speed",
+					"entries": [
+						"After taking the dash action, rumble can use a bonus action to dash a second time."
+					]
+				}
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/838524389204820027/839264366150156298/Rumble_2.png",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Fatris Deadeye",
+			"source": "Kalima",
+			"page": 210,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 20,
+			"con": 16,
+			"int": 11,
+			"wis": 13,
+			"cha": 10,
+			"save": {
+				"wis": "+3",
+				"dex": "+7"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"perception": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Dead Eye (3/Day)",
+					"entries": [
+						"As a bonus action, the archer can add {@dice 1d10} to its next attack roll with a ranged weapon.",
+						"A creature hit by this attack always receive a fatal wound."
+					]
+				},
+				{
+					"name": "Fatal Wound",
+					"entries": [
+						"Whenever archer hits a creature, that is not a construct or undead, with a ranged weapon attack, the target must succeed on a {@dc 13} Constitution saving throw or receive a fatal wound.",
+						"At the start of each of the targets turns it takes {@damage 1d6} piercing damage for each fatal wound it has.",
+						"Any creature can take an action to stanch the wounds with a successful {@dc 13} Wisdom (Medicine) check. Using a healer's kit. The wounds also closes if the target receives magical healing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The archer makes two attacks with its longbow."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"urban"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/VGM/Archer.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/833891482175799326/849058392772968508/token_1.png?v=1.130.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/archer.mp3?v=1.130.1"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Unnubaris",
+			"shortName": "Unnubaris",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "Kalima",
+			"page": 310,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				14,
+				{
+					"ac": 17,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 246,
+				"formula": "29d8 + 116"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 18,
+			"int": 24,
+			"wis": 18,
+			"cha": 18,
+			"save": {
+				"int": "+14",
+				"wis": "+11"
+			},
+			"skill": {
+				"arcana": "+21",
+				"history": "+21",
+				"perception": "+11"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				"fire",
+				{
+					"resist": [
+						"lightning"
+					],
+					"note": "(granted by the blast scepter, see \"Special Equipment\" below)"
+				}
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Infernal",
+				"Undercommon"
+			],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Unnubaris is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 24}, {@hit 14} to hit with spell attacks). He can cast {@spell disguise self} and {@spell invisibility} at will. He can cast {@spell fly} and {@spell lightning bolt} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Unnubaris has the following wizard spells prepared:"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell invisibility}"
+					],
+					"daily": {
+						"1": [
+							"{@spell fly}",
+							"{@spell lightning bolt}"
+						]
+					},
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell silent image}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell arcane lock}",
+								"{@spell cloud of daggers}",
+								"{@spell darkvision}",
+								"{@spell knock}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell confusion}",
+								"{@spell hallucinatory terrain}",
+								"{@spell polymorph}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell geas}",
+								"{@spell wall of force}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell globe of invulnerability}",
+								"{@spell programmed illusion}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell symbol}",
+								"{@spell teleport}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell maze}",
+								"{@spell mind blank}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell meteor swarm}",
+								"{@spell wish}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Unnubaris wears a robe of eyes that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Wisdom (Perception) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
+						"Unnubaris wields a blast scepter (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, as an action, use it to cast thunderwave as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
+						"Unnubaris also wears a horned ring (a very rare magic item that requires attunement), which allows an attuned wearer to ignore Undermountain's magical restrictions (see \\\"Alterations to Magic\\\")."
+					]
+				},
+				{
+					"name": "Arcane Recovery (1/Day)",
+					"entries": [
+						"When he finishes a short rest, Unnubaris recovers all his spell slots of 5th level and lower."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Unnubaris fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If Unnubaris dies in Undermountain, he revives after {@dice 1d10} days, with all his hit points and any missing body parts restored. His new body appears in a random safe location in Undermountain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blast Scepter",
+					"entries": [
+						"Unnubaris uses his blast scepter to cast thunderwave as a 4th-level spell. Each creature in a 15-foot cube originating from him must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes {@damage 5d8} thunder damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"Unnubaris casts a spell of 3rd level or lower."
+					]
+				},
+				{
+					"name": "Spell Ward (Costs 2 Actions)",
+					"entries": [
+						"Unnubaris expends a spell slot of 4th level or lower and gains 5 temporary hit points per level of the slot."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/833891482175799326/861349730965127208/CghpbBvVIAIb6ks.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/834620189374283787/861370526560026635/Kael_Thas_Token.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"CE",
+				"D",
+				"DR",
+				"E",
+				"I",
+				"U"
+			],
+			"damageTags": [
+				"T"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened",
+				"incapacitated",
+				"invisible",
+				"stunned",
+				"unconscious"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}
