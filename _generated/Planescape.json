@@ -1,0 +1,2362 @@
+{
+	"siteVersion": "1.134.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Planescape",
+				"abbreviation": "PSC",
+				"full": "Planescape",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1629505065,
+		"dateLastModified": 1629505065
+	},
+	"monster": [
+		{
+			"name": "Red Transmuter",
+			"shortName": "mage",
+			"source": "Planescape",
+			"page": 218,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Elemental Armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 90",
+				"average": 225
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 17,
+			"int": 25,
+			"wis": 18,
+			"cha": 17,
+			"save": {
+				"int": "+13",
+				"wis": "+10",
+				"con": "+9"
+			},
+			"skill": {
+				"arcana": "+19",
+				"history": "+13",
+				"perception": "+10",
+				"survival": "+10",
+				"acrobatics": "+8",
+				"nature": "+13"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "All damage from spells."
+						}
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning",
+						"thunder"
+					]
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"necrotic",
+						"radiant"
+					],
+					"note": "Tasha's Otherwordly Guise"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"any six languages",
+				"telepathy 120 ft."
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Constant Effects",
+					"headerEntries": [
+						"The mage is always under the effect of one of the following spells, requiring no concentration. At the start of its turn the mage can change which spell affects him or reactivate it if it was dispelled (no action required). "
+					],
+					"constant": [
+						"{@spell Tasha's otherworldly guise|TCE} (Upper or Lower)",
+						"{@spell telekinesis}",
+						"{@spell Tenser's transformation|XGE}"
+					],
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 21} , {@hit 13} to hit with spell attacks). The mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell control flames|XGE}",
+								"{@spell gust|XGE}",
+								"{@spell mending}",
+								"{@spell mold earth|XGE}",
+								"{@spell shape water|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell expeditious retreat}",
+								"{@spell ice knife|XGE}",
+								"{@spell longstrider}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell alter self}",
+								"{@spell earthbind|XGE}",
+								"{@spell enhance ability}",
+								"{@spell knock}",
+								"{@spell levitate}",
+								"{@spell magic weapon}",
+								"{@spell spider climb}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell flame arrows|XGE}",
+								"{@spell fly}",
+								"{@spell haste}",
+								"{@spell slow}"
+							],
+							"slots": 0
+						},
+						"4": {
+							"spells": [
+								"{@spell fabricate}",
+								"{@spell polymorph}",
+								"{@spell stone shape}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell animate objects}",
+								"{@spell passwall}",
+								"{@spell transmute rock|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}",
+								"{@spell flesh to stone}",
+								"{@spell investiture of flame|XGE}",
+								"{@spell investiture of ice|XGE}",
+								"{@spell investiture of stone|XGE}",
+								"{@spell investiture of wind|XGE}",
+								"{@spell living bomb|Planescape}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell etherealness}",
+								"{@spell reverse gravity}",
+								"{@spell sequester}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell control weather}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell mass polymorph|XGE}",
+								"{@spell shapechange}",
+								"{@spell time stop}",
+								"{@spell true polymorph}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Transmuter's Stone",
+					"entries": [
+						"Once a day the mage can use its action to consume the energy reserves of his transmuter's stone to create one of the following effects:",
+						"{@b Panacea} The mage remove all curses, diseases, and poisons affecting a creature that it touches with the transmuter's stone. The creature also regains all its hit points.",
+						"{@b Restore Life} The mage can cast {@spell raise dead} spell on a creature it touches with the transmuter's stone, without expending a spell slot or having the spell prepared.",
+						"{@b Restore Youth} The mage touches a willing creature with the stone, and that creature's apparent age is reduced by {@dice 3d10} years, to a minimum of 13 years. This effect doesn't extend the creature's lifespan."
+					]
+				},
+				{
+					"name": "Master of Transmutation",
+					"entries": [
+						"The mage can't be affected by spells the school of transmutation unless it wishes to be. It has advantage on saving throws against all other spells and magical effects.",
+						"Additionaly any spell of 2nd level or lower from the transmutation school cast by the mage do not require concentration and has its duration increased to 1 hour (if not already)."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the mage fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Enhanced Support",
+					"entries": [
+						"Whenever the mage casts {@spell polymorph}, {@spell mass polymorph|XGE} or {@spell true polymorph}, {@spell animate objects} it can affect the target with a 1st or 2nd level spell as a bonus action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Elemental Rebuke",
+					"entries": [
+						"When the mage is hit by an attack it can use its reaction to cast a Investiture Spell, requiring no concentration. The spell lasts until the start of his next turn.",
+						"{@spell Investiture of flame|XGE}",
+						"{@spell Investiture of ice|XGE}",
+						"{@spell Investiture of stone|XGE}",
+						"{@spell Investiture of wind|XGE}"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Higher Casting(2)",
+					"entries": [
+						"The mage casts a spell."
+					]
+				},
+				{
+					"name": "Lesser Casting",
+					"entries": [
+						"The mage casts a spell of 3rd level or lower."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The mage move up to its speed."
+					]
+				},
+				{
+					"name": "Use item",
+					"entries": [
+						"The mage uses an item."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"tokenUrl": "https://media.discordapp.net/attachments/819731700476018718/840000739468378152/Trismegisto.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languageTags": [
+				"TP",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Mining Duodrone",
+			"group": "Modrons",
+			"source": "Planescape",
+			"page": 225,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 12,
+			"int": 6,
+			"wis": 10,
+			"cha": 7,
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Modron"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The duodrone can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Disintegration",
+					"entries": [
+						"If the duodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The duodrone makes two fist attacks or two javelin attacks."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Rogue Modrons",
+					"entries": [
+						"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+						"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Duodrone",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The blocky duodrones supervise units of monodrones and can perform up to two tasks at a time.",
+									{
+										"type": "entries",
+										"name": "Modrons",
+										"entries": [
+											"Modrons are beings of absolute law that adhere to a hive-like hierarchy. They inhabit the plane of Mechanus and tend its eternally revolving gears, their existence a clockwork routine of perfect order.",
+											{
+												"name": "Absolute Law and Order",
+												"entries": [
+													" Under the direction of their leader, Primus, modrons increase order in the multiverse in accordance with laws beyond the comprehension of mortal minds. Their own minds are networked in a hierarchal pyramid, in which each modron receives commands from superiors and delegates orders to underlings. A modron carries out commands with total obedience, utmost efficiency, and an absence of morality or ego. Modrons have no sense of self beyond what is necessary to fulfill their duties. They exist as a unified collective, divided by ranks, yet they always refer to themselves collectively. To a modron, there is no \"I,\" but only \"we\" or \"us.\"",
+													"Variant: Rogue Modrons",
+													"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+													"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Absolute Hierarchy",
+												"entries": [
+													" Modrons communicate only with their own rank and the ranks immediately above and below them. Modrons more than one rank away are either too advanced or too simple to understand."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Cogs of the Great Machine",
+												"entries": [
+													" If a modron is destroyed, its remains disintegrate. A replacement from the next lowest rank then transforms in a flash of light, gaining the physical form of its new rank. The promoted modron is replaced by one of its underlings in the same manner, all the way to the lowest levels of the hierarchy. There, a new modron is created by Primus, with a steady stream of monodrones leaving the Great Modron Cathedral on Mechanus as a result."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "The Great Modron March",
+												"entries": [
+													" When the gears of Mechanus complete seventeen cycles once every 289 years, Primus sends a vast army of modrons across the Outer Planes, ostensibly on a reconnaissance mission. The march is long and dangerous, and only a small number of modrons returns to Mechanus."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Duodrone.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Duodrone.png?v=1.127.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/duodrone.mp3?v=1.127.0"
+			},
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mining Monodrone",
+			"source": "Planescape",
+			"page": 224,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 12,
+			"int": 4,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Modron"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The monodrone can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Disintegration",
+					"entries": [
+						"If the monodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Excavate {@recharge 6}",
+					"entries": [
+						"A thin blue ray springs from the monodrone eyes toward a creature within 10 feet. A creature targeted by this ray must make a {@dc 14} Dexterity saving throw or take {@damage 10d6 + 40} force damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Monodrone.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Monodrone.png?v=1.127.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/monodrone.mp3?v=1.127.0"
+			},
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mining Pentadrone",
+			"group": "Modrons",
+			"source": "Planescape",
+			"page": 226,
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d10 + 5"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 13,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Modron"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The pentadrone can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Disintegration",
+					"entries": [
+						"If the pentadrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The pentadrone makes five arm attacks."
+					]
+				},
+				{
+					"name": "Arm",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Paralysis Gas {@recharge 5}",
+					"entries": [
+						"The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a {@dc 11} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Rogue Modrons",
+					"entries": [
+						"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+						"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Pentadrone",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Pentadrones oversee Mechanus's worker populace and can improvise in response to new situations.",
+									{
+										"type": "entries",
+										"name": "Modrons",
+										"entries": [
+											"Modrons are beings of absolute law that adhere to a hive-like hierarchy. They inhabit the plane of Mechanus and tend its eternally revolving gears, their existence a clockwork routine of perfect order.",
+											{
+												"name": "Absolute Law and Order",
+												"entries": [
+													" Under the direction of their leader, Primus, modrons increase order in the multiverse in accordance with laws beyond the comprehension of mortal minds. Their own minds are networked in a hierarchal pyramid, in which each modron receives commands from superiors and delegates orders to underlings. A modron carries out commands with total obedience, utmost efficiency, and an absence of morality or ego. Modrons have no sense of self beyond what is necessary to fulfill their duties. They exist as a unified collective, divided by ranks, yet they always refer to themselves collectively. To a modron, there is no \"I,\" but only \"we\" or \"us.\"",
+													"Variant: Rogue Modrons",
+													"A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+													"A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Absolute Hierarchy",
+												"entries": [
+													" Modrons communicate only with their own rank and the ranks immediately above and below them. Modrons more than one rank away are either too advanced or too simple to understand."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Cogs of the Great Machine",
+												"entries": [
+													" If a modron is destroyed, its remains disintegrate. A replacement from the next lowest rank then transforms in a flash of light, gaining the physical form of its new rank. The promoted modron is replaced by one of its underlings in the same manner, all the way to the lowest levels of the hierarchy. There, a new modron is created by Primus, with a steady stream of monodrones leaving the Great Modron Cathedral on Mechanus as a result."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "The Great Modron March",
+												"entries": [
+													" When the gears of Mechanus complete seventeen cycles once every 289 years, Primus sends a vast army of modrons across the Outer Planes, ostensibly on a reconnaissance mission. The march is long and dangerous, and only a small number of modrons returns to Mechanus."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Pentadrone.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Pentadrone.png?v=1.127.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/pentadrone.mp3?v=1.127.0"
+			},
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Adult Rust Dragon",
+			"shortName": "rust dragon",
+			"source": "Planescape",
+			"page": 98,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 178,
+				"formula": "17d10 + 85"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80,
+				"burrow": 40
+			},
+			"str": 23,
+			"dex": 10,
+			"con": 21,
+			"int": 14,
+			"wis": 11,
+			"cha": 19,
+			"save": {
+				"dex": "+4",
+				"con": "+9",
+				"wis": "+4",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+8",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Rust Metal",
+					"entries": [
+						"Any nonmagical weapon made of metal that hits the rust dragon corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the rust dragon is destroyed after dealing damage.",
+						"The rust dragon can eat through 2-inch-thick, nonmagical metal in 1 round."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The rust dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus ({@damage 2d6}) acid damage.",
+						"Additionally, if the creature is using a nonmagical metal armor or shield it takes a cumulative -1 penalty to the AC. If the armor is reduced below 10 AC or the shield drops to a bonus of +0 it is destroyed."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus {@damage 2d6} acid damage."
+					]
+				},
+				{
+					"name": "Rust Breath {@recharge 5}",
+					"entries": [
+						"The rust dragon exhales a corrosive acid in a 100-foot line. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking ({@damage 14d6}) acid damage on a failed save, or half as much damage on a successful one.",
+						"Additionally, if the creature is using a nonmagical metal armor or shield it takes a cumulative -1 penalty to the AC. If the armor is reduced below 10 AC or the shield drops to a bonus of +0 it is destroyed."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/829841124503322624/832099317040676864/Rust_Dragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/829841124503322624/832399674647773244/token_119.png?v=1.127.0",
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Black Ice Golem",
+			"shortName": "Black Ice Golem",
+			"source": "Planescape",
+			"page": 213,
+			"size": "H",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 80,
+				"formula": "80d1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 6,
+			"con": 10,
+			"int": 3,
+			"wis": 3,
+			"cha": 1,
+			"senses": [
+				"blindsight 30 ft. (blind beyond this radius)"
+			],
+			"passive": 6,
+			"immune": [
+				"cold",
+				"fire"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the black ice golem moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra {@damage 1d12} bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Transmuted",
+					"entries": [
+						"The Golem is under the effect of the following spells:",
+						"{@spell expeditious retreat}",
+						"{@spell longstrider}",
+						"{@spell enhance ability} Bull's Strength",
+						"{@spell magic weapon}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}18 ({@damage 2d12 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Running Slam",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}24 ({@damage 3d12 + 5}) bludgeoning damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/829841124503322624/834815986770903060/Legendary_Icebrood_Construct_28Bjora_Marches29.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/829841124503322624/834815946593140787/Huge_Ice_Construct.png",
+			"traitTags": [
+				"Charge"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Secret Keeper",
+			"source": "Planescape",
+			"page": 116,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 6,
+			"dex": 17,
+			"con": 10,
+			"int": 17,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"int": "+6",
+				"wis": "+5"
+			},
+			"skill": {
+				"perception": "+5",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The allip can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Maddening Touch",
+					"entries": [
+						"{@atk ms} {@hit 8} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) psychic damage."
+					]
+				},
+				{
+					"name": "Whispers of Madness",
+					"entries": [
+						"The allip chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a {@dc 16} Wisdom saving throw, or it takes 7 ({@damage 1d8 + 3}) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and undead are immune to this effect."
+					]
+				},
+				{
+					"name": "Howling Babble {@recharge}",
+					"entries": [
+						"Each creature within 30 feet of the allip that can hear it must make a {@dc 16} Wisdom saving throw. On a failed save, a target takes 12 ({@damage 2d8 + 3}) psychic damage, and it is {@condition stunned} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition stunned}. Constructs and undead are immune to this effect."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"name": "Allip",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Allip",
+										"entries": [
+											"When a mind uncovers a secret that a powerful being has protected with a mighty curse, the result is often the emergence of an allip. Secrets protected in this manner range in scope from a demon lord's true name to the hidden truths of the cosmic order. The allip acquires the secret, but the curse annihilates its body and leaves behind a spectral creature composed of fragments from the victim's psyche and overwhelming psychic agony."
+										]
+									},
+									{
+										"name": "Blasphemous Secrets",
+										"type": "entries",
+										"entries": [
+											"Every allip is wracked with a horrifying insight that torments what remains of its mind. In the presence of other creatures, an allip seeks to relieve this burden by sharing its secret. The creature can impart only a shard of the knowledge that doomed it, but that piece is enough to wrack the recipient with temporary madness.",
+											"The survivors of an allip's attack are sometimes left with a compulsion to learn more about what spawned this monstrosity. Strange phrases echo through their minds, and weird visions occupy their dreams. The sense that some colossal truth sits just outside their recall plagues them for days, months, and sometimes years after their fateful encounter."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"An allip doesn't require air, food, drink, or sleep."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Insidious Lore",
+										"entries": [
+											"An allip might attempt to share its lore to escape its curse and enter the afterlife. It can transfer knowledge from its mind by guiding another creature to write down what it knows. This process takes days or possibly weeks. An allip can accomplish this task by lurking in the study or workplace of a scholar. If the allip remains hidden, its victim is gradually overcome by manic energy. A scholar, driven by sudden insights to work night and day, produces reams of text with little memory of exactly what the documents contain. If the allip succeeds, it passes from the world—and its terrible secret hides somewhere in the scholar's text, waiting to be discovered by its next victim."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Allip.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Allip.png?v=1.127.4",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/allip.mp3?v=1.127.4"
+			},
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"O",
+				"Y"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Abadeth's Follower",
+			"shortName": "Follower",
+			"isNpc": true,
+			"source": "Planescape",
+			"page": 239,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-dragon"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 51",
+				"average": 187
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 21,
+			"dex": 10,
+			"con": 16,
+			"int": 16,
+			"wis": 18,
+			"cha": 18,
+			"save": {
+				"con": "+7",
+				"wis": "+8"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+11",
+				"insight": "+8",
+				"investigation": "+11",
+				"perception": "+8"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Primordial"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The follower is a 14th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). Zindar knows the following sorcerer spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell message}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell sleep}"
+							],
+							"slots": 6
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell knock}"
+							],
+							"slots": 4
+						},
+						"3": {
+							"spells": [
+								"{@spell clairvoyance}",
+								"{@spell tongues}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dominate beast}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell hold monster}",
+								"{@spell telekinesis}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell true seeing}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dragon Wings",
+					"entries": [
+						"As a bonus action on his turn, Zindar can sprout a pair of dragon wings from his back, gaining a flying speed of 30 feet until he dismisses them as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The follower makes two claw attacks and use his breath weapon, it can replace a claw attack with a spell."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage plus 14 ({@damage 4d6}) fire."
+					]
+				},
+				{
+					"name": "Breath Weapon {@recharge 5}",
+					"entries": [
+						"Zindar uses one of the following options:"
+					]
+				},
+				{
+					"name": "Fire Breath",
+					"entries": [
+						"The follower exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Weakening Breath",
+					"entries": [
+						"Zindar exhales gas in a 15-foot cone. Each creature in that area must succeed on a {@dc 16} Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/829841124503322624/839987963324792892/Half_Dragon_Gone_Wrong.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/829841124503322624/839987875776299008/token_24.png",
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR",
+				"P"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tsoagoth",
+			"isNamedCreature": true,
+			"source": "Planescape",
+			"page": 154,
+			"size": "G",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 409,
+				"formula": "21d20 + 189"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 80
+			},
+			"str": 30,
+			"dex": 11,
+			"con": 29,
+			"int": 22,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "+14",
+				"wis": "+8",
+				"str": "+18"
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"cold",
+				"lightning",
+				"thunder"
+			],
+			"immune": [
+				"fire",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"restrained"
+			],
+			"cr": "26",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Tsoagoth can breathe air and water."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Tsoagoth fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"Tsoagoth deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Spell-Resistant Carapace",
+					"entries": [
+						"Tsoagoth has advantage on saving throws against spells, and any creature that makes a spell attack against Tsoagoth has disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Tsoagoth makes three attacks: one with its pincer, one with its tail, and one with its tentacle grasp."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}20 ({@damage 3d6 + 10}) bludgeoning damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 22}). Until the grapple ends, the target is {@condition restrained}, and Tsoagoth. Tsoagoth can have up to 5 creatures {@condition grappled}."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}23 ({@damage 3d8 + 10}) bludgeoning damage, and if the target is a creature, it is knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Tentacle Grasp",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 20 ft., one creature. {@h}20 ({@damage 3d6 + 10}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 26}). If the target doesn't escape by the end of its next turn, Tromokratis throws the target up to 60 feet in a straight line. The target lands {@condition prone} and takes 21 ({@damage 6d6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}29 ({@damage 3d12 + 10}) piercing damage. If the target is a Large or smaller creature {@condition grappled} by Tromokratis, that creature is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside Tromokratis, and it takes 42 ({@damage 12d6}) acid damage at the start of each of Tromokratis's turns. If Tromokratis takes 50 damage or more on a single turn from a creature inside it, Tromokratis must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of Tromokratis. If Tromokratis dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"Tromokratis moves up to half its speed."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"Tromokratis makes one tail attack."
+					]
+				},
+				{
+					"name": "Bite (Costs 3 Actions)",
+					"entries": [
+						"Tromokratis makes one bite attack."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If Tromokratis's mythic trait is active, it can use the options below as legendary actions for 1 hour after using Hearts of the Kraken."
+			],
+			"mythic": [
+				{
+					"name": "Rampage",
+					"entries": [
+						"Tromokratis makes two attacks: one with its tail and one with its tentacle grasp."
+					]
+				},
+				{
+					"name": "Coral Growth (Costs 2 Actions)",
+					"entries": [
+						"Each creature within 10 feet of Tromokratis must make a {@dc 25} Dexterity saving throw, taking 13 ({@damage 3d8}) slashing damage on a failed save, or half as much damage on a successful one. Until the start of its next turn, Tromokratis and its hearts gain a +2 bonus to AC."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Tromokratis",
+				"source": "MOT"
+			},
+			"fluff": {
+				"name": "Tromokratis",
+				"source": "MOT",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Most krakens roam the seas, shattering hulls and scattering fleets, but the kraken Tromokratis notoriously vents its wrath on coastal settlements. Whether it acts at the command of the god Thassa or to sate its own hunger, Tromokratis numbers among the most feared threats in the sea, having no fixed lair and wandering where it will. In recent memory, the massive menace rose from the waves to topple the Pyrgnos, Meletis's great repository of scholarly knowledge. Since that day, the polis keeps a watch specifically for Tromokratis."
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Tromokratis as a Mythic Encounter",
+								"entries": [
+									"Tromokratis numbers among the most powerful creatures a group of adventurers might face. If you wish to make an encounter with the kraken truly legendary, Tromokratis might use its Hearts of the Kraken mythic trait. When this happens, it calls upon a reserve of strength just as it appears to be vanquished. After its hearts are exposed, Tromokratis can choose one of its mythic actions when it uses a legendary action.",
+									"Read or paraphrase the following text when Tromokratis uses its Hearts of the Kraken trait:",
+									{
+										"type": "insetReadaloud",
+										"entries": [
+											"The titanic monster's carapace cracks, revealing a pulsing, red-purple heart buried amid heaps of blubber and muscle. Fissures run across the beast's ancient shell, revealing three other mighty, ichor-slick organs. The sea terror thrashes, channeling pain into fury."
+										]
+									},
+									"Fighting Tromokratis as a mythic encounter is equivalent to taking on two CR 26 creatures in one encounter. Award a party 180,000 XP for defeating Tromokratis after it uses Hearts of the Kraken."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MOT/Tromokratis.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MOT/Tromokratis.png?v=1.129.0",
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances",
+				"Siege Monster"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow",
+				"Tentacles"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "E. Moray Eel",
+			"shortName": "Moray",
+			"source": "Planescape",
+			"page": 158,
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d12 + 100",
+				"average": 230
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 80
+			},
+			"str": 25,
+			"dex": 18,
+			"con": 20,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"perception": "+7",
+				"stealth": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"cr": "14",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The moray makes two attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}29 ({@damage 4d10 + 7}) piercing damage. The target is {@condition grappled} (escape {@dc 20}), and the target is {@condition restrained} until this grapple ends."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The moray makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the moray, it takes 24 ({@damage 7d6}) cold damage and have its maximum Constitution reduced by 1 at the start of each of the moray's turns. If the swallowed creature's Constitution is reduced to  0 it dies. A moray can have only one creature swallowed at a time.",
+						"If the moray takes 30 damage or more on a single turn from the swallowed creature, the moray must succeed on a {@dc 18} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the moray. If the moray dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Cold Breath {@recharge 5}",
+					"entries": [
+						"The moray exhales chill wind in a 60-foot cone.  Each creature in that area must make a {@dc 20} Constitution saving throw, taking 82 ({@damage 15d10}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/827940866533621851/847340789159821332/Morey_Eel_Token.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"C",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "E Octopus",
+			"shortName": "Octopus",
+			"source": "Planescape",
+			"page": 238,
+			"size": "H",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d12 + 100",
+				"average": 230
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 60
+			},
+			"str": 24,
+			"dex": 11,
+			"con": 20,
+			"int": 19,
+			"wis": 15,
+			"cha": 17,
+			"save": {
+				"str": "+12",
+				"dex": "+5",
+				"con": "+10",
+				"int": "+9",
+				"wis": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The octopus can breathe air and water."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The octopus ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				},
+				{
+					"name": "Legendary Charge",
+					"entries": [
+						"If the octopus don't use up all of its legendary actions on a round, it reduces the value required on its next recharge roll by 1 for each action unspent."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The octopus makes three tentacle attacks, each of which it can replace with a use of Fling or Pressurized Jet (if available)."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until the grapple ends, the target is {@condition restrained}. The octopus has eight tentacles, each of which can grapple one target."
+					]
+				},
+				{
+					"name": "Fling",
+					"entries": [
+						"One Medium or smaller object held or creature {@condition grappled} by the octopus is thrown up to 40 feet in a choosen direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Pressurized Jet {@recharge 5}",
+					"entries": [
+						"The octopus shoots pressurized water jet at a target it can see within 120 feet. The target must make a {@dc 18} Dexterity saving throw, taking 55 ({@damage 10d10}) piercing damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tentacle Attack (Costs 2 Actions)",
+					"entries": [
+						"The octopus makes one tentacle attack."
+					]
+				},
+				{
+					"name": "Fling",
+					"entries": [
+						"The kraken uses Fling."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/GoS/Juvenile Kraken.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/827940866533621851/847348206051393537/E_Octopus.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Frost Giant Frostmage",
+			"shortName": "Frostmage",
+			"source": "Planescape",
+			"page": 155,
+			"size": "H",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"frost giant"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Frost Armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d12 + 80",
+				"average": 184
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 21,
+			"int": 22,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"con": "+10",
+				"wis": "+5",
+				"int": "+11"
+			},
+			"skill": {
+				"perception": "+5",
+				"arcana": "+11",
+				"history": "+11"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Giant",
+				"Abyssal"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The frostmage's spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit). The frostmage can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell chromatic orb} (cold damage only)",
+						"{@spell ray of frost}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell bestow curse} {at 5th level}",
+							"{@spell cone of cold}",
+							"{@spell wall of ice}"
+						],
+						"1e": [
+							"{@spell conjure elemental} (9th level)",
+							"{@spell greater invisibility}",
+							"{@spell summon greater demon|XGE} (up to CR 9, it's obedient)"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Piercing Gold",
+					"entries": [
+						"The frostmage's attacks ignore cold resistance.",
+						"Additionally when the frostmage hits a creature that is {@condition restrained} by Deepfreeze, the creature has vulnerability to cold damage."
+					]
+				},
+				{
+					"name": "Deepfreeze {@recharge 5}",
+					"entries": [
+						"When the frostmage hits a creature with an attack that deals cold damage it can use its bonus action to freeze the target in place,  the target must make a {@dc 19} Constitution saving throw. On a faild save it takes {@damage 4d8} cold damage and becomes {@condition restrained}, on successful save it only takes half the damage.",
+						"A creature can spend its action to make a {@dc 18} Strength saving throw to try to break free from the ice."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The frostmage makes two coldfist attacks."
+					]
+				},
+				{
+					"name": "Coldfist",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}25 ({@damage 1d12 + 6}) bludgeoning damage plus ({@damage 2d12}) cold damage."
+					]
+				},
+				{
+					"name": "Frostball",
+					"entries": [
+						"{@atk rs} {@hit 11} to hit, range 240 ft., one target. {@h}28 ({@damage 4d10 + 6}) cold damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			],
+			"fluff": {
+				"name": "Frost Giant",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Gigantic reavers from the freezing lands beyond civilization, frost giants are fierce, hardy warriors that survive on the spoils of their raids and pillaging. They respect only brute strength and skill in battle, demonstrating both with their scars and the grisly trophies they take from their enemies.",
+									{
+										"type": "entries",
+										"name": "Hearts of Ice",
+										"entries": [
+											"Frost giants are creatures of ice and snow. Their hair and beards are pale white or light blue, matted with frost and clattering with icicles. Their flesh is as blue as glacial ice.",
+											"Frost giants dwell in high peaks and glacial rifts where the sun hides its golden head by winter. Crops don't grow in their frozen homelands, and they keep little livestock beyond what they capture in their raids against civilized lands. They hunt the wild game of the tundra and mountains but don't cook it, since meat from a fresh kill tastes sufficiently hot to their palate."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Reavers of the Storm",
+										"entries": [
+											"The war horns of the frost giants howl as they march from their ice fortresses and glacial rifts amid the howling blizzard. When that storm clears, villages and steadings lay in ruins, ravens descending to feed on the corpses of any creatures foolish or unlucky enough to stand in the giants' path.",
+											"Inns and taverns suffer the brunt of the damage, their cellars gutted and their casks of ale and mead gone. Smithies are likewise toppled, their iron and steel claimed. Curiously undisturbed are the houses of moneylenders and wealthy citizens, for the reavers have little use for coins or baubles. Frost giants prize gems and jewelry large enough to be worn and noticed. However, even those treasures are most often saved for trading opportunities with other giants more adept at crafting metal weapons and armor."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Rulers by Might",
+										"entries": [
+											"Frost giants respect brute strength above all else, and a frost giant's place in the ordning depends on evidence of physical might, such as superior musculature, scars from battles of renown, or trophies fashioned from the bodies of slain enemies. Tasks such as hunting, childrearing, and crafting are given to giants based on their physical strength and hardiness.",
+											"When frost giants of different clans meet and their status is unclear, they wrestle for dominance. Such meetings might resemble festivals where giants cheer on their champions, making bold boasts and challenges. At other times, the informal ceremony can become a chaotic free-for-all where both clans rush into a melee that fells trees, shatters the ice on frozen lakes, and causes avalanches on the snowy mountainsides."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Make War, Not Goods",
+										"entries": [
+											"Though frost giants consider the menial crafting of goods beneath them, carving and leatherwork are valued skills. They make their clothing from the skins and bones of beasts, and carve bone or ivory into jewelry and the handles of weapons and tools. They reuse the weapons and armor of their smaller foes, stringing shields into scale armor and lashing sword blades to wooden hafts to make giant-sized spears. The greatest battle trophies come from conquered dragons, and the greatest frost giant jarls wear armor of dragon scales or wield picks and mauls made of a dragon's teeth or claws."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Giants",
+						"entries": [
+							"Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.",
+							{
+								"name": "Old as Legend",
+								"type": "entries",
+								"entries": [
+									"In remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.",
+									"Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "The Ordning",
+								"entries": [
+									"Each of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.",
+									"Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.",
+									"At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.",
+									"Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude."
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Giant Gods",
+								"entries": [
+									"When the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.",
+									"Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.",
+									"Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Frost Giant.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Frost Giant.png?v=1.131.6",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/frost-giant.mp3?v=1.131.6"
+			},
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"C"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Frost Giant Everlasting Rage",
+			"source": "Planescape",
+			"page": 148,
+			"size": "H",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"frost giant"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"patchwork armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 189,
+				"formula": "14d12 + 98"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 25,
+			"dex": 9,
+			"con": 24,
+			"int": 9,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"str": "+12",
+				"con": "+12",
+				"wis": "+5"
+			},
+			"skill": {
+				"athletics": "+12",
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The giant regains 10 hit points at the start of its turn. If the giant takes acid or fire damage, this trait doesn't function at the start of its next turn. The giant dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Everlasting Fury",
+					"entries": [
+						"The giant is always seething with rage. As long as the giant is not {@condition incapacitated} it is raging and gains the following benefits:",
+						"- The giant has advantage on Strength checks and Strength saving throws",
+						"- When it makes a melee weapon attack, the giant gains a +4 bonus to the damage roll.",
+						"- Ranged weapon attacks doesn't impose disadvantage if they are made using strength.",
+						"- The giant has resistance to bludgeoning, piercing, and slashing damage."
+					]
+				},
+				{
+					"name": "Multiple Arms",
+					"entries": [
+						"The giant has four extra arms giving it more leeway to interact with the environment. It can pick up or interact with up to four items on its turn requiring no action.",
+						"Additionaly when a creature provokes an opportunity attack it can grapple the target instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes four attacks with its Frost Handaxes.",
+						"It can forgo two handaxes attacks to use its Rock."
+					]
+				},
+				{
+					"name": "Frost Handaxe",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d8 + 11}) slashing damage while raging."
+					]
+				},
+				{
+					"name": "Frost Handaxe (Throw)",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, range 20/60 ft., one target. {@h}20 ({@damage 3d8 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 60/240 ft., one target. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal"
+			],
+			"fluff": {
+				"name": "Frost Giant Everlasting One",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"To hold its place or rise within the ordning, a frost giant must routinely face mighty foes in single combat. Some seek out magic that will aid them, but enchanted objects can be taken or lost. True greatness relies on personal prowess. Faced with this truth, a frost giant might seek a supernatural gift from Vaprak the Destroyer.",
+											{
+												"name": "Troll Eater",
+												"entries": [
+													" Frost giants mainly turn to Vaprak, a rapacious god of strength and hunger worshiped by ogres and trolls, out of desperation. Vaprak likes to tempt frost giants with dreams of glory followed by nightmares of bloody cannibalism. Those who don't shrink from such visions or report them to priests of Thrym receive more of the same. If a frost giant comes to relish these dreams and nightmares, as some do, Vaprak sets a troll upon a sacred quest to find the frost giant and meet it in secret. The troll offers up its own body to be devoured in Vaprak's name. Only the boldest and most determined frost giants can finish such a gory feast."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Vaprak's Blessing",
+												"entries": [
+													" After devouring the troll sent by Vaprak, bones and all, a frost giant becomes an everlasting one, gaining tremendous strength, an ill temper, and a troll's regenerative ability. With these gifts, the frost giant can swiftly claim the title of jarl and easily fend off rivals for decades. However, if the frost giant doesn't give enough honor to Vaprak or fails to heed Vaprak's visions, injuries the frost giant sustains heal wrong, often resulting in discolored skin, warty scars, and vestigial body parts, such as extra digits, limbs, and even extra heads. The touch of Vaprak can no longer be hidden then, and the everlasting one is either killed or exiled by its clan. Sometimes small communities of everlasting ones gather and even reproduce, passing the \"blessing\" and worship of Vaprak from one generation to the next."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Frost Giant Everlasting One.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Frost Giant Everlasting One.png?v=1.134.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/frost-giant-everlasting-one.mp3?v=1.134.0"
+			},
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}
