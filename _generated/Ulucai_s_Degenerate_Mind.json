@@ -7323,7 +7323,7 @@
 				{
 					"name": "Misty Escape (Recharges after a Short or Long Rest).",
 					"entries": [
-						"In response to taking damage, Felinto turns {@condition invisible} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+						"In response to taking damage, the mind drinker turns {@condition invisible} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
 					]
 				},
 				{
