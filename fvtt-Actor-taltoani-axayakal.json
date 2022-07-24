@@ -1,0 +1,2288 @@
+{
+  "name": "Taltoani Axayakal",
+  "type": "npc",
+  "img": "imagens-actors/npcs/Axayakal.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "bonuses": {
+          "check": 0,
+          "save": ""
+        },
+        "mod": 4
+      },
+      "dex": {
+        "value": 24,
+        "proficient": 1,
+        "bonuses": {
+          "check": 0,
+          "save": ""
+        },
+        "mod": 7
+      },
+      "con": {
+        "value": 24,
+        "proficient": 0,
+        "bonuses": {
+          "check": 0,
+          "save": ""
+        },
+        "mod": 7
+      },
+      "int": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": 0,
+          "save": ""
+        },
+        "mod": 3
+      },
+      "wis": {
+        "value": 21,
+        "proficient": 1,
+        "bonuses": {
+          "check": 0,
+          "save": ""
+        },
+        "mod": 5
+      },
+      "cha": {
+        "value": 23,
+        "proficient": 1,
+        "bonuses": {
+          "check": 0,
+          "save": ""
+        },
+        "mod": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 22,
+        "calc": "natural",
+        "formula": null,
+        "min": 0,
+        "value": null
+      },
+      "hp": {
+        "value": 283,
+        "min": 0,
+        "max": 283,
+        "temp": null,
+        "tempmax": null,
+        "formula": "21d12 + 147"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 7,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 45,
+        "swim": 0,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 120,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "prof": 6,
+      "spelldc": 12
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "neutral evil",
+      "race": "",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": null,
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 18,
+      "spellLevel": 0,
+      "xp": {
+        "value": 20000
+      },
+      "source": "PotA",
+      "class": {},
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [
+          "lightning",
+          "poison",
+          "thunder"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold",
+          "fire",
+          "physical"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "auran"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 2,
+        "max": 3
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "name": "Taltoani Axayakal",
+    "img": "imagens-actors/npcs/Axayakal_token.png",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 120,
+    "sightAngle": 0,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "token-hud-wildcard": {
+        "default": ""
+      }
+    },
+    "randomImg": false,
+    "elevation": 0,
+    "actorData": {},
+    "effects": [],
+    "tint": null
+  },
+  "items": [
+    {
+      "_id": "8RqFo7ksfecsjUQw",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\">\n<p>Taltoani Axayakal makes two Lightning Blow attacks.</p>\n<div class=\"rd__spc-inline-post\"> </div>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1102,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "quickOther": {
+            "context": "",
+            "value": true,
+            "altValue": true
+          },
+          "quickDesc": {
+            "value": true,
+            "altValue": true
+          },
+          "quickProperties": {
+            "value": true,
+            "altValue": true
+          },
+          "quickFlavor": {
+            "value": true,
+            "altValue": true
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    },
+    {
+      "_id": "sOqy9TVWpf4ta7Sd",
+      "name": "Thundering Blow",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\">\n<p><em>Melee Weapon Attack:</em> [[/r 1d20+14]] (+14) to hit, reach 10 ft., one target. <em>Hit:</em> 20 ([[/r 3d8 + 7]]) force damage plus 10 ([[/r 3d6]]) thunder damage.</p>\n<div class=\"rd__spc-inline-post\"> </div>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "1",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d8  + @mod",
+              "force"
+            ],
+            [
+              "3d6",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1001,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "quickDamage": {
+            "context": {
+              "0": "",
+              "1": ""
+            },
+            "value": {
+              "0": true,
+              "1": true
+            },
+            "altValue": {
+              "0": true,
+              "1": true
+            }
+          },
+          "quickOther": {
+            "context": "",
+            "value": true,
+            "altValue": true
+          },
+          "quickDesc": {
+            "value": false,
+            "altValue": false
+          },
+          "quickAttack": {
+            "value": true,
+            "altValue": true
+          },
+          "quickProperties": {
+            "value": true,
+            "altValue": true
+          },
+          "quickVersatile": {
+            "value": false,
+            "altValue": false
+          },
+          "quickFlavor": {
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "value": {
+              "quantity": false
+            },
+            "altValue": {
+              "quantity": false
+            }
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    },
+    {
+      "_id": "9CQa9GFak4lTQGgw",
+      "name": "Thundercrack",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Taltoani Axayakal unleashes a terrible thundercrack in a 100-foot-radius sphere centered on himself. All other creatures in the area must succeed on a DC <span class=\"rd__dc\">24</span> Constitution saving throw or take 31 ([[/r 9d6]]) thunder damage and be @condition[deafened] for 1 minute. On a successful save, a creature takes half as much damage and is @condition[deafened] until the start of Taltoani Axayakal's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 100,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "sr"
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "9d6",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 24,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1106,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TaPwOE5gzU9NQHqR",
+      "name": "Empowered Attacks",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Taltoani Axayakal's slam attacks are treated as magical for the purpose of bypassing resistance and immunity to nonmagical attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 101,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H5Bke7UK9rE2fvdJ",
+      "name": "Legendary Resistance",
+      "type": "feat",
+      "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>If Taltoani Axayakal fails a saving throw, he can choose to succeed instead.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "special",
+          "cost": 0,
+          "condition": "If Taltoani Axayakal fails a saving throw, he can choose to succeed instead."
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legres.value",
+          "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1101,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RxczrhjQmnxOO3OI",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Taltoani Axayakal has advantage on saving throws against spells and other magical effects.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 104,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Y82tBDxZSnMOYjHR",
+      "name": "Peal of Thunder",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Taltoani Axayakal unleashes a peal of thunder that can be heard out to a range of 300 feet. Each creature within 30 feet of Taltoani Axayakal takes 5 ([[/r 1d10]]) thunder damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1103,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "09OxSeTnQg1DgOaI",
+      "name": "Steel Wind Kick",
+      "type": "feat",
+      "img": "icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\">\n<p>Taltoani Axayakal magically teleports up to 60 feet to an unoccupied space he can see and makes one Thundering Blow attack. Anything Taltoani Axayakal is wearing or carrying is teleported with him.</p>\n<div class=\"rd__spc-inline-post\"> </div>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1104,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "quickOther": {
+            "context": "",
+            "value": true,
+            "altValue": true
+          },
+          "quickDesc": {
+            "value": true,
+            "altValue": true
+          },
+          "quickProperties": {
+            "value": true,
+            "altValue": true
+          },
+          "quickFlavor": {
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "value": {
+              "resource": true
+            },
+            "altValue": {
+              "resource": true
+            }
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    },
+    {
+      "_id": "nwuVnMdTlqJuHmLa",
+      "name": "Suffocate",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Taltoani Axayakal steals the air of one breathing creature he can see within 60 feet of him. The target must make a DC <span class=\"rd__dc\">21</span> Constitution saving throw. On a failed save, the target drops to 0 hit points and is dying. On a successful save, the target can't breathe or speak until the start of its next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "legendary",
+          "cost": 3,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 3
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 21,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1105,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VvAvec4YvHOS1QkI",
+      "name": "Legendary Actions",
+      "type": "feat",
+      "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div>Yan-C-Bin can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Yan-C-Bin regains spent legendary actions at the start of its turn.</div>\n\t\t\t<div><ul class=\"rd__list\"><li class=\"rd__li \">@ActorEmbeddedItem[y1N21CAR6aJxwOHG][Peal of Thunder]</li><li class=\"rd__li \">@ActorEmbeddedItem[y1N21CAR6aJxwOHG][Teleport]</li><li class=\"rd__li \">@ActorEmbeddedItem[y1N21CAR6aJxwOHG][Suffocate]</li></ul></div>\n\t\t</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 103,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1aJczigdo3qSXGYM",
+      "name": "Chain Lightning",
+      "type": "spell",
+      "img": "modules/plutonium/media/icon/spell/phb-chain-lightning.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p><div class=\"rd__spc-inline-post\"></div><p>A target must make a Dexterity saving throw. The target takes [[/r 10d8]] lightning damage on a failed save, or half as much damage on a successful one.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 150,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 2,
+          "max": 2,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "10d8",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 6,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 21001,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "chain%20lightning_phb",
+          "propDroppable": "spell"
+        }
+      }
+    },
+    {
+      "_id": "KVAk4xrgz7g19pTU",
+      "name": "Cloudkill",
+      "type": "spell",
+      "img": "modules/plutonium/media/icon/spell/phb-cloudkill.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.</p><div class=\"rd__spc-inline-post\"></div><p>When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes [[/r 5d8]] poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.</p><p>The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 6th level or higher, the damage increases by [[/r 1d8]] for each slot level above 5th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 2,
+          "max": 2,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "5d8",
+              "poison"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 5,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 21002,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "cloudkill_phb",
+          "propDroppable": "spell"
+        }
+      }
+    },
+    {
+      "_id": "DuG0qBueqokzC8gK",
+      "name": "Haste",
+      "type": "spell",
+      "img": "modules/plutonium/media/icon/spell/phb-haste.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the @action[Attack] (one weapon attack only), @action[Dash], @action[Disengage], @action[Hide], or @action[Use an Object] action.</p><div class=\"rd__spc-inline-post\"></div><p>When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 2,
+          "max": 2,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 3,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a shaving of licorice root",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 21004,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "haste_phb",
+          "propDroppable": "spell"
+        }
+      }
+    },
+    {
+      "_id": "ib2d45yt36nLU6T2",
+      "name": "Gust of Wind",
+      "type": "spell",
+      "img": "modules/plutonium/media/icon/spell/phb-gust-of-wind.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</p><div class=\"rd__spc-inline-post\"></div><p>Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p><p>The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a [[/r 1d100]] (50 percent) chance to extinguish them.</p><p>As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 60,
+          "width": null,
+          "units": "ft",
+          "type": "line"
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 2,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a legume seed",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 21003,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "gust%20of%20wind_phb",
+          "propDroppable": "spell"
+        }
+      }
+    },
+    {
+      "_id": "mWxjBvzScNDl0PJ4",
+      "name": "Invisibility",
+      "type": "spell",
+      "img": "modules/plutonium/media/icon/spell/phb-invisibility.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A creature you touch becomes @condition[invisible] until the spell ends. Anything the target is wearing or carrying is @condition[invisible] as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"6\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "touch",
+          "type": "creature"
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 2,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "an eyelash encased in gum arabic",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 21005,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "invisibility_phb",
+          "propDroppable": "spell"
+        }
+      }
+    },
+    {
+      "_id": "FuUiKD8F1W0Uojwz",
+      "name": "Lightning Bolt",
+      "type": "spell",
+      "img": "modules/plutonium/media/icon/spell/phb-lightning-bolt.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes [[/r 8d6]] lightning damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div><p>The lightning ignites flammable objects in the area that aren't being worn or carried.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"7\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/r 1d6]] for each slot level above 3rd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": "inst"
+        },
+        "target": {
+          "value": 100,
+          "width": null,
+          "units": "ft",
+          "type": "line"
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d6",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 3,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of fur and a rod of amber, crystal, or glass",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 21006,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "lightning%20bolt_phb",
+          "propDroppable": "spell"
+        }
+      }
+    },
+    {
+      "_id": "PjT3ufJJfMvKMPOQ",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\">\n<div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"8\"> <span class=\"entry-title-inner\">Innate Spellcasting.</span></span>\n<p>Taltoani Axayakal's innate spellcasting ability is Charisma (spell save DC <span class=\"rd__dc\">20</span>, [[/r 1d20+12]] (+12) to hit with spell attacks). He can innately cast the following spells, requiring no material components:</p>\n<div class=\"rd__spc-inline-post\"> </div>\n<ul class=\"rd__list rd__list-hang-notitle\">\n<li class=\"rd__li  rd__li-spell\">\n<p>At will: @ActorEmbeddedItem[y1N21CAR6aJxwOHG][ib2d45yt36nLU6T2], @ActorEmbeddedItem[y1N21CAR6aJxwOHG][mWxjBvzScNDl0PJ4], @ActorEmbeddedItem[y1N21CAR6aJxwOHG][FuUiKD8F1W0Uojwz]</p>\n</li>\n<li class=\"rd__li  rd__li-spell\">\n<p>2/day each: @ActorEmbeddedItem[y1N21CAR6aJxwOHG][1aJczigdo3qSXGYM], @ActorEmbeddedItem[y1N21CAR6aJxwOHG][KVAk4xrgz7g19pTU], @ActorEmbeddedItem[y1N21CAR6aJxwOHG][DuG0qBueqokzC8gK]</p>\n</li>\n</ul>\n</div>\n<div class=\"rd__spc-inline-post\"> 1/day each: Steel Wind Strike</div>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PotA",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 102,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "quickOther": {
+            "context": "",
+            "value": true,
+            "altValue": true
+          },
+          "quickDesc": {
+            "value": true,
+            "altValue": true
+          },
+          "quickProperties": {
+            "value": true,
+            "altValue": true
+          },
+          "quickFlavor": {
+            "value": true,
+            "altValue": true
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    },
+    {
+      "_id": "wP5cHBlMD6ELxJQE",
+      "name": "Steel Wind Strike",
+      "type": "spell",
+      "img": "modules/plutonium/media/icon/spell/xge-steel-wind-strike.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes [[/r 6d10]] force damage.</p><div class=\"rd__spc-inline-post\"></div><p>You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "XGE",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": "inst"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "6d10",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a melee weapon worth at least 1 sp",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 21007,
+      "permission": {
+        "default": 0,
+        "ahEIHHThu85hc9lR": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "XGE",
+          "hash": "steel%20wind%20strike_xge",
+          "propDroppable": "spell"
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "srd5e": {
+      "page": "bestiary.html",
+      "source": "PotA",
+      "hash": "yan-c-bin_pota"
+    },
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    },
+    "tidy5e-sheet": {
+      "npcSkillsExpanded": true,
+      "traitsExpanded": true
+    },
+    "exportSource": {
+      "world": "rpgnick",
+      "system": "dnd5e",
+      "coreVersion": "9.269",
+      "systemVersion": "1.6.3"
+    }
+  }
+}
