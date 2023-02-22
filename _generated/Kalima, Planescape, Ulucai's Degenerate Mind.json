@@ -9,7 +9,10 @@
 				"authors": [
 					"Ulucai"
 				],
-				"convertedBy": []
+				"convertedBy": [
+					"Ulucai"
+				],
+				"color": "63E529"
 			},
 			{
 				"json": "Planescape",
@@ -19,7 +22,10 @@
 				"authors": [
 					"Ulucai"
 				],
-				"convertedBy": []
+				"convertedBy": [
+					"Ulucai"
+				],
+				"color": "FFDF5D"
 			},
 			{
 				"json": "UlucaiDM",
@@ -31,9 +37,126 @@
 				],
 				"convertedBy": [
 					"Ulucai"
-				]
+				],
+				"color": "A698BC"
+			},
+			{
+				"json": "UlucaisTrainingDummy",
+				"abbreviation": "ULTD",
+				"full": "Ulucai's Training Dummy",
+				"url": "",
+				"authors": [
+					"Ulucai"
+				],
+				"convertedBy": [
+					"Ulucai"
+				],
+				"color": "9FC5E8"
 			}
-		]
+		],
+		"optionalFeatureTypes": {
+			"HWF": "Hunter Weapon Feature",
+			"EXP": "Exploit",
+			"VS1": "Vestige Level 1",
+			"VS2": "Vestige Level 2",
+			"VS3": "Vestige Level 3",
+			"VS4": "Vestige Level 4",
+			"VS5": "Vestige Level 5",
+			"VS6": "Vestige Level 6",
+			"VS7": "Vestige Level 7",
+			"VS8": "Vestige Level 8",
+			"VS9": "Vestige Level 9",
+			"MS": "Minor Spirit",
+			"SS:LP": "Supply Specialist; Lesser Potions",
+			"DS:DC": "Dragon Student; Dragon Companion",
+			"T:WM": "Warmage Trick",
+			"FU:Min": "Firearm Upgrade; Minor",
+			"FU:Maj": "Firearm Upgrade; Major",
+			"FO": "Fiendish Offering",
+			"GoD": "Gifts of Damnation",
+			"AH:TB": "Aberrant Horror; Transformation Boon",
+			"AH:TF": "Aberrant Horror; Transformation Flaw",
+			"TF:TB": "The Fiend; Transformation Boon",
+			"TF:TF": "The Fiend; Transformation Flaw",
+			"TLi:TB": "The Lich; Transformation Boon",
+			"TLi:TF": "The Lich; Transformation Flaw",
+			"TLy:TB": "The Lycanthrope; Transformation Boon",
+			"TLy:TF": "The Lycanthrope; Transformation Flaw",
+			"TS:TB": "The Seraph; Transformation Boon",
+			"TS:TF": "The Seraph; Transformation Flaw",
+			"V:TB": "Vampire; Transformation Boon",
+			"V:TF": "Vampire; Transformation Flaw",
+			"BGT:Ac": "Background Talent; Academic",
+			"BGT:Ar": "Background Talent; Aristocrat",
+			"BGT:Cl": "Background Talent; Clergy",
+			"BGT:CF": "Background Talent; Common Folk",
+			"BGT:CM": "Background Talent; Clan Member",
+			"BGT:Cr": "Background Talent; Criminal",
+			"BGT:M": "Background Talent; Militarist",
+			"BGT:O": "Background Talent; Outlander",
+			"BGT:P": "Background Talent; Pauper & Pit Fighter",
+			"BGT:S": "Background Talent; Seafarer",
+			"AdvT": "Adventurer's Talents",
+			"LC:C": "Living Crucible: Compounds",
+			"MFBM": "Misfortune Bringer Misfortunes",
+			"F:TB": "Fey; Transformation Boon",
+			"F:TF": "Fey; Transformation Flaw",
+			"P:TB": "Primordial; Transformation Boon",
+			"P:TF": "Primordial; Transformation Flaw",
+			"S:TB": "Specter; Transformation Boon",
+			"S:TF": "Specter; Transformation Flaw",
+			"BM": "Beastial Mutation",
+			"AMV": "Aerial Maneuver",
+			"GT": "Gust Technique",
+			"Psi. Man.": "Psionic Manifestation",
+			"Unit": "Unit",
+			"CB": "Companion Bond",
+			"BB": "Bond Boons",
+			"CP": "Common Personality",
+			"EP": "Evil Personality",
+			"AT": "Ability Training",
+			"ABF": "Alchemical Brute Formulae",
+			"RS": "Runestone;",
+			"RS:C": "Runestone; Common",
+			"RS:UC": "Runestone; Uncommon",
+			"RS:R": "Runestone; Rare",
+			"RS:VR": "Runestone; Very Rare",
+			"RS:L": "Runestone; Legendary",
+			"BHC": "Blood Hunter Concoction",
+			"Graft": "Graft",
+			"MV:GW": "Maneuver, Grey Watchman",
+			"BF": "Bomb Formula",
+			"DI": "Discovery",
+			"Hex": "Hex",
+			"FS:G": "Fighting Style; Gunslinger",
+			"D:G": "Deeds; Gunslinger",
+			"MP": "Masterwork Property",
+			"Trap": "Trap",
+			"BC:B": "Bridge Crew: Boatswain",
+			"BC:C": "Bridge Crew: Captain",
+			"BC:H": "Bridge Crew: Helmsman",
+			"BC:FH": "Bridge Crew: Fighter Helmsman",
+			"BC:G": "Bridge Crew: Gunner",
+			"WJ:OCF": "Wildjammer: Optional Class Feature",
+			"F:RA": "Fighter; Runic Augmentations"
+		},
+		"senses": {
+			"thermalsight": [
+				"A monster with thermalsight can see living creatures through darkness and heavily obscured conditions, such as fog. The monster can also determine if a creature is living or dead though its body heat. However, the monster can't discern color, nor use this sense to see through illusions, invisibility, or magical darkness. This sense is blocked by one inch of any solid barrier. Many constructs have this special sense."
+			]
+		},
+		"skills": {
+			"Data": [
+				"This new skill in Dark Matter governs how well one can manipulate a technological interface and gain access to information or other functions. Your Intelligence (Data) check encompasses your knowledge of software and its exploits, more than hardware (which is covered by the Technology skill), and so will only be used when you use technology that has an interface, like a datapad, an arcane terminal, a ship's computer, or other control technology, like a door control or the computers that govern a {@item shield generator|darkmatter} or ship weapon. If a piece of technology doesn't have an interface, an interface rig is required to interact with it. The GM should call for an Intelligence (Data) check whenever you attempt complicated operations on a data system, when you attempt to reprogram a construct, or when you attempt to hack a device.",
+				"Any sort of illegal or unauthorized access to a technological system is called Hacking and requires the use of an {@item interface rig|darkmatter}, as well as an Intelligence (Data) check. In general, a hacking attempt requires 1 minute of work using the technology, though the GM can decide that certain tasks might take only an action. On a successful check to hack a device, you can perform operations on the system as if you had full access. On a failed check, roll a d6. On a 6, the device locks down and no further attempts can be made to hack it. More secure devices might lock on a roll of 5 or 6, or on a roll of 4 to 6, as determined by the GM. You can hack into devices to illegally access a security system, open a door, disable an alarm, or manipulate someone else's datapad to give you access to their information or bank account."
+			],
+			"Piloting": [
+				"A new skill in Dark Matter, your Dexterity (Piloting) check covers how well you maintain control over a ship in difficult circumstances. You don't need proficiency in Piloting to fly a ship (be it an aircraft or a spacecraft), but proficiency in this skill can help when you need to make a crash landing or pull off a risky maneuver in a dogfight. The GM might call for a Dexterity (Piloting) check when you attempt to fly a ship through an electromagnetic storm that disrupts the controls, or when you wish to perform a hard stop or pull a high-G turn."
+			],
+			"Technology": [
+				"Your Intelligence (Technology) check measures your ability to understand the inner workings of technological devices. Most devices are powered by some form of magic, but plenty of intricate design goes into channeling that magic into useful effects. Use this skill to understand unfamiliar or complex technology or to modify or repair devices. The GM may call for an Intelligence (Technology) check when you attempt to modify a blaster, repair your ship's {@item shield generator|darkmatter}, disable a rogue android, or sabotage an arcane terminal."
+			]
+		}
 	},
 	"class": [],
 	"subclass": [],
@@ -4963,7 +5086,7 @@
 				{
 					"name": "Cursed Spellcasting",
 					"headerEntries": [
-						"The giant has a macabre collection of the heads of his fallen victmins. This Collection allows him to channel negative energy and cast spells. The giant can innately cast the following spells, requiring no material components (to hit {@hit 11}, spell save {@dc 19}):"
+						"The giant has a macabre collection of the heads of his fallen victmins. This Collection allows him to channel negative energy and cast spells. The giant can innately cast the following spells, requiring no material or somatic components (to hit {@hit 11}, spell save {@dc 19}):"
 					],
 					"will": [
 						"{@spell blindness/deafness}",
@@ -5054,7 +5177,10 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
-			"__prop": "monster"
+			"damageTagsSpell": [
+				"I",
+				"N"
+			]
 		},
 		{
 			"name": "Ysgardian Fire Giant",
@@ -15674,7 +15800,7 @@
 				{
 					"name": "Life Drain",
 					"entries": [
-						"When Mqoro reduces a creature to 0 hit points that is neither a construct nor undead with a spell of 1st level or higher, Mqoro regains hit points equal to twice the spell's level, or three times if it is a necromancy spell."
+						"When Mqoro reduces a creature to 0 hit points that is neither a construct nor undead with a spell of 1st level or higher, Mqoro gains temporary hit points equal to 5 times the spells level."
 					]
 				},
 				{
@@ -15682,6 +15808,12 @@
 					"entries": [
 						"Undeads created Mqoro obey his commands until they are destroyed or {@condition charmed} by another creature.",
 						"Additionally as an action he can take control over an undead. The target must succeed on a {@dc 20} saving throw, if the targets Intelligence is 8 or higher it makes the save with advantage."
+					]
+				},
+				{
+					"name": "Shadow Flames",
+					"entries": [
+						"Whenever Mqoro casts a spell that causes fire damage it can instead change the damage type to necrotic."
 					]
 				}
 			],
@@ -15790,64 +15922,71 @@
 			],
 			"ac": [
 				{
-					"ac": 15,
+					"ac": 18,
 					"from": [
 						"natural armor"
 					]
 				}
 			],
 			"hp": {
-				"average": 45,
-				"formula": "7d8 + 14"
+				"formula": "12d8 + 36",
+				"average": 90
 			},
 			"speed": {
 				"walk": 50
 			},
-			"str": 18,
-			"dex": 14,
-			"con": 14,
-			"int": 6,
-			"wis": 13,
+			"str": 19,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 16,
 			"cha": 6,
 			"skill": {
-				"perception": "+7"
+				"perception": "+11"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"darkvision 120 ft."
 			],
-			"passive": 17,
+			"passive": 21,
 			"immune": [
-				"fire"
+				"necrotic"
 			],
 			"languages": [
 				"understands the same languages his master knows but can't speak it"
 			],
-			"cr": "5",
+			"cr": "9",
 			"trait": [
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Thousand Eyes",
 					"entries": [
-						"The hound has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+						"The hound has advantage on Wisdom ({@skill Perception}) checks that rely on sight.",
+						"Additionally it can see {@condition invisible} creatures and objects, as well as see into the Ethereal Plane, out to a range of 120 feet."
 					]
 				},
 				{
-					"name": "Pack Tactics",
+					"name": "Necrotic Absorption",
 					"entries": [
-						"The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Whenever the hound is subjected to necrotic damage, it takes no damage and instead regains a number of hit points equal to the necrotic damage dealt."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Multiattack",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+						"The hound can make two melee attacks."
 					]
 				},
 				{
-					"name": "Fire Breath {@recharge 5}",
+					"name": "Bite",
 					"entries": [
-						"The hound exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 12} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 9 ({@damage 2d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Shadow Breath {@recharge 5}",
+					"entries": [
+						"The hound exhales a dark fog in a 30-foot cone. Each creature in that area must succeed on a {@dc 16} Constitution saving throw. On a failed save, the creature takes 28 ({@damage 8d6}) necrotic damage and is {@condition blinded} for one minute. On successful save, the creature takes half as much damage and is not {@condition blinded}."
 					]
 				}
 			],
@@ -15859,22 +15998,19 @@
 				"type": "external",
 				"url": "https://5e.tools/audio/bestiary/hell-hound.mp3"
 			},
-			"traitTags": [
-				"Keen Senses",
-				"Pack Tactics"
-			],
 			"senseTags": [
-				"D"
+				"SD"
 			],
 			"actionTags": [
-				"Breath Weapon"
+				"Breath Weapon",
+				"Multiattack"
 			],
 			"languageTags": [
 				"CS"
 			],
 			"damageTags": [
-				"P",
-				"F"
+				"N",
+				"P"
 			],
 			"miscTags": [
 				"MW",
@@ -15882,51 +16018,25 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
-			"__prop": "monster",
-			"tokenUrl": "https://5e.tools/img/MM/Hell Hound.png",
+			"tokenUrl": "https://i.imgur.com/1rmB6Id.png",
 			"fluff": {
-				"name": "Hell Hound",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"Monstrous, fire-breathing fiends that take the form of powerful dogs, hell hounds are found on the battlefields of Acheron and throughout the Lower Planes. On the Material Plane, hell hounds are most commonly seen in service to devils, fire giants, and other evil creatures that use them as guard animals and companions.",
-									{
-										"name": "Burning Hunger",
-										"type": "entries",
-										"entries": [
-											"Hell hounds hunt in packs, feeding on any creature that appears edible. They avoid potentially dangerous foes in favor of targeting the weakest prey with their savage bite and fiery breath, demonstrating a relentless determination as they pursue that prey to the bitter end.",
-											"When hell hounds feed, the flesh they consume stokes the infernal fires that burn within them. When a hell hound dies, that fire consumes the creature's remains in a billowing eruption of smoke and blazing embers, leaving nothing behind but scorched tufts of black fur."
-										]
-									},
-									{
-										"name": "Evil to the Core",
-										"type": "entries",
-										"entries": [
-											"Hell hounds are smarter than mundane beasts, and their lawful nature makes them good at following orders. However, a hell hound's evil disposition means that the creature can't be trained to be anything other than a ruthless killer. If a hell hound isn't allowed to indulge its malevolent hunger, it quickly abandons or turns against its master."
-										]
-									}
-								]
-							}
-						]
-					}
-				],
 				"images": [
 					{
 						"type": "image",
 						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Hell Hound.jpg"
+							"type": "external",
+							"url": "https://i.imgur.com/1rmB6Id.png"
 						}
 					}
-				],
-				"__prop": "monsterFluff"
+				]
 			},
-			"shortName": "Hound"
+			"shortName": "Hound",
+			"conditionInflict": [
+				"blinded"
+			],
+			"traitTags": [
+				"Damage Absorption"
+			]
 		},
 		{
 			"name": "Nakika",
@@ -17070,6 +17180,4112 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Salazar",
+			"source": "Kalima",
+			"page": 209,
+			"reprintedAs": [
+				"Abjurer Wizard|MPMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item robe of scintillating colors}"
+					]
+				},
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "19d8 + 57",
+				"average": 142
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 16,
+			"int": 20,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+10",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+10",
+				"history": "+10",
+				"insight": "+6",
+				"investigation": "+10",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The abjurer has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*Abjuration spell of 1st level or higher"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}",
+								"{@spell dancing lights}",
+								"{@spell message}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell alarm}*",
+								"{@spell mage armor}*",
+								"{@spell magic missile}",
+								"{@spell shield}*"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell arcane lock}*",
+								"{@spell invisibility}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}*",
+								"{@spell dispel magic}*",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}*",
+								"{@spell stoneskin}*"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell wall of force}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell flesh to stone}",
+								"{@spell globe of invulnerability}*",
+								"{@spell magic jar}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell symbol}*",
+								"{@spell teleport}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if used with two hands."
+					]
+				},
+				{
+					"name": "Force Blast",
+					"entries": [
+						"Each creature in a 20-foot cube originating from the abjurer must make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 36 ({@damage 8d8}) force damage and is pushed up to 10 feet away from the abjurer. On a successful save, a creature takes half as much damage and isn't pushed."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/abjurer.mp3"
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"L",
+				"N",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://i.imgur.com/YmrHPW8.png",
+			"reaction": [
+				{
+					"name": "Arcane Ward",
+					"entries": [
+						"When the abjurer or a creature it can see within 30 feet of it takes damage, the abjurer magically creates a protective barrier around itself or the other creature. The barrier reduces the damage to the protected creature by 26 ({@damage 4d10 + 4}), to a minimum of 0, and then vanishes."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Scintillating Colors",
+					"entries": [
+						"As an action the abjurer activates its robes to emit dazzling light until the end of its next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see the abjurer have disadvantage on attack rolls against him.",
+						"Additionally, any creature in the bright light that can see the abjurer when the robes are activated must succeed on a {@dc 18} Wisdom saving throw or become {@condition incapacitated} until the effect ends."
+					]
+				}
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"shortName": "Abjurer",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/YmrHPW8.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Lizarfolk Berserker",
+			"source": "Kalima",
+			"page": 234,
+			"reprintedAs": [
+				"Star Spawn Hulk|MPMM"
+			],
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"lizardfolk"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d10 + 70",
+				"average": 147
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 12,
+			"con": 21,
+			"int": 9,
+			"wis": 12,
+			"cha": 9,
+			"save": {
+				"dex": "+5",
+				"con": "+9"
+			},
+			"skill": {
+				"perception": "+5",
+				"athletics": "+14",
+				"survival": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the berserker hits with it."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the berserker takes 21 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The berserker deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The berserker makes two melee attacks"
+					]
+				},
+				{
+					"name": "Slam / Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning/slashing damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}28 ({@damage 4d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Supernatural Strength{@recharge 5}",
+					"entries": [
+						"The berseker makes devastating slam attack against a target if it hits the target takes 31 ({@damage 7d8}) extra damage. If the target is a creature it is flung up to 30 feet away from the berserker."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://i.imgur.com/yAnsOQL.png",
+			"shortName": "Berserker",
+			"traitTags": [
+				"Brute",
+				"Siege Monster"
+			],
+			"reaction": [
+				{
+					"name": "Survival Instinct",
+					"entries": [
+						"Right after the berserker uses its relentless feature it can make a melee attack against a creature within range."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/yAnsOQL.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Lizardfolk Stalker",
+			"source": "Kalima",
+			"reprintedAs": [
+				"Star Spawn Mangler|MPMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"lizardfolk"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 16",
+				"average": 88
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50
+			},
+			"str": 8,
+			"dex": 18,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 7,
+			"save": {
+				"dex": "+7",
+				"con": "+4"
+			},
+			"skill": {
+				"stealth": "+7",
+				"acrobatics": "+7",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [],
+			"conditionImmune": [
+				"charmed"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the stalker can take the Hide action as a bonus action."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"On the first round of each combat, the stalker has advantage on attack rolls against a creature that hasn't taken a turn yet."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The stalker makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage. If the attack roll has advantage, the target also takes 7 ({@damage 2d6}) slashing damage."
+					]
+				},
+				{
+					"name": "Flurry of Claws {@recharge 4}",
+					"entries": [
+						"The stalker makes six claw attacks against one target. Either before or after these attacks, it can move up to its speed as a bonus action without provoking opportunity attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://i.imgur.com/ESuF0gs.png",
+			"shortName": "Stalker",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/ESuF0gs.png"
+						}
+					}
+				]
+			},
+			"languages": [
+				"Draconic"
+			],
+			"languageTags": [
+				"DR"
+			]
+		},
+		{
+			"name": "Lizardfolk Shaman",
+			"source": "Kalima",
+			"page": 183,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"lizardfolk"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 15,
+			"cha": 11,
+			"skill": {
+				"intimidation": "+2",
+				"medicine": "+4",
+				"survival": "+4"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The shaman is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The shaman has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell mending}",
+								"{@spell resistance}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bane}",
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell enhance ability}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell protection from energy}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The shaman makes two claw attacks, or four claw attacks if it has fewer than half of its hit points remaining."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"S"
+			],
+			"damageTagsSpell": [
+				"N",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://i.imgur.com/QMR18tx.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/QMR18tx.png"
+						}
+					}
+				]
+			},
+			"shortName": "Shaman",
+			"trait": [
+				{
+					"name": "Coward's retreat",
+					"entries": [
+						"As a bonus action, the shaman can move up to its speed toward an ally that it can see."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kenishi",
+			"source": "Kalima",
+			"page": 165,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 51",
+				"average": 127
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 50,
+				"swim": 50
+			},
+			"str": 15,
+			"dex": 20,
+			"con": 16,
+			"int": 14,
+			"wis": 18,
+			"cha": 13,
+			"skill": {
+				"acrobatics": "+10",
+				"perception": "+5",
+				"stealth": "+6",
+				"athletics": "+7"
+			},
+			"passive": 15,
+			"languages": [
+				"Common"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While the monk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the monk is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the monk instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Stand Your Ground",
+					"entries": [
+						"When the monk takes the dodge action it doesn't impose disadvantage to attacks made against him. Instead the monk can use its deflecting palm once per turn without using its reaction."
+					]
+				},
+				{
+					"name": "Martial Arts",
+					"entries": [
+						"The monk can use its bonus action dash, disengage, dodge.",
+						"Additionally after it takes the attack action he can use its bonus action to make two unarmed strikes or sun bolts."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The monk sheds bright light in a 5- to 30-foot radius and dim light for an additional number of feet equal to the chosen radius. The monk can alter the radius as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The monk makes three attacks. If the monk hits the same target more than once on a turn each attack after the first deals ({@damage 1d8}) extra damage."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) bludgeoning damage if it hits the same target more than once on a turn."
+					]
+				},
+				{
+					"name": "Sun Bolt",
+					"entries": [
+						"{@atk rs} {@hit 10} to hit, range 30 ft., one target. {@h}9 ({@damage 1d8 + 5}) radiant damage plus 4 ({@damage 1d8}) radiant damage if it hits the same target more than once on a turn."
+					]
+				},
+				{
+					"name": "Sunburst {@recharge 5}",
+					"entries": [
+						"The monk creates a orb of light and hurls it at a point within 150 feet, the orb then burst into a 20-foot-radius sphere of radiant light. Each creature within that area must succeed on a {@dc 18} Constitution saving throw or take 28 ({@damage 8d6}) radiant damage and can't take reactions until the start of its next turn."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"tokenUrl": "https://i.imgur.com/5e1gEOx.png",
+			"shortName": "Monk",
+			"reaction": [
+				{
+					"name": "Deflecting Palm",
+					"entries": [
+						"When a creature hits the monk with a melee attack, the monk can reduce the damage taken by 27 ({@damage 4d10+5}). If the damage is reduced to 0, the attacker suffers damage equal to what the attack would have dealt."
+					]
+				}
+			],
+			"save": {
+				"str": "+7",
+				"dex": "+10"
+			},
+			"resist": [
+				"fire",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/5e1gEOx.png"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Illumination"
+			]
+		},
+		{
+			"name": "Ryujin",
+			"source": "Kalima",
+			"page": 172,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d8 + 45",
+				"average": 112
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 16,
+			"int": 11,
+			"wis": 14,
+			"cha": 11,
+			"skill": {
+				"acrobatics": "+9",
+				"stealth": "+13",
+				"athletics": "+4"
+			},
+			"passive": 12,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While the monk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				},
+				{
+					"name": "Flying Kick",
+					"entries": [
+						"If the monk moves at least 15 feet straight toward a target and then hits it with an unarmed strike on the same turn, the target takes an extra 13 ({@dice 3d8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Martial Arts",
+					"entries": [
+						"The monk can use its bonus action dash, disengage, dodge.",
+						"Additionally after it takes the attack action he can use its bonus action to make two unarmed strikes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The monk makes three Unarmed Strike attacks, it can substitute one of its Unarmed Strikes for a Jiraishin or a Crushing Palm."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage and the target must succeed on a {@dc 17} Strength saving throw or be pushed up to 10 feet directly away from the monk."
+					]
+				},
+				{
+					"name": "Crushing Palm",
+					"entries": [
+						"The monk focus its ki into projecting massive pressure, pushing a {@condition prone} creature within 5 ft against the ground. The target must make a {@dc 17} Strength saving throw. The target takes 18 ({@damage 4d8}) on a failed save, or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Jiraishin (once per turn)",
+					"entries": [
+						"The monk strikes the ground causing tremors, each creature within 10 feet of him must succeed on a {@dc 17} Dexterity saving throw or become {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missile",
+					"entries": [
+						"In response to being hit by a ranged weapon attack, the monk deflects the missile. The damage it takes from the attack is reduced by {@dice 1d10 + 18}. If the damage is reduced to 0, the monk catches the missile if it's small enough to hold in one hand and the monk has a hand free."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/martial-arts-adept.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://i.imgur.com/r6j1ZBq.png",
+			"fluff": {
+				"entries": [
+					"Martial arts adepts are disciplined monks with extensive training in hand-to-hand combat. Some protect monasteries; others travel the world seeking enlightenment or new forms of combat to master. A few become bodyguards, trading their combat prowess and loyalty for food and lodging.",
+					"Some martial artists adorn themselves with tattoos to honor inspirations or instructors, or to memorialize profound lessons, triumphs, or defeats. You may roll on the Martial Arts Adept Tattoos table to determine what sort of tattoo an adept bears.",
+					{
+						"type": "table",
+						"caption": "Martial Arts Adept Tattoos",
+						"colLabels": [
+							"d8",
+							"Tattoo"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"1",
+								"Patterning on the arms that make them look as though they were made of marble or granite"
+							],
+							[
+								"2",
+								"Colorful dragon scales"
+							],
+							[
+								"3",
+								"Collage of playful Elemental or Fey creatures"
+							],
+							[
+								"4",
+								"Constellations on the palm of each hand"
+							],
+							[
+								"5",
+								"Passage from a fighting manual"
+							],
+							[
+								"6",
+								"Beautiful but poisonous flowers"
+							],
+							[
+								"7",
+								"Two couatls swirling around each other, rendered in metallic ink"
+							],
+							[
+								"8",
+								"Detailed landscape depicting natural beauty"
+							]
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/r6j1ZBq.png"
+						}
+					}
+				]
+			},
+			"save": {
+				"str": "+4",
+				"dex": "+9"
+			},
+			"shortName": "Monk",
+			"bonus": [
+				{
+					"name": "Crippling Blow",
+					"entries": [
+						"When the monk hits a creature with its unarmed strike he can use its bonus action to cripple the target. The target must succeed on a {@dc 17} Constitution saving throw or suffer one of the following effects.",
+						"{@b Leg Kick:} The target speed is halved. If the saving throw fails by 5 or more, the target's speed is reduced to 0.",
+						"{@b Disarm:} The target drops an object its holding and can't use one of its arms until the end of its next turn. If the saving throw fails by 5 or more, the target can't use either of its arms."
+					]
+				},
+				{
+					"name": "Flowing Wind",
+					"entries": [
+						"The monk assumes the flowing wind posture, until the start of its next turn all of his unarmed strikes have a reach of 15 feet. This reach cannot be used to grapple a creature."
+					]
+				}
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			]
+		},
+		{
+			"name": "Kriv",
+			"source": "Kalima",
+			"page": 129,
+			"reprintedAs": [
+				"Deathlock Mastermind|MPMM"
+			],
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 16,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "20d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 12,
+			"int": 15,
+			"wis": 12,
+			"cha": 17,
+			"save": {
+				"int": "+5",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+5",
+				"history": "+5",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft. (including magical darkness)"
+			],
+			"passive": 14,
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The deathlock's innate spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell disguise self}",
+						"{@spell mage armor}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell poison spray}"
+							]
+						},
+						"5": {
+							"lower": 1,
+							"slots": 2,
+							"spells": [
+								"{@spell arms of Hadar}",
+								"{@spell blight}",
+								"{@spell counterspell}",
+								"{@spell crown of madness}",
+								"{@spell darkness}",
+								"{@spell dimension door}",
+								"{@spell dispel magic}",
+								"{@spell fly}",
+								"{@spell hold monster}",
+								"{@spell invisibility}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Turn Resistance",
+					"entries": [
+						"The deathlock has advantage on saving throws against any effect that turns undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Deathly Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) necrotic damage)."
+					]
+				},
+				{
+					"name": "Grave Bolts",
+					"entries": [
+						"{@atk rs} {@hit 6} to hit, range 120 ft., one or two targets. {@h}18 ({@damage 4d8}) necrotic damage. If the target is Large or smaller, it must succeed on a {@dc 16} Strength saving throw or become {@condition restrained} as shadowy tendrils wrap around it for 1 minute. A {@condition restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Patron-Specific Spells",
+					"entries": [
+						"You can customize a deathlock by replacing some or all of the spells in its Spellcasting trait with spells specific to its patron. Here are examples.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"Archfey patron: {@spell blink}, {@spell dominate beast}, {@spell dominate person}, {@spell faerie fire}, {@spell greater invisibility}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell seeming}, {@spell sleep}",
+								"Fiend patron: {@spell blindness/deafness}, {@spell burning hands}, {@spell command}, {@spell fire shield}, {@spell fireball}, {@spell flame strike}, {@spell hellish rebuke}, {@spell scorching ray}, {@spell stinking cloud}, {@spell wall of fire}",
+								"Great Old One patron: {@spell clairvoyance}, {@spell detect thoughts}, {@spell dissonant whispers}, {@spell dominate person}, {@spell Evard's black tentacles}, {@spell hunger of Hadar}, {@spell phantasmal force}, {@spell sending}, {@spell Tasha's hideous laughter}, {@spell telekinesis}"
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/deathlock-mastermind.mp3"
+			},
+			"traitTags": [
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N"
+			],
+			"damageTagsSpell": [
+				"I",
+				"N",
+				"O"
+			],
+			"spellcastingTags": [
+				"I",
+				"CL"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"paralyzed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Deathlock Mastermind (Archfey Patron)",
+					"source": "MTF",
+					"_mod": {
+						"spellcasting": {
+							"mode": "replaceArr",
+							"replace": "Spellcasting",
+							"items": {
+								"name": "Spellcasting",
+								"headerEntries": [
+									"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+								],
+								"spells": {
+									"0": {
+										"spells": [
+											"{@spell chill touch}",
+											"{@spell mage hand}",
+											"{@spell minor illusion}",
+											"{@spell poison spray}"
+										]
+									},
+									"5": {
+										"lower": 1,
+										"slots": 2,
+										"spells": [
+											"{@spell blink}",
+											"{@spell dominate beast}",
+											"{@spell dominate person}",
+											"{@spell faerie fire}",
+											"{@spell greater invisibility}",
+											"{@spell hunger of Hadar}",
+											"{@spell hypnotic pattern}",
+											"{@spell phantasmal force}",
+											"{@spell seeming}",
+											"{@spell sleep}"
+										]
+									}
+								},
+								"ability": "cha"
+							}
+						}
+					},
+					"variant": null
+				},
+				{
+					"name": "Deathlock Mastermind (Fiend Patron)",
+					"source": "MTF",
+					"_mod": {
+						"spellcasting": {
+							"mode": "replaceArr",
+							"replace": "Spellcasting",
+							"items": {
+								"name": "Spellcasting",
+								"headerEntries": [
+									"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+								],
+								"spells": {
+									"0": {
+										"spells": [
+											"{@spell chill touch}",
+											"{@spell mage hand}",
+											"{@spell minor illusion}",
+											"{@spell poison spray}"
+										]
+									},
+									"5": {
+										"lower": 1,
+										"slots": 2,
+										"spells": [
+											"{@spell blindness/deafness}",
+											"{@spell burning hands}",
+											"{@spell command}",
+											"{@spell fire shield}",
+											"{@spell fireball}",
+											"{@spell flame strike}",
+											"{@spell hellish rebuke}",
+											"{@spell scorching ray}",
+											"{@spell stinking cloud}",
+											"{@spell wall of fire}"
+										]
+									}
+								},
+								"ability": "cha"
+							}
+						}
+					},
+					"variant": null
+				},
+				{
+					"name": "Deathlock Mastermind (Great Old One Patron)",
+					"source": "MTF",
+					"_mod": {
+						"spellcasting": {
+							"mode": "replaceArr",
+							"replace": "Spellcasting",
+							"items": {
+								"name": "Spellcasting",
+								"headerEntries": [
+									"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+								],
+								"spells": {
+									"0": {
+										"spells": [
+											"{@spell chill touch}",
+											"{@spell mage hand}",
+											"{@spell minor illusion}",
+											"{@spell poison spray}"
+										]
+									},
+									"5": {
+										"lower": 1,
+										"slots": 2,
+										"spells": [
+											"{@spell clairvoyance}",
+											"{@spell detect thoughts}",
+											"{@spell dissonant whispers}",
+											"{@spell dominate person}",
+											"{@spell Evard's black tentacles}",
+											"{@spell hunger of Hadar}",
+											"{@spell phantasmal force}",
+											"{@spell sending}",
+											"{@spell Tasha's hideous laughter}",
+											"{@spell telekinesis}"
+										]
+									}
+								},
+								"ability": "cha"
+							}
+						}
+					},
+					"variant": null
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rOVbnHz.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/rOVbnHz.png"
+		},
+		{
+			"name": "Flaming Skeleton",
+			"source": "Kalima",
+			"page": 183,
+			"size": [
+				"M"
+			],
+			"environment": [
+				"arctic",
+				"badlands",
+				"coastal",
+				"desert",
+				"farmland",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"planar",
+				"swamp",
+				"underdark",
+				"underwater",
+				"urban"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 51",
+				"average": 127
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 17,
+			"int": 10,
+			"wis": 11,
+			"cha": 13,
+			"save": {
+				"con": "+6",
+				"wis": "+3",
+				"cha": "+4"
+			},
+			"passive": 10,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"resist": [
+				"fire",
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Elemental Aura",
+					"entries": [
+						"At the start of each of the skeleton's turns, each creature within 5 feet of it takes 4 ({@damage 1d8}) fire damage."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the skeleton remains motionless, it is indistinguishable from a pile of skeleton bones."
+					]
+				},
+				{
+					"name": "Water Susceptibility",
+					"entries": [
+						"For every 5 feet the skeleton moves in water, or for every gallon of water splashed on it, it takes 1 cold damage."
+					]
+				}
+			],
+			"damageTags": [
+				"C",
+				"F",
+				"P",
+				"S"
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The skeleton makes three attacks: one with its beak and two with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 10 ft., one target. {@h}15 ({@damage 1d10 + 4}) piercing damage plus 4 ({@damage 1d8}) fire damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage + 4 ({@damage 1d8}) fire damage."
+					]
+				},
+				{
+					"name": "Breath Weapon {@recharge 5}",
+					"entries": [
+						"The skeleton releases a breath of fire in a 30-foot cone. Each creature in the area must make a {@dc 14} Dexterity saving throw, taking 31 ({@damage 7d8}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"tokenUrl": "https://i.imgur.com/DqXcjp8.png",
+			"shortName": "skeleton",
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"bonus": [
+				{
+					"name": "Reassemble Bones",
+					"entries": [
+						"As a bonus action, the skeleton can rearrange its bone structure to fit into a space as narrow as 1 foot wide without squeezing. It can use a bonus action to reassemble itself into its normal form. While in this compressed form, it can't make melee weapon attacks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Crocanura",
+			"source": "Kalima",
+			"page": 94,
+			"action": [
+				{
+					"name": "Tongue Lash",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 30 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}) and the crocanura  can drag or carry the target while grappling it without any movement penalty. Until this grapple ends, the creature is {@condition restrained}, and the crocanura can't constrict another target.  "
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The crocanura makes one tongue lash attack against a large or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the toad, and it takes 13 ({@damage 4d6}) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.",
+						"If the crocanura dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			],
+			"hasFluffImages": true,
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "7d12 + 21",
+				"average": 66
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30,
+				"climb": 30
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 17,
+			"int": 1,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4",
+				"perception": "+2"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"cr": "2",
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"tokenUrl": "https://media.discordapp.net/attachments/643705817605996574/1026980649418096700/Croconura_Token.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/643705817605996574/1026978262263529542/unknown.png"
+						}
+					}
+				]
+			},
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The crocanura can hold its breath for 15 minutes."
+					]
+				},
+				{
+					"name": "Uncanny Camouflage",
+					"entries": [
+						"The crocanura has advantage on Stealth checks."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The crocanura can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The crocanura has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"traitTags": [
+				"Hold Breath",
+				"Keen Senses",
+				"Spider Climb"
+			],
+			"actionTags": [
+				"Swallow"
+			]
+		},
+		{
+			"name": "Pigmy Sky Whale",
+			"source": "Kalima",
+			"page": 329,
+			"basicRules": true,
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d10 + 21",
+				"average": 59
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 50,
+				"fly": 50,
+				"canHover": false
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 2,
+			"wis": 10,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft.",
+				"blindsight 60 ft."
+			],
+			"passive": 10,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The sky whale can breathe air and water."
+					]
+				},
+				{
+					"name": "Echolocation",
+					"entries": [
+						"The sky whale can't use its blindsight while {@condition deafened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the sky whale can't bite another target."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The sky whale makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the toad, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the sky whale's turns. Thesky whale can have only one target swallowed at a time.",
+						"If the sky whale dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Tail Swing",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, and if the target is large or smaller it must make a {@dc 15} strenght saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"desert",
+				"forest",
+				"swamp",
+				"underdark"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-toad.mp3"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D",
+				"B"
+			],
+			"actionTags": [
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"save": {
+				"con": "+5"
+			},
+			"skill": {
+				"acrobatics": "+4"
+			}
+		},
+		{
+			"name": "Spore Mantis",
+			"source": "Kalima",
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d12 + 27",
+				"average": 85
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 16,
+			"int": 3,
+			"wis": 12,
+			"cha": 4,
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 20 ft."
+			],
+			"passive": 13,
+			"cr": "3",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mantis makes two melee attacks or one acid glob attack"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the mantis can't bite another target."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The mantis makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the slug, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the slug's turns.",
+						"If the mantis takes 20 damage or more on a single turn from a creature inside it, the slug must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the slug. If the slug dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 5 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Grabbing Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target.{@h}12 ({@damage 2d6 + 5}) piercing damage, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the mantis can't use its grabbing claws or flicking claws on another target."
+					]
+				},
+				{
+					"name": "Flicking Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage, and the target must succeed on a {@dc 15} Strength saving throw or be pushed up to 20 feet and is knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Acid Glob Spit {@recharge 5}",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 60 ft., one target. {@h}18 ({@damage 4d8}) acid damage and if the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be {@condition restrained} for 1 minute. A creature can repeat the saving throw at the end of its turns, breaking itself free on a succesfull save."
+					]
+				}
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MonsterManualExpanded/token/giantslug.png",
+			"fluff": {
+				"entries": [
+					"Appearance",
+					"Spore Mantises resemble stick-insects, albeit many times larger and encased within bark-like armor. They have six legs that are also encased in bark, and small heads which can retract into their log-like armor. Notably, they have two fang-like mandibles used for crushing bone.",
+					"Roar",
+					"The roars of Spore Mantises are insect-like and very high pitched despite their size.",
+					"Personality",
+					"Spore Mantises remain camouflaged until their prey is within the right distance to attack. They can also be very aggressive when startled. Like most of Skull Island's fauna, they appear to fear the Skullcrawlers, and will flee at first sight of the reptilian monsters."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/288572b7-ea42-44bc-99a8-eff309671c3d/db7bu9r-aec2d9e1-6473-4a89-a4f8-2d83b8318e43.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI4ODU3MmI3LWVhNDItNDRiYy05OWE4LWVmZjMwOTY3MWMzZFwvZGI3YnU5ci1hZWMyZDllMS02NDczLTRhODktYTRmOC0yZDgzYjgzMThlNDMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IjZmrYVuNYUcsGWFyOGNIyRLnapd6pZkr13GkN91TG4"
+						}
+					}
+				]
+			},
+			"page": 0,
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The spore mantis can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the spore mantis remains motionless, it is indistinguishable from a normal tree trunk."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The spore mantis's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance",
+				"Spider Climb"
+			],
+			"save": {
+				"str": "+7",
+				"con": "+5"
+			}
+		},
+		{
+			"name": "Shemeshka, The Marauder",
+			"shortName": "The Marauder",
+			"source": "UlucaiDM",
+			"page": 313,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"yugoloth"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "30d8 + 150",
+				"average": 285
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 19,
+			"dex": 16,
+			"con": 20,
+			"int": 24,
+			"wis": 20,
+			"cha": 21,
+			"save": {
+				"dex": "+10",
+				"int": "+14",
+				"wis": "+12",
+				"cha": "+12"
+			},
+			"skill": {
+				"arcana": "+21",
+				"deception": "+9",
+				"insight": "+9",
+				"perception": "+12",
+				"acrobatics": "+10",
+				"persuasion": "+19",
+				"religion": "+14",
+				"stealth": "+17",
+				"history": "+14",
+				"sleight of hand": "+17",
+				"survival": "+12"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 22,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"petrified",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "24",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Marauder is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 18} to hit with spell attacks). The Marauder has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell disguise self}",
+								"{@spell identify}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell alter self}",
+								"{@spell darkness}",
+								"{@spell mirror image}",
+								"{@spell Nystul's magic aura}",
+								"{@spell rime's binding ice|FTD}",
+								"{@spell suggestion}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fear}",
+								"{@spell fireball}",
+								"{@spell nondetection}"
+							],
+							"slots": 0
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell dimension door}",
+								"{@spell fabricate}",
+								"{@spell locate creature}",
+								"{@spell raulothim's psychic lance|UA2021DraconicOptions}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contact other plane}",
+								"{@spell hold monster}",
+								"{@spell modify memory}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell contingency}",
+								"{@spell globe of invulnerability}",
+								"{@spell soul cage|XGE}"
+							],
+							"slots": 3
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell plane shift}",
+								"{@spell sequester}",
+								"{@spell teleport}"
+							],
+							"slots": 3
+						},
+						"8": {
+							"spells": [
+								"{@spell Abi-Dalzim's horrid wilting|XGE}",
+								"{@spell dominate monster}",
+								"{@spell mind blank}"
+							],
+							"slots": 2
+						},
+						"9": {
+							"spells": [
+								"{@spell gate}",
+								"{@spell psychic scream|XGE}",
+								"{@spell time stop}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Marauder has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Marauder's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"With a bonus action the Marauder magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Preparation",
+					"entries": [
+						"When preparing her spells, the Marauder can swap out any spell on her list of prepared spells for another wizard spell of the same level."
+					]
+				},
+				{
+					"name": "If it can be learned, I know",
+					"entries": [
+						"The Marauder can access the Tower Arcane's knowledge.",
+						"She can spend a minute attuning to the tower in search of any piece of knowledge that has been collected and secured in the Tower by the Yuguloths."
+					]
+				},
+				{
+					"name": "Greater Contigency",
+					"entries": [
+						"When The Marauder casts a {@spell contingency} spell, she can choose a spell of any level, instead of up to 5th as her contingency."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage. The target must make a {@dc 22} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"The Marauder casts a spell."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The Marauder uses teleport"
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/arcanaloth.mp3?v=1.107.0"
+			},
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"XX",
+				"TP"
+			],
+			"damageTags": [
+				"I",
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"L",
+				"N",
+				"O",
+				"P",
+				"S",
+				"Y"
+			]
+		},
+		{
+			"name": "The Beast",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Former  Lizardfolk"
+				]
+			},
+			"source": "Kalima",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d12 + 88",
+				"average": 231
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 12,
+			"con": 18,
+			"int": 8,
+			"wis": 17,
+			"cha": 14,
+			"passive": 17,
+			"cr": "12",
+			"languages": [
+				"Draconic",
+				"Giant"
+			],
+			"languageTags": [
+				"DR",
+				"GI"
+			],
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"save": {
+				"str": "+10",
+				"con": "+8",
+				"wis": "+7"
+			},
+			"skill": {
+				"perception": "+7",
+				"athletics": "+10",
+				"deception": "+6",
+				"stealth": "+9"
+			},
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"petrified",
+				"unconscious"
+			],
+			"action": [
+				{
+					"name": "Viscous Spit",
+					"entries": [
+						"The Beast spits a glob of viscous material at a creature within 90 feet. The target must succeed on a {@dc 18} Strength saving throw or become {@condition restrained} for 1 hour.",
+						"A creature can use its action to repeat the save."
+					]
+				},
+				{
+					"name": "Cleansing Fire {@recharge 5}",
+					"entries": [
+						"The Beast exhales silvery fire in a 60-foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw. On a failed save a creature takes 28 ({@damage 8d6}) radiant damage and any spell of 3rd level or lower affecting it is dispelled. On a successful one it takes half as much damage."
+					]
+				},
+				{
+					"name": "Vanish",
+					"entries": [
+						"The Beast becomes {@condition invisible} until it attacks a creature."
+					]
+				},
+				{
+					"name": "Lethargic Poison",
+					"entries": [
+						"The Beast exhales a lethargic gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 18} Constitution saving throw or become {@condition poisoned} for 10 minutes. If the target fails the save by 5 or more it also falls {@condition unconscious}.",
+						"The creature wakes up if it suffers any damage or if someone uses an action to wake it."
+					]
+				},
+				{
+					"name": "Water Blast",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 60/120 ft., one target. {@h}24 ({@damage 4d8 + 6}) bludgeoning damage and the target must succeed on a {@dc 18} Strength saving throw or be pushed back 30 feet if its large or smaller, or 15 feet if its huge."
+					]
+				},
+				{
+					"name": "Tongue",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 30 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 18})"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}24 ({@damage 4d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The Beats makes one bite attack against a medium or smaller that is {@condition restrained}. If the attack hits, the target takes the bite's damage, the target is swallowed. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the Beast, and it takes 28 {@damage 8d6} acid damage at the start of each of the Beasts' turns."
+					]
+				}
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"poisoned",
+				"restrained"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"R"
+			],
+			"miscTags": [
+				"AOE",
+				"RW",
+				"MW",
+				"RCH"
+			],
+			"bonus": [
+				{
+					"name": "Adapt (2 uses)",
+					"entries": [
+						"The Beast gains resistance to all types of damage it suffered last round. It also gains one of the its adapting Traits."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/KhwqhL2.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/KhwqhL2.png",
+			"trait": [
+				{
+					"name": "Sickening Light",
+					"entries": [
+						"The beast sheds light bright in a 30-foot radius and dim light for an additional 30 feet. When a creature starts its turn within the bright light it must succeed on a {@dc 18} Constitution saving throw or suffers one level of {@condition exhaustion}. A creature recovers one level of {@condition exhaustion} caused by this feature each time it starts its turn outside the area of effect."
+					]
+				},
+				{
+					"name": "Smoking Body",
+					"entries": [
+						"The beast begins expelling smoke (30 feet radius each round). It can spend its actions or legendary actions to emit an additional 30 feet sphere of smoke (or increase the area of an already existing smoke cloud by 30 feet (radius)."
+					]
+				},
+				{
+					"name": "Long Tongue",
+					"entries": [
+						"Grants Tongue Attack."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beast makes two attacks."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack (2)",
+					"entries": [
+						"The Beast uses one of its actions."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The Beast moves up to its speed."
+					]
+				}
+			],
+			"actionTags": [
+				"Swallow"
+			]
+		},
+		{
+			"name": "Herald of Fel Blood",
+			"environment": [
+				"any"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Possessed by Fiend"
+				]
+			},
+			"source": "Kalima",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d8 + 65",
+				"average": 123
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30,
+				"fly": 50
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 20,
+			"int": 16,
+			"wis": 17,
+			"cha": 22,
+			"save": {
+				"con": "+9",
+				"wis": "+7",
+				"int": "+7",
+				"cha": "+10"
+			},
+			"skill": {
+				"arcana": "+7",
+				"perception": "+7"
+			},
+			"resist": [
+				"lightning",
+				"piercing"
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 240 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Infernal",
+				"Void Speech"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Fel Armor",
+					"entries": [
+						"The herald takes no damage from the first attack against it each round and ignores any nondamaging effects of the attack."
+					]
+				},
+				{
+					"name": "Grant Blood Rage",
+					"entries": [
+						"As a bonus action, the herald can grant a single living creature blood rage, giving it advantage on attacks for 3 rounds. At the end of this time, the target gains 1 level of {@condition exhaustion} and suffers 13 ({@damage 2d12}) necrotic damage from blood loss."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Engulfing Fel Blood",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d12 + 6}) slashing damage and the target must make a successful {@dc 17} Dexterity saving throw become Engulfed by fel flames. While engulfed the creature takes 18 ({@damage 4d8}) fire damage at the start of each of the herald's turns. A creature can spend its action to put out the fire on itself or an ally within 5 feet."
+					]
+				},
+				{
+					"name": "Hurl Fel Flame",
+					"entries": [
+						"{@atk rs} {@hit 10} to hit, range 120/120 ft., one target. {@h}19 ({@damage 3d8 + 6}) damage."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Herald makes two Hurl Fel Flames attack."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The herald moves up to half its speed."
+					]
+				},
+				{
+					"name": "Engulfing Fel Blood (2 Actions)",
+					"entries": [
+						"The herald uses Engulfing Fel Blood."
+					]
+				},
+				{
+					"name": "Hurl Fel Flame",
+					"entries": [
+						"The Herald uses Hurl Fel Flame."
+					]
+				}
+			],
+			"page": 248,
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"I"
+			],
+			"damageTags": [
+				"F",
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"tokenUrl": "https://i.imgur.com/bL0qNWT.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/bL0qNWT.png"
+						}
+					}
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
+			"name": "Ranger de Ossos",
+			"source": "Kalima",
+			"page": 200,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kenku"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 97,
+				"formula": "13d8 + 39"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 16,
+			"int": 16,
+			"wis": 19,
+			"cha": 17,
+			"skill": {
+				"perception": "+7",
+				"religion": "+6",
+				"nature": "+6",
+				"stealth": "+9",
+				"survival": "+7",
+				"history": "+6",
+				"insight": "+7",
+				"performance": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"(See Invisibility and into the Ethereal)"
+			],
+			"passive": 17,
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The kenku is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The kenku has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell spare the dying}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell sanctuary}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell invisibility}",
+								"{@spell magic weapon}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell protection from energy}",
+								"{@spell revivify}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell aura of life}",
+								"{@spell freedom of movement}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell mass cure wounds}",
+								"{@spell passwall}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Otherworldly Perception",
+					"entries": [
+						"The kenku can sense the presence of any creature within 30 feet of it that is {@condition invisible} or on the Ethereal Plane. It can pinpoint such a creature that is moving."
+					]
+				},
+				{
+					"name": "Soul-touching",
+					"entries": [
+						"The kenku's non harmfull spells have a minimum range of 30 feet."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kenku makes two melee attacks."
+					]
+				},
+				{
+					"name": "Scepter",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 14 ({@damage 4d6}) force damage."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"damageTagsSpell": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"paralyzed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"shortName": "Kenku",
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"save": {
+				"wis": "+7",
+				"int": "+6"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/NbCK0Qb.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/NbCK0Qb.png"
+		},
+		{
+			"name": "Malphas",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Kenku"
+				]
+			},
+			"environment": [
+				"any"
+			],
+			"source": "Kalima",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d8 + 48"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 30
+			},
+			"str": 19,
+			"dex": 19,
+			"con": 16,
+			"int": 14,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"dex": "+7",
+				"con": "+6",
+				"wis": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Sylvan"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Light Sensitivity",
+					"entries": [
+						"While in bright light, the storm crow has disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Night Terror (1/Turn)",
+					"entries": [
+						"As a bonus action immediately after making a successful melee attack, a malphas storm crow can cast magic missile through his or her sword at the same target."
+					]
+				},
+				{
+					"name": "Swordtrained",
+					"entries": [
+						"Malphas are trained from youth in combat. They are proficient with all martial melee and ranged weapons."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The malphas makes three longsword attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shadow Call",
+					"entries": [
+						"A malphas can cast magic missile as a reaction when it is hit by a ranged weapon attack."
+					]
+				}
+			],
+			"page": 283,
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The storm crow's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell magic missile}"
+					],
+					"daily": {
+						"1": [
+							"{@spell haste}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB/token/Malphas%20%28Storm%20Crow%29.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB/Malphas%20%28Storm%20Crow%29.webp"
+						}
+					}
+				],
+				"entries": [
+					"{@i Keen eyed and dangerous, a malphas is a winged fey warrior, dressed in finery. Her longsword often sport an ornate pommel or a rich scabbard. Among the fey, they are often referred as storm crows, meaning bearers of bad news.}",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Sworn to the Shadow Fey",
+										"entries": [
+											"Raised with a sword in their hands, the malphas are fierce warriors who serve the aristocracy of the shadow fey unswervingly."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Messengers",
+										"entries": [
+											"Laconic in speech, they nevertheless serve as envoys and messengers from time to time, though as much or more is communicated by the choice in messenger as in the message itself."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"traitTags": [
+				"Light Sensitivity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"O"
+			]
+		},
+		{
+			"name": "Adult Heggarna",
+			"source": "Kalima",
+			"page": 205,
+			"size": [
+				"H"
+			],
+			"type": "aberration",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 228,
+				"formula": "24d12 + 72"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 22,
+			"dex": 16,
+			"con": 17,
+			"int": 12,
+			"wis": 14,
+			"cha": 18,
+			"skill": {
+				"perception": "+7",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"conditionImmune": [
+				"frightened"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The heggarna  can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the heggarna has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Tiger Sneak",
+					"entries": [
+						"While in dim light or darkness, the heggarna has advantage on Dexterity (Stealth) checks made to hide. It can use this trait only while it is disguised as a tiger."
+					]
+				},
+				{
+					"name": "Psychic Recharge",
+					"entries": [
+						"When the heggarna takes psychic damage it recharges its Nightmare Rift feature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The heggarna can use its Nightmare Rift and make three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}28 ({@damage 4d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}24 ({@damage 4d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Nightmare Rift {@recharge 5}",
+					"entries": [
+						"The heggarna targets one creature it can see within 30 feet of it. If the target can see or hear the heggarna, the target must make a {@dc 17} Wisdom saving throw. On a failed saving throw, the target becomes {@condition paralyzed} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Illusory Appearance",
+					"entries": [
+						"The heggarna covers itself with a magical illusion that makes it look like a Tiger. The illusion ends if the heggarna takes a bonus action to end it or if the heggarna dies. The illusion ends immediately if the heggarna attacks or takes damage, but it doesn't end when the heggarna uses Feeding on Fear or Frightful Presence.",
+						"The changes wrought by this effect fail to hold up to physical inspection. For example, the heggarna could appear to have fur, but someone touching it would feel its slippery flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 18} Intelligence (Investigation) check to discern the heggarna is disguised."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the heggarna's choice that is within 120 feet of the heggarna and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the heggarna's Frightful Presence for the next 24 hours."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://i.imgur.com/diGTvNV.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"The foul abomination wriggles about on multiple caterpillar-like claspers. It has the jagged, circular maw and slippery body of an oversized leech and the head and coloration of a fierce tiger."
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Night Terrors",
+										"entries": [
+											"Many sleepers have experienced nightmares in which a shadowy creature was sitting on them, draining them of their vital essence. While most of these experiences are because of some underlying psychological trauma, some are the result of visitations by terrifying creatures of the night. One such creature is the heggarna, a vile aberration that feeds on a creature's mental energy as it sleeps and infuses the victim's subconscious with terrible nightmares for its own vile amusement."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Hidden Fear",
+										"entries": [
+											"During the day, the heggarna disguises itself as a stray cat, lurking near the homes of potential prey and fleeing with feline-like caution when anyone comes near. Most humanoids overlook simple animals like cats when dealing with a heggarna infestation, but magic can detect the creature's true appearance. Normal animals react to the heggarna with a strange ferocity, which experienced hunters recognize as a sign of a heggarna."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/diGTvNV.png"
+						}
+					}
+				]
+			},
+			"bonus": [
+				{
+					"name": "Feeding on Fear",
+					"entries": [
+						"As a bonus action, the heggarna can drain feed on its prey's fear. Each creature within 30 feet of the heggarna that is {@condition frightened} takes {@damage 1d8} psychic damage. The heggarna gains temporary hitpoints equals to the total damage caused.",
+						"If this damage reduces a creature to 0 hit points, it becomes stable and {@condition unconscious} for {@dice 1d4} hours. While {@condition unconscious} the creature has horrific nightmares and can only be awakened by effects that can suppress fear. "
+					]
+				}
+			]
+		},
+		{
+			"name": "Deadeye Fatris",
+			"source": "Kalima",
+			"page": 210,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 20,
+			"con": 16,
+			"int": 11,
+			"wis": 13,
+			"cha": 10,
+			"save": {
+				"wis": "+3",
+				"dex": "+7"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"perception": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Dead Eye (3/Day)",
+					"entries": [
+						"As a bonus action, the deadeye can add {@dice 1d10} to its next attack roll with a ranged weapon.",
+						"A creature hit by this attack always receive a fatal wound."
+					]
+				},
+				{
+					"name": "Fatal Wound",
+					"entries": [
+						"Whenever deadeye hits a creature, that is not a construct or undead, with a ranged weapon attack, the target must succeed on a {@dc 13} Constitution saving throw or receive a fatal wound.",
+						"At the start of each of the targets turns it takes {@damage 1d10} piercing damage for each fatal wound it has.",
+						"Any creature can take an action to stanch the wounds with a successful {@dc 13} Wisdom (Medicine) check or using a healer's kit. The wounds also closes if the target receives magical healing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The deadeye makes two attacks with its longbow."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"urban"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/VGM/Archer.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/833891482175799326/849058392772968508/token_1.png?v=1.130.1",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/archer.mp3?v=1.130.1"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Samira, the Herald of Darkness",
+			"environment": [
+				"any"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"damphyr"
+				]
+			},
+			"source": "Kalima",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item smoldering leather armor|xge}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 100",
+				"average": 190
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30,
+				"fly": 50
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 20,
+			"int": 12,
+			"wis": 15,
+			"cha": 20,
+			"save": {
+				"str": "+8",
+				"con": "+8",
+				"cha": "+8"
+			},
+			"skill": {
+				"athletics": "+8",
+				"deception": "+8",
+				"perception": "+5"
+			},
+			"resist": [
+				{
+					"special": "All damage except Radiant"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 200 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Goblin",
+				"Infernal",
+				"Sylvan"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Corrupting Touch",
+					"entries": [
+						"A herald of darkness can destroy any wooden, leather, copper, iron, stone, or paper object by touching it as a bonus action. A mundane item is destroyed automatically; a magical item survives if its owner makes a successful {@dc 18} Dexterity saving throw."
+					]
+				},
+				{
+					"name": "Gift of Darkness",
+					"entries": [
+						"A herald of darkness can transform any fey, human, or goblin into one of the shadow fey, if the target willingly accepts this transformation."
+					]
+				},
+				{
+					"name": "Umbral Form",
+					"entries": [
+						"As a bonus action the herald of darkness can transform into a shadowy form. In this form, it can enter and occupy spaces occupied by other creatures. Additionally it gains immunity to bludgeoning, piercing and slashing damage caused by nonmagical attacks and has resistance to all damage except radiant."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The herald of darkness can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The herald of darkness uses Majesty of Darkness, if it is available, and makes one melee attack."
+					]
+				},
+				{
+					"name": "Embrace Darkness",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., all creatures in reach. {@h}6 ({@damage 1d12}) necrotic damage and targets are {@condition paralyzed} until the start of the herald's next turn. Making a {@dc 19} Constitution saving throw negates the paralysis."
+					]
+				},
+				{
+					"name": "Majesty of Darkness {@recharge 4}",
+					"entries": [
+						"The herald of darkness emits a sinister burst of infernal power. All creatures within 30 feet and in direct line of sight of the herald must make a {@dc 19} Constitution saving throw, taking 26 ({@damage 4d12}) necrotic damage and becoming {@condition blinded} for 1 minute on a failed save, or  half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Shadow Sword",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d12 + 5}) slashing damage."
+					]
+				}
+			],
+			"page": 249,
+			"tokenUrl": "https://i.imgur.com/6HLMOjV.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"GO",
+				"I",
+				"S"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"shortName": "Herald of Darkness",
+			"traitTags": [
+				"Spider Climb"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/01hd1tt.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/bp0vGHR.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/WvKFVxw.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/TeERdlL.png"
+						}
+					}
+				]
+			},
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			]
+		},
+		{
+			"name": "Sidero, The Architect of Slaughter",
+			"source": "Kalima",
+			"page": 164,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 202,
+				"formula": "27d8 + 81"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 40
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 16,
+			"int": 20,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"dex": "+6",
+				"con": "+8",
+				"wis": "+6",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+6",
+				"arcana": "+10",
+				"religion": "+10",
+				"medicine": "+11",
+				"investigation": "+15",
+				"deception": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Infernal",
+				"telepathy 1000 ft."
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Sidero's innate spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 11} to hit with spell attacks). Sidero can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self} requering no concentration",
+						"{@spell charm person}",
+						"{@spell command}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dominate person}",
+							"{@spell fireball}",
+							"{@spell Nystul's magic aura}",
+							"{@spell suggestion}"
+						],
+						"1e": [
+							"{@spell antipathy/sympathy}",
+							"{@spell dominate monster}",
+							"{@spell feeblemind}",
+							"{@spell greater invisibility}",
+							"{@spell mass suggestion}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the Sidero's darkvision."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Sidero has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Exploitation of the Debtors",
+					"entries": [
+						"As a bonus action, Sidero targets a creature {@condition charmed} by him within 30 feet. Sidero deals 11 ({@damage 2d10}) necrotic damage to the target, and Sidero gains temporary hit points equal to the damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Sidero uses Poison Mind. It also makes two attacks: one with its whip and one with its Disruptive Touch."
+					]
+				},
+				{
+					"name": "Caliper",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d4 + 5}) piercing damage plus 33 ({@damage 6d10}) force damage."
+					]
+				},
+				{
+					"name": "Disruptive Touch",
+					"entries": [
+						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. {@h}44 ({@damage 8d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Poison Mind",
+					"entries": [
+						"Sidero targets one or two creatures that he can see within 60 feet of him. Each target must succeed on a {@dc 18} Wisdom saving throw or take 26 ({@damage 4d12}) necrotic damage and is {@condition blinded} until the start of Sidero's next turn."
+					]
+				},
+				{
+					"name": "Forgetfulness {@recharge}",
+					"entries": [
+						"Sidero targets one creature  he can see within 60 feet of it. That creature must make a {@dc 18} Intelligence saving throw and on a failure the target is {@condition stunned} for 1 minute. A {@condition stunned} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target remains {@condition stunned} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Instinctive Charm",
+					"entries": [
+						"When a creature within 60 feet of the Sidero makes an attack roll against him, and another creature is within the attack's range, the attacker must make a {@dc 18} Wisdom saving throw. On a failed save, the attacker must target the creature that is closest to him, not including the Sidero or itself. If multiple creatures are closest, the attacker chooses which one to target. If the saving throw is successful, the attacker is immune to Sidero's Instinctive Charm for 24 hours."
+					]
+				},
+				{
+					"name": "Overdue",
+					"entries": [
+						"When Sidero fails a saving throw against a spell or effect magic effect it can transfer any harm or effect caused by it to a creature {@condition charmed} by him within 120 feet. The creature is freed from its debt and is no longer {@condition charmed}."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/amnizu.mp3"
+			},
+			"traitTags": [
+				"Devil's Sight",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CE",
+				"C",
+				"D",
+				"E",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"P"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://i.imgur.com/Nhsgf0F.png",
+			"shortName": "Sidero",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/ffeiN4j.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Erisbeth",
+			"shortName": "Erisbeth",
+			"source": "Kalima",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 60",
+				"average": 150
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 17,
+			"int": 20,
+			"wis": 17,
+			"cha": 16,
+			"save": {
+				"str": "+11",
+				"con": "+8",
+				"int": "+10"
+			},
+			"skill": {
+				"perception": "+8",
+				"insight": "+8",
+				"arcana": "+10",
+				"animal handling": "+8",
+				"survival": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"necrotic"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Infernal",
+				"Elvish"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Erisbeth is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 18}, +10 to hit with spell attacks). Erisbeth has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell green-flame blade|TCE}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell feather fall}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell mirror image}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell raulothim's psychic lance|FTD}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Eldritch Strike",
+					"entries": [
+						"When Erisbeth hits a creature with a weapon attack, the creature has disadvantage on its next spell save until the end of the Erisbeth's next turn."
+					]
+				},
+				{
+					"name": "Umbral Mask",
+					"entries": [
+						"As a bonus action, Erisbeth can mask her pale flesh and appear to be a living human. This magical illusion lasts until she ends it as a bonus action. The effect also ends if Erisbeth drops to below 1/2 hit points or fewer, or if dispel magic is cast on her. This feature also protects her from taking damage due to her Sunlight Hypersensitivity."
+					]
+				},
+				{
+					"name": "Arms Bond",
+					"entries": [
+						"Erisbeth has a bond with ger weapons, shield and armor and can't be disarmed unless she is {@condition incapacitated}.",
+						"As a bonus action Erisbeth can materialize and wear her armor, shield and weapon."
+					]
+				},
+				{
+					"name": "Arcane Action Surge (2 uses recharges with a short or long rest)",
+					"entries": [
+						"Erisbeth can push herself beyond her normal limits for a moment. On your turn, she can take one additional action.",
+						"Additionally when she uses this feature she can teleport up to 30 feet to an unoccupied space she can see. She can teleport before or after she takes the additional action."
+					]
+				},
+				{
+					"name": "Indomitable  (3 uses recharges with a short or long rest)",
+					"entries": [
+						"Erisbeth can reroll a saving throw she fails, keeping the second roll."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Erisbeth regains 10 hit points at the start of her turn if she has at least 1 hit point and isn't in sunlight or running water. If Erisbeth takes radiant damage or damage from holy water, this trait doesn't function at the start of Erisbeth's next turn."
+					]
+				},
+				{
+					"name": "Vampire Weakness (Vampire)",
+					"entries": [
+						"Erisbeth has the following flaws:",
+						"{@i Forbiddance}. Erisbeth can't enter a residence without an invitation from one of the occupants.",
+						"{@i Harmed by Running Water}. Erisbeth takes 20 acid damage if she ends her turn in running water.",
+						"{@i Stake to the Heart}. If a piercing weapon made of wood is driven into Erisbeth's heart while Erisbeth is {@condition incapacitated} in its resting place, Erisbeth is {@condition paralyzed} until the stake is removed.",
+						"{@i Sunlight Hypersensitivity}. Erisbeth takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Erisbeth can make three attacks or cast two cantrips."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage, or 17 ({@damage 2d10 + 6}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 6}) slashing damage. Instead of dealing damage, Erisbeth can grapple the target (escape {@dc 19})."
+					]
+				},
+				{
+					"name": "Bite (once per turn)",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one creature that is {@condition grappled} by Erisbeth, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 6}) piercing damage, 14 ({@damage 4d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Erisbeth regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "War Caster",
+					"entries": [
+						"When Erisbeth uses her reaction to make an opportunity attack against a target, she can cast a spell on it instead. The spell must have a casting time of  1 action and must target only that creature."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/5EwPro5.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"E"
+			],
+			"damageTags": [
+				"A",
+				"N",
+				"P",
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"HPR"
+			],
+			"damageTagsSpell": [
+				"F",
+				"L",
+				"Y"
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/lylbyWf.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/8nAMv8s.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/WB8wYVB.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Training Dummy",
+			"source": "UlucaisTrainingDummy",
+			"page": 268,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d100 - 2",
+				"average": 99
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 4,
+			"dex": 7,
+			"con": 9,
+			"int": 6,
+			"wis": 4,
+			"cha": 11,
+			"passive": 7,
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "0",
+			"environment": [
+				"grassland"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"S"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://i.imgur.com/8UQ1EXu.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/JKL2E4B.png"
+						}
+					}
+				]
+			},
+			"immune": [
+				{
+					"special": "All damage"
+				}
+			],
+			"senses": [
+				"blindsight 5 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"reaction": [
+				{
+					"name": "Take it!",
+					"entries": [
+						"The training dummy can take it, and won't complain about a thing."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Good Listener",
+					"entries": [
+						"The training dummy wants to hear all about it. You can complain to your hearts content, it will listen to everything and won't interrupt you a single time."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Assert Dominance",
+					"entries": [
+						"The training dummy will strike a T-Pose when nobody is looking. Otherwise it will hide its arms to make everybody around feel safer."
+					]
+				}
+			]
 		}
 	],
 	"legendaryGroup": [],
@@ -17081,10 +21297,6 @@
 	"raceFluff": [],
 	"subrace": [],
 	"deity": [],
-	"item": [],
-	"baseitem": [],
-	"variant": [],
-	"itemProperty": [],
 	"itemType": [],
 	"itemFluff": [],
 	"itemGroup": [],
